@@ -55,7 +55,7 @@
 		"sideBar.background": "#eee8d5",
 		"sideBarTitle.foreground": "#586e75",
 		"statusBar.background": "#eee8d5",
-		"statusBar.debuggingBackground": "#eee8d5",
+		"statusBar.debuggingBackground": "#56ad05ab",
 		"statusBar.foreground": "#586e75",
 		"statusBar.noFolderBackground": "#eee8d5",
 		"statusBarItem.prominentBackground": "#ddd6c1",
@@ -71,16 +71,16 @@
 		"terminal.ansiBlue": "#268bd2",
 		"terminal.ansiBrightBlack": "#586e75",
 		"terminal.ansiBrightBlue": "#839496",
-		"terminal.ansiBrightCyan": "#93a1a1",
+		"terminal.ansiBrightCyan": "#2aa198",
 		"terminal.ansiBrightGreen": "#586e75",
 		"terminal.ansiBrightMagenta": "#6c71c4",
-		"terminal.ansiBrightRed": "#cb4b16",
+		"terminal.ansiBrightRed": "#dc322f",
 		"terminal.ansiBrightWhite": "#eee8d5",
 		"terminal.ansiBrightYellow": "#657b83",
-		"terminal.ansiCyan": "#2aa198",
+		"terminal.ansiCyan": "#93a1a1",
 		"terminal.ansiGreen": "#859900",
 		"terminal.ansiMagenta": "#d33682",
-		"terminal.ansiRed": "#dc322f",
+		"terminal.ansiRed": "#e6848a",
 		"terminal.ansiWhite": "#eee8d5",
 		"terminal.ansiYellow": "#b58900",
 		"titleBar.activeBackground": "#eee8d5",
@@ -611,6 +611,9 @@
 		"generic.attribute": {
 			"bold": true
 		},
+		"comparision:rust": {
+			"foreground": "#146dad"
+		},
 		"*.mutable": {
 			"underline": true,
 		},
@@ -709,7 +712,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#080808ff",
+				"foreground": "#073642",
 			}
 		},
 		{
@@ -718,12 +721,6 @@
 				"foreground": "#146dad",
 			}
 		},
-		// {
-		// 	"scope": "storage",
-		// 	"settings": {
-		// 		"foreground": "#073642",
-		// 	}
-		// },
 		{
 			"scope": "storage.modifier.lifetime.rust",
 			"settings": {
@@ -982,6 +979,49 @@
 			"settings": {
 				"foreground": "#800080"
 			}
-		}
+		},
+		{
+			"scope": "source.rust",
+			"settings": {
+				"foreground": "#073642",
+			}
+		},
+		{
+			"scope": "console.error",
+			"settings": {
+				"foreground": "#CA0000"
+			}
+		},
+		{
+			"scope": "console.input",
+			"settings": {
+				"foreground": "#00AE50"
+			}
+		},
+		{
+			"scope": "console.prompt",
+			"settings": {
+				"foreground": "#B651BC",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "console.warning",
+			"settings": {
+				"foreground": "#CD6600"
+			}
+		},
+		{
+			"scope": "console.debug",
+			"settings": {
+				"foreground": "#5D6666"
+			}
+		},
+		{
+			"scope": "hyperlink",
+			"settings": {
+				"foreground": "#0D1171"
+			}
+		},
 	]
 }
