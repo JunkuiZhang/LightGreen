@@ -566,38 +566,48 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"builtinType": {
+			"foreground": "#577909",
 			"bold": true
 		},
 		"keyword": {
-			"foreground": "#577909",
-			"fontStyle": "bold"
+			// "foreground": "#577909",
+			"foreground": "#073642",
+			// "fontStyle": "bold"
 		},
 		"selfKeyword": {
 			"bold": false
 		},
 		"struct": {
-			// "foreground": "#499504",
-			"foreground": "#db7800",
+			// "foreground": "#db7800",
+			"foreground": "#577909",
 			"bold": true
 		},
 		"typeAlias": {
-			// "foreground": "#499504",
-			"foreground": "#db7800",
+			"foreground": "#577909",
+			// "foreground": "#db7800",
+			"bold": true
+		},
+		"enum": {
 			"bold": true
 		},
 		"parameter": {
 			"italic": true,
 		},
-		"comparision": {
-			"foreground": "#56B6C2"
-		},
 		"interface": {
 			"bold": true
 		},
 		"property": {
+			"foreground": "#499504",
 			"italic": true
 		},
-		"*.attribute": {
+		"enumMember": {
+			"foreground": "#D33682"
+		},
+		"boolean": {
+			"foreground": "#D33682"
+		},
+		"macro": "#146DAD",
+		"generic.attribute": {
 			"bold": true
 		},
 		"*.mutable": {
@@ -643,7 +653,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				// "foreground": "#db7800ff"
-				"foreground": "#a57800"
+				"foreground": "#499504"
 			}
 		},
 		{
@@ -677,7 +687,6 @@
 			"scope": "storage",
 			"settings": {
 				"foreground": "#073642",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -689,6 +698,12 @@
 			],
 			"settings": {
 				"foreground": "#db7800"
+			}
+		},
+		{
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#577909"
 			}
 		},
 		{
