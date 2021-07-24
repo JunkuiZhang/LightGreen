@@ -577,13 +577,11 @@
 			"italic": true
 		},
 		"struct": {
-			// "foreground": "#db7800",
 			"foreground": "#577909",
 			"bold": true
 		},
 		"typeAlias": {
 			"foreground": "#577909",
-			// "foreground": "#db7800",
 			"bold": true
 		},
 		"enum": {
@@ -622,13 +620,16 @@
 		},
 		// "*.constant": "#636363"
 		"*.static": {
-			"foreground": "#017a56b7"
+			"foreground": "#017a56b7",
+			"bold": false
 		},
 		"method.static": {
-			"foreground": "#146DAD"
+			"foreground": "#146DAD",
+			"bold": false
 		},
 		"*.constant": {
-			"foreground": "#017a56b7"
+			"foreground": "#017a56b7",
+			"bold": false
 		}
 	},
 	"tokenColors": [
