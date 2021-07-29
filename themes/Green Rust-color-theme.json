@@ -605,7 +605,10 @@
 		"boolean": {
 			"foreground": "#D33682"
 		},
-		"macro": "#146DAD",
+		"macro": {
+			"foreground": "#146DAD",
+			"bold": false,
+		},
 		"generic.attribute": {
 			"bold": true
 		},
