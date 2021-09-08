@@ -569,8 +569,12 @@
 			"foreground": "#577909",
 			"bold": true
 		},
+		"function": {
+			"bold": false
+		},
 		"keyword": {
 			"foreground": "#073642",
+			"bold": false
 		},
 		"selfKeyword": {
 			"bold": false,
@@ -598,6 +602,11 @@
 			"foreground": "#499504",
 			"italic": true
 		},
+		"label": {
+			"foreground": "#499504",
+			"bold": false,
+			"italic": true
+		},
 		"enumMember": {
 			"foreground": "#D33682",
 			"bold": false
@@ -610,6 +619,7 @@
 			"bold": false,
 		},
 		"generic.attribute": {
+			"foreground": "#db7800",
 			"bold": true
 		},
 		"comparision:rust": {
@@ -1026,6 +1036,6 @@
 			"settings": {
 				"foreground": "#0D1171"
 			}
-		},
+		}
 	]
 }
