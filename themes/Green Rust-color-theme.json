@@ -718,7 +718,10 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational,keyword.operator.logical",
+			"scope": [
+				"keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational,keyword.operator.logical",
+				"meta.function-call.c",
+			],
 			"settings": {
 				"foreground": "#146dad"
 			}
@@ -743,7 +746,10 @@
 			}
 		},
 		{
-			"scope": "storage.type.primitive.cpp",
+			"scope": [
+				"storage.type.primitive.cpp",
+				"storage.type.built-in.primitive.c"
+			],
 			"settings": {
 				"foreground": "#577909",
 				"fontStyle": "bold"
