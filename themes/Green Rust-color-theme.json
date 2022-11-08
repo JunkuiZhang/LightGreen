@@ -14,7 +14,8 @@
 		"dropdown.border": "#d3af86",
 		"editor.background": "#fdf6e3",
 		"editor.lineHighlightBackground": "#eee8d5",
-		"editor.selectionBackground": "#eee8d5",
+		// "editor.selectionBackground": "#eee8d5",
+		"editor.selectionBackground": "#e7c49677",
 		"editor.selectionHighlightBackground": "#92929250",
 		"editor.wordHighlightBackground": "#92929250",
 		"editorCursor.foreground": "#657b83",
@@ -612,6 +613,7 @@
 		},
 		"enumMember": {
 			"foreground": "#D33682",
+			// "foreground": "#F76D47",
 			"bold": false
 		},
 		"boolean": {
