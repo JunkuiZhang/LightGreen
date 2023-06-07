@@ -2,6 +2,7 @@
     "name": "sl-rust",
     "displayName": "Solarized Light Rust",
     "description": "Green theme for rust",
+    "publisher": "JunkuiZhang",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.58.0"
