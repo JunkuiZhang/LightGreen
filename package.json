@@ -1,6 +1,6 @@
 {
-    "name": "green-rust",
-    "displayName": "Green Rust",
+    "name": "sl-rust",
+    "displayName": "Solarized Light Rust",
     "description": "Green theme for rust",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Green Rust",
+                "label": "Solarized Light Rust",
                 "uiTheme": "vs",
-                "path": "./themes/Green Rust-color-theme.json"
+                "path": "./themes/slr-color-theme.json"
             }
         ]
     }
