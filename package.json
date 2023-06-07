@@ -9,6 +9,7 @@
     "categories": [
         "Themes"
     ],
+    "repository": "https://github.com/JunkuiZhang/LightGreen",
     "contributes": {
         "themes": [
             {
