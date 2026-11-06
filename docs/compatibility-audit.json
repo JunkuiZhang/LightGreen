@@ -999,7 +999,7 @@
   },
   "reviewStatus": {
     "date": "2026-11-07",
-    "phase": "Release 0.1.0 source pushed; Open VSX published and public package verified; Marketplace PAT expired, awaiting renewal; not installed by assistant",
+    "phase": "Release 0.1.0 published to Marketplace and Open VSX; latest versions and downloaded VSIX contents publicly verified for both; source pushed; not installed by assistant",
     "latestUserAccepted": [
       "ordinary comments",
       "block comments",
@@ -1027,9 +1027,10 @@
     "installedIntoUserProfile": false,
     "previousLocalPackageFeedback": "User reports everything currently looks normal, then requests a softer multiline selection.",
     "publishedRegistries": [
-      "openvsx"
+      "openvsx",
+      "marketplace"
     ],
-    "allTargetRegistriesPublished": false
+    "allTargetRegistriesPublished": true
   },
   "selectionTrial": {
     "date": "2026-11-07",
@@ -1213,7 +1214,7 @@
   "releasePreparation": {
     "version": "0.1.0",
     "baseCommit": "94399b8",
-    "status": "openvsx_published_marketplace_awaiting_renewed_pat",
+    "status": "published_and_publicly_verified_both_registries",
     "themeLabel": "Solarized Light Rust",
     "identityPreserved": true,
     "evidence": "release-0.1.0-build.json",
@@ -1222,10 +1223,11 @@
       "marketplace": "0.0.1",
       "openVsx": "0.0.1"
     },
-    "credentialsVerified": false,
+    "credentialsVerified": true,
     "gitPushed": true,
     "publicationAuthorized": true,
     "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6",
-    "publicationRecord": "release-0.1.0-publication.json"
+    "publicationRecord": "release-0.1.0-publication.json",
+    "publicPackagesVerified": true
   }
 }

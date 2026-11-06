@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "status": "openvsx_published_marketplace_awaiting_renewed_pat",
+  "status": "published_and_publicly_verified_both_registries",
   "baseCommit": "94399b8",
   "extensionId": "JunkuiZhang.sl-rust",
   "version": "0.1.0",
@@ -105,29 +105,31 @@
   },
   "publicationState": {
     "gitPushed": true,
-    "marketplacePublished": false,
+    "marketplacePublished": true,
     "openVsxPublished": true,
-    "credentialsVerified": false,
+    "credentialsVerified": true,
     "installedByAssistant": false,
     "authorizedByUser": true,
     "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6",
     "openVsxCredentialsVerified": true,
-    "marketplaceCredentialsVerified": false,
-    "publicationRecord": "release-0.1.0-publication.json"
+    "marketplaceCredentialsVerified": true,
+    "publicationRecord": "release-0.1.0-publication.json",
+    "marketplacePublicPackageVerified": true,
+    "openVsxPublicPackageVerified": true
   },
   "limitations": [
-    "Open VSX publication and public package verified; Marketplace PAT expired, awaiting replacement.",
     "Earlier documented semantic-classification, transparency and visual-review limits remain unchanged."
   ],
   "publicationAttempt": {
     "date": "2026-11-07",
     "gitPush": "succeeded; remote master verified",
-    "credentialDiscovery": "User supplied local credential files; Open VSX token valid, Marketplace token expired.",
+    "credentialDiscovery": "User supplied local credential files and renewed the expired Marketplace PAT; publish permissions for both registries verified.",
     "browserFallback": "Initialization failed twice: sandboxCwd is not a local file URI: file:///home/xiaobai/projects/LightGreen",
     "uploadRequestsSent": true,
-    "nextStep": "Wait for user to replace expired PAT in the existing local credential file; then verify, publish the unchanged package, and inspect public registry metadata and downloaded artifact.",
+    "nextStep": "Both registries publicly verified; publication complete, no further upload required.",
     "uploadRequestsSentTo": [
-      "openvsx"
+      "openvsx",
+      "marketplace"
     ]
   }
 }

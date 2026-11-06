@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "status": "openvsx_published_marketplace_awaiting_renewed_pat",
+  "status": "published_and_publicly_verified_both_registries",
   "extensionId": "JunkuiZhang.sl-rust",
   "version": "0.1.0",
   "artifactSha256": "430a17e908398f231be28c51e1bd415542301ed083c1739253127b32cf80b74b",
@@ -41,14 +41,79 @@
     "latestVersionVerified": "0.1.0"
   },
   "marketplace": {
-    "status": "authentication_failed_expired_pat",
+    "status": "published_and_publicly_verified",
     "cliVersion": "4.1.0",
     "verificationCommand": "vsce verify-pat JunkuiZhang",
-    "verificationExitCode": 1,
-    "error": "Access Denied: The Personal Access Token used has expired.",
-    "uploadAttempted": false,
-    "published": false,
-    "nextStep": "Wait for user to replace expired PAT in the existing local credential file; then verify, publish the unchanged package, and inspect public registry metadata and downloaded artifact."
+    "verificationExitCode": 0,
+    "previousAttempt": {
+      "status": "authentication_failed_expired_pat",
+      "verificationExitCode": 1,
+      "error": "Access Denied: The Personal Access Token used has expired.",
+      "uploadAttempted": false
+    },
+    "uploadAttempted": true,
+    "publishExitCode": 0,
+    "published": true,
+    "publicPackageVerified": true,
+    "publishResult": {
+      "service": "marketplace",
+      "action": "publish",
+      "timestamp": "2026-11-07T05:19:41.232296+08:00",
+      "exitCode": 0,
+      "timedOut": false,
+      "output": " INFO  Publishing 'JunkuiZhang.sl-rust v0.1.0'...\n INFO  Extension URL (might take a few minutes): https://marketplace.visualstudio.com/items?itemName=JunkuiZhang.sl-rust\n INFO  Hub URL: https://marketplace.visualstudio.com/manage/publishers/JunkuiZhang/extensions/sl-rust/hub\n DONE  Published JunkuiZhang.sl-rust v0.1.0.\n"
+    },
+    "publicQuery": {
+      "checkedAt": "2026-11-06T21:26:11.511Z",
+      "service": "marketplace",
+      "extensionId": "JunkuiZhang.sl-rust",
+      "displayName": "Solarized Light Rust",
+      "latestVersion": "0.1.0",
+      "requestedVersion": "0.1.0",
+      "versionListed": true,
+      "flags": "validated, public",
+      "properties": {
+        "Microsoft.VisualStudio.Services.Links.Getstarted": "https://github.com/JunkuiZhang/LightGreen.git",
+        "Microsoft.VisualStudio.Services.Links.Support": "https://github.com/JunkuiZhang/LightGreen/issues",
+        "Microsoft.VisualStudio.Services.Links.Learn": "https://github.com/JunkuiZhang/LightGreen#readme",
+        "Microsoft.VisualStudio.Services.Links.Source": "https://github.com/JunkuiZhang/LightGreen.git",
+        "Microsoft.VisualStudio.Services.Links.GitHub": "https://github.com/JunkuiZhang/LightGreen.git",
+        "Microsoft.VisualStudio.Code.Engine": "^1.81.0",
+        "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown": "true",
+        "Microsoft.VisualStudio.Code.ExtensionDependencies": "",
+        "Microsoft.VisualStudio.Code.ExtensionPack": "",
+        "Microsoft.VisualStudio.Code.LocalizedLanguages": "",
+        "Microsoft.VisualStudio.Code.ExtensionKind": "ui,workspace,web",
+        "Microsoft.VisualStudio.Services.Content.Pricing": "Free",
+        "Microsoft.VisualStudio.Code.EnabledApiProposals": "",
+        "Microsoft.VisualStudio.Services.VsixSha256": "430a17e908398f231be28c51e1bd415542301ed083c1739253127b32cf80b74b"
+      },
+      "downloadStatus": 200,
+      "downloadUrl": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/JunkuiZhang/vsextensions/sl-rust/0.1.0/vspackage",
+      "downloadedBytes": 13507,
+      "downloadedSha256": "430a17e908398f231be28c51e1bd415542301ed083c1739253127b32cf80b74b",
+      "packageCheckedAt": "2026-11-07T05:26:39.217962+08:00",
+      "matchesLocalVsix": true,
+      "archiveEntriesMatch": {
+        "extension.vsixmanifest": true,
+        "[Content_Types].xml": true,
+        "extension/changelog.md": true,
+        "extension/LICENSE.txt": true,
+        "extension/readme.md": true,
+        "extension/package.json": true,
+        "extension/themes/slr-color-theme.json": true,
+        "extension/syntaxes/rust-macro-parameters.tmLanguage.json": true,
+        "extension/syntaxes/rust-raw-c-strings.tmLanguage.json": true
+      },
+      "themeLabel": "Solarized Light Rust",
+      "engines": {
+        "vscode": "^1.81.0"
+      },
+      "license": "MIT",
+      "publicPackageVerified": true
+    },
+    "nextStep": "Publication complete; no further upload required."
   },
-  "credentialHandling": "Read only from user-specified local files; passed via per-command environment variables; never included in command arguments or repository files. Original files unchanged."
+  "credentialHandling": "Read only from user-specified local files; passed via per-command environment variables; never included in command arguments or repository files. Original files unchanged.",
+  "completedOn": "2026-11-07"
 }
