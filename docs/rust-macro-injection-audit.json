@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-07",
+  "vscodeVersion": "1.145.2",
+  "validation": "Actual TextMate/Oniguruma tokenization with the installed Rust grammar, comparing this extension injection disabled/enabled. No GUI or fresh LSP verification.",
+  "themeSha256": "b876de20c1a3ed09b25ac58ecbc8f0e3fb90f2c40c2cc16b18bf4b05c571019d",
+  "grammarSha256": "8e3eb56a36d72b349c01b2a1e6935358ab56eed585b945e3c7fda3226fbaef37",
+  "injectionSha256": "677c4eeb8f262839fb4a293f97e0ba7233fd047eb7daa32787166dfe84b021bd",
+  "contribution": {
+    "scopeName": "rust-macro-parameters.injection.sl-rust",
+    "path": "./syntaxes/rust-macro-parameters.tmLanguage.json",
+    "injectTo": [
+      "source.rust"
+    ]
+  },
+  "injectionSelector": "L:source.rust meta.function.call.rust - comment - string",
+  "sourceSha256": {
+    "src/advanced.rs": "aa3b1e040432b12dce9b4da0fe21d153b7e99459a5b0a64e54f792626a86035b",
+    "src/async_flow.rs": "b6e42bc8574a7359fcfa771a2ccbecc15c4d38db094b0497dea70c55bec9b1d2",
+    "src/attributes_macros.rs": "ff2e5bfa78c81f7691a1b6fd46d91d01e844d14fbec690898445ced1f9b4782b",
+    "src/diagnostics/errors.rs": "fc7176df444b405ca78a12311d9bbefb0ffe9b4ca4b98520d824d9c95579ed4a",
+    "src/diagnostics.rs": "e6f287c7365a10c76d09467c940ec3dd2146b9878aab80ffe3f46611f53cc772",
+    "src/functions.rs": "140883fdc088f0d08955d8c57793d08005d52f3316dbd4c116eaae06ccd9d754",
+    "src/literals.rs": "4485d61805a8dd5ff9ec883e2b5cc4c2dd172c4a18003048247300aece2022f9",
+    "src/main.rs": "7236582f1a3e3d45d3a78e1c0f276d102dad24363f87b62180213fc67ca71fb0",
+    "src/types_patterns.rs": "e07e852e2bcc548996f1ee2f4cad416020a5c7a500c2e84f9bc17b817ed9632e",
+    "theme_macros/src/lib.rs": "01d8453566f1b813fe183c7f74b4ef869cecdf3832ba5644bf1ecd4ba2ea6efb"
+  },
+  "fixedSample": {
+    "file": "src/attributes_macros.rs",
+    "line": 63,
+    "column": 21,
+    "text": "value",
+    "scopes": [
+      "source.rust",
+      "meta.function.call.rust",
+      "meta.macro.metavariable.rust",
+      "variable.other.metavariable.name.rust"
+    ],
+    "style": {
+      "foreground": "#499504",
+      "italic": true,
+      "bold": false,
+      "underline": false
+    }
+  },
+  "changedTokens": [
+    {
+      "file": "src/attributes_macros.rs",
+      "line": 63,
+      "column": 21,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 3,
+      "column": 17,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 4,
+      "column": 22,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 5,
+      "column": 24,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 6,
+      "column": 26,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 7,
+      "column": 17,
+      "text": "Value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 7,
+      "column": 25,
+      "text": "_value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 7,
+      "column": 34,
+      "text": "r#type",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 7,
+      "column": 43,
+      "text": "数值",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#073642",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 7,
+      "column": 48,
+      "text": "crate_name",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 8,
+      "column": 19,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 10,
+      "column": 14,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.function.call.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false
+      }
+    }
+  ],
+  "checks": {
+    "ordinaryNestedMethodTurbofishMultilineAndRepeatedArguments": true,
+    "uppercaseUnderscoreRawAndUnicodeNames": true,
+    "commentsStringsCrateAndOrdinaryVariablesUnchanged": true,
+    "existingMacroCallUnchanged": true,
+    "noStyleChangesOutsideMacroParameterNamesAndDollar": true
+  },
+  "scope": "Only source.rust meta.function.call.rust, excluding comments and strings. Grammar contributions stay active while the extension is enabled, independently of the selected color theme. Other grammar gaps are not claimed fixed."
+}

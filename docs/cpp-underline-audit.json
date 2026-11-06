@@ -1,0 +1,645 @@
+{
+  "date": "2026-11-07",
+  "userRequest": "下划线添加以下试一试",
+  "status": "trial_reverted_user_prefers_no_cpp_underlines",
+  "themeSha256": "a9ece9adc5bbad7969da58b793dfe1b266c49b7edaa828d765c577f96d15f66e",
+  "previousThemeSha256": "cc9394a152c0107d7170d3c6525c084f180720f373e35a879df6be06ed4040d6",
+  "strategy": {
+    "underline": [
+      "variable:cpp",
+      "parameter:cpp",
+      "property:cpp"
+    ],
+    "exclude": [
+      "variable.readonly:cpp",
+      "parameter.readonly:cpp",
+      "property.readonly:cpp"
+    ],
+    "meaning": "Approximate non-readonly symbol classification from clangd; not a write-access or dataflow marker.",
+    "operators": "Excluded by targeting only variable, parameter and property roles."
+  },
+  "counts": {
+    "uiColors": 94,
+    "semanticRules": 46,
+    "cppSemanticRules": 16,
+    "textMateRules": 59,
+    "semanticTokensCompared": 470,
+    "underlineChanges": 149
+  },
+  "files": [
+    {
+      "source": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "sourceSha256": "81a935f87008f4d59fd203b222dda1918fa95a8ae76cf21cde008db4f5dc23ce",
+      "semanticTokens": 363,
+      "underlineChanges": 124
+    },
+    {
+      "source": "/home/xiaobai/projects/cpp_theme_test/standard_library.cpp",
+      "sourceSha256": "1214aa1e694bcd48ae232dfe9c0bf1351b965bf4d42ab436cc414a9685eba727",
+      "semanticTokens": 96,
+      "underlineChanges": 23
+    },
+    {
+      "source": "/home/xiaobai/projects/cpp_theme_test/library_types.hpp",
+      "sourceSha256": "0b3bc5639cd20c784855da3853ea65cc581c86ee1fe65b112440239544879eca",
+      "semanticTokens": 11,
+      "underlineChanges": 2
+    }
+  ],
+  "checkedSamples": [
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 29,
+        "column": 9,
+        "length": 5,
+        "text": "value",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 30,
+        "column": 15,
+        "length": 6,
+        "text": "origin",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 31,
+        "column": 17,
+        "length": 6,
+        "text": "cached",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 32,
+        "column": 23,
+        "length": 9,
+        "text": "instances",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 33,
+        "column": 33,
+        "length": 8,
+        "text": "capacity",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 49,
+        "column": 13,
+        "length": 4,
+        "text": "left",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 49,
+        "column": 29,
+        "length": 5,
+        "text": "right",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 103,
+        "column": 9,
+        "length": 5,
+        "text": "local",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 104,
+        "column": 15,
+        "length": 5,
+        "text": "fixed",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 105,
+        "column": 19,
+        "length": 6,
+        "text": "extent",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 107,
+        "column": 10,
+        "length": 7,
+        "text": "pointer",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 108,
+        "column": 16,
+        "length": 16,
+        "text": "pointer_to_const",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 109,
+        "column": 16,
+        "length": 13,
+        "text": "const_pointer",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 110,
+        "column": 10,
+        "length": 9,
+        "text": "reference",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 111,
+        "column": 16,
+        "length": 18,
+        "text": "readonly_reference",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 116,
+        "column": 47,
+        "length": 5,
+        "text": "delta",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 117,
+        "column": 47,
+        "length": 4,
+        "text": "step",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": true,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 141,
+        "column": 14,
+        "length": 2,
+        "text": "+=",
+        "type": "operator",
+        "modifiers": []
+      },
+      "before": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+      "token": {
+        "line": 142,
+        "column": 15,
+        "length": 2,
+        "text": "+=",
+        "type": "operator",
+        "modifiers": []
+      },
+      "before": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "checks": {
+    "exactThemeDiff": "Only underline:true in three existing C++ rules, three underline:false readonly rules and explanatory comment",
+    "foregroundBoldItalicStrikethrough": "unchanged for every compared C++ token",
+    "otherTokenKinds": "all unchanged, including operators, functions, types and macros",
+    "rustAndOtherLanguageRules": "unchanged; every modified/added semantic selector is :cpp",
+    "uiAndTextMate": "unchanged",
+    "sampleSourceHashes": "match retained actual clangd captures",
+    "jsonc": "passed",
+    "eofNewline": "preserved absent"
+  },
+  "limitations": [
+    "clangd has readonly but no Rust-like mutable modifier in the captured legend.",
+    "pointer_to_const and const_pointer both carry readonly and have no underline, despite different pointer/pointee mutability.",
+    "Field/capture modifiers reflect clangd classification, not full expression-level const or mutation analysis.",
+    "Unknown/dependent names or macro-body parameters without these semantic roles receive no new underline.",
+    "Company clangd version and visual density remain to be tried."
+  ],
+  "sources": [
+    "https://clangd.llvm.org/features#semantic-highlighting",
+    "https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#theming"
+  ],
+  "packageRecord": "local-vsix-cpp-r4-build.json",
+  "visualVerification": "Trial not selected after the user accepted the recommendation; no additional screenshot-based conclusion claimed.",
+  "userDecision": {
+    "date": "2026-11-07",
+    "quote": "那就这样吧",
+    "context": "Accepts the preceding recommendation to keep Rust mutable-item underlines and use C++ without mutability underlines.",
+    "rust": "retain_existing_underlines",
+    "cpp": "no_mutability_underlines",
+    "status": "confirmed_and_reverted_to_cpp_r3"
+  },
+  "rollback": {
+    "themeSha256": "cc9394a152c0107d7170d3c6525c084f180720f373e35a879df6be06ed4040d6",
+    "recommendedPackage": "local-vsix-cpp-r3-build.json",
+    "verification": "Theme byte-identical to verified cpp-r3 package; runtime manifest/grammars unchanged; configuration audit passed",
+    "counts": {
+      "uiColors": 94,
+      "semanticRules": 43,
+      "cppSemanticRules": 13,
+      "textMateRules": 59
+    },
+    "installedByAssistant": false
+  }
+}

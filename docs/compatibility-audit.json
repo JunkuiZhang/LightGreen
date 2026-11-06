@@ -1,0 +1,1209 @@
+{
+  "date": "2026-11-07",
+  "vscodeVersion": "1.145.2",
+  "rustAnalyzerVersion": "0.3.3081",
+  "themeSha256": "cc9394a152c0107d7170d3c6525c084f180720f373e35a879df6be06ed4040d6",
+  "counts": {
+    "uiColors": 94,
+    "semanticRules": 43,
+    "textMateRules": 59,
+    "commentedColorEntries": 479
+  },
+  "unknownUiKeys": [],
+  "deprecatedUiKeys": [],
+  "opaqueColorsRequiringTransparency": [
+    "minimap.selectionHighlight"
+  ],
+  "semanticSelectorsWithUnknownType": [],
+  "unknownSemanticModifiers": [],
+  "tokenForegroundsWithAlpha": [
+    "semanticTokenColors.*.static",
+    "semanticTokenColors.*.constant",
+    "semanticTokenColors.const:rust",
+    "semanticTokenColors.static:rust",
+    "semanticTokenColors.typeParameter.readonly:cpp",
+    "semanticTokenColors.function.static:cpp",
+    "semanticTokenColors.variable.static:cpp",
+    "tokenColors[25]: ['constant.character', 'constant.other']"
+  ],
+  "activeUiRegistrations": {
+    "activityBar.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"activityBar.background\"",
+        "{dark:\"#333333\",light:\"#2C2C2C\",hcDark:\"#000000\",hcLight:\"#FFFFFF\"}",
+        "d(11556,null)"
+      ]
+    },
+    "activityBar.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"activityBar.foreground\"",
+        "{dark:et.white,light:et.white,hcDark:et.white,hcLight:ih}",
+        "d(11561,null)"
+      ]
+    },
+    "activityBarBadge.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"activityBarBadge.background\"",
+        "{dark:\"#007ACC\",light:\"#007ACC\",hcDark:\"#000000\",hcLight:\"#0F4A85\"}",
+        "d(11557,null)"
+      ]
+    },
+    "badge.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"badge.background\"",
+        "{dark:\"#4D4D4D\",light:\"#C4C4C4\",hcDark:et.black,hcLight:\"#0F4A85\"}",
+        "d(4987,null)"
+      ]
+    },
+    "button.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"button.background\"",
+        "{dark:\"#0E639C\",light:\"#007ACC\",hcDark:et.black,hcLight:\"#0F4A85\"}",
+        "d(4881,null)"
+      ]
+    },
+    "debugExceptionWidget.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"debugExceptionWidget.background\"",
+        "{dark:\"#420b0d\",light:\"#f1dfde\",hcDark:\"#420b0d\",hcLight:\"#f1dfde\"}",
+        "d(21819,null)"
+      ]
+    },
+    "debugExceptionWidget.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"debugExceptionWidget.border\"",
+        "\"#a31515\"",
+        "d(21820,null)"
+      ]
+    },
+    "debugToolBar.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"debugToolBar.background\"",
+        "{dark:\"#333333\",light:\"#F3F3F3\",hcDark:\"#000000\",hcLight:\"#FFFFFF\"}",
+        "d(21610,null)"
+      ]
+    },
+    "dropdown.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"dropdown.background\"",
+        "{dark:\"#3C3C3C\",light:et.white,hcDark:et.black,hcLight:et.white}",
+        "d(4897,null)"
+      ]
+    },
+    "dropdown.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"dropdown.border\"",
+        "{dark:zz,light:\"#CECECE\",hcDark:ao,hcLight:ao}",
+        "d(4898,null)"
+      ]
+    },
+    "editor.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.background\"",
+        "{light:\"#ffffff\",dark:\"#1E1E1E\",hcDark:et.black,hcLight:et.white}",
+        "d(4807,null)"
+      ]
+    },
+    "editor.lineHighlightBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.lineHighlightBackground\"",
+        "null",
+        "d(826,null)"
+      ]
+    },
+    "editor.selectionBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.selectionBackground\"",
+        "{light:\"#ADD6FF\",dark:\"#264F78\",hcDark:\"#f3f518\",hcLight:\"#0F4A85\"}",
+        "d(4828,null)"
+      ]
+    },
+    "editor.inactiveSelectionBackground": {
+      "source": "direct registration",
+      "needsTransparency": true,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.inactiveSelectionBackground\"",
+        "{light:Mi(KS,.5),dark:Mi(KS,.5),hcDark:Mi(KS,.7),hcLight:Mi(KS,.5)}",
+        "d(4816,null)",
+        "!0"
+      ]
+    },
+    "editor.selectionHighlightBackground": {
+      "source": "direct registration",
+      "needsTransparency": true,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.selectionHighlightBackground\"",
+        "{light:A9i(KS,_n,.3,.6),dark:A9i(KS,_n,.3,.6),hcDark:null,hcLight:null}",
+        "d(4830,null)",
+        "!0"
+      ]
+    },
+    "editor.wordHighlightBackground": {
+      "source": "direct registration",
+      "needsTransparency": true,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.wordHighlightBackground\"",
+        "{dark:\"#575757B8\",light:\"#57575740\",hcDark:null,hcLight:null}",
+        "d(1775,null)",
+        "!0"
+      ]
+    },
+    "editor.wordHighlightStrongBackground": {
+      "source": "direct registration",
+      "needsTransparency": true,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.wordHighlightStrongBackground\"",
+        "{dark:\"#004972B8\",light:\"#0e639c40\",hcDark:null,hcLight:null}",
+        "d(1777,null)",
+        "!0"
+      ]
+    },
+    "editor.findMatchBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.findMatchBackground\"",
+        "{light:\"#A8AC94\",dark:\"#515C6A\",hcDark:null,hcLight:null}",
+        "d(4811,null)"
+      ]
+    },
+    "editor.findMatchHighlightBackground": {
+      "source": "direct registration",
+      "needsTransparency": true,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.findMatchHighlightBackground\"",
+        "{light:\"#EA5C0055\",dark:\"#EA5C0055\",hcDark:null,hcLight:null}",
+        "d(4844,null)",
+        "!0"
+      ]
+    },
+    "editor.findMatchHighlightBorder": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editor.findMatchHighlightBorder\"",
+        "{light:null,dark:null,hcDark:fa,hcLight:fa}",
+        "d(4845,null)"
+      ]
+    },
+    "editorCursor.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorCursor.foreground\"",
+        "{dark:\"#AEAFAD\",light:et.black,hcDark:et.white,hcLight:\"#0F4A85\"}",
+        "d(765,null)"
+      ]
+    },
+    "editorGroup.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorGroup.border\"",
+        "{dark:\"#444444\",light:\"#E7E7E7\",hcDark:ao,hcLight:ao}",
+        "d(11587,null)"
+      ]
+    },
+    "editorGroup.dropBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorGroup.dropBackground\"",
+        "{dark:et.fromHex(\"#53595D\").transparent(.5),light:et.fromHex(\"#2677CB\").transparent(.18),hcDark:null,hcLight:et.fromHex(\"#0F4A85\").transparent(.5)}",
+        "d(11583,null)"
+      ]
+    },
+    "editorGroupHeader.tabsBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorGroupHeader.tabsBackground\"",
+        "{dark:\"#252526\",light:\"#F3F3F3\",hcDark:null,hcLight:null}",
+        "d(11733,null)"
+      ]
+    },
+    "editorHoverWidget.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorHoverWidget.background\"",
+        "Ku",
+        "d(4850,null)"
+      ]
+    },
+    "editorIndentGuide.activeBackground1": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorIndentGuide.activeBackground1\"",
+        "DDr",
+        "d(770,null)"
+      ]
+    },
+    "editorIndentGuide.background1": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorIndentGuide.background1\"",
+        "TDr",
+        "d(807,null)"
+      ]
+    },
+    "editorInlayHint.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorInlayHint.background\"",
+        "{dark:Mi(II,.1),light:Mi(II,.1),hcDark:Mi(et.white,.1),hcLight:Mi(II,.1)}",
+        "d(4819,null)"
+      ]
+    },
+    "editorInlayHint.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorInlayHint.foreground\"",
+        "{dark:\"#969696\",light:\"#969696\",hcDark:et.white,hcLight:et.black}",
+        "d(4822,null)"
+      ]
+    },
+    "editorLineNumber.activeForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorLineNumber.activeForeground\"",
+        "RDr",
+        "d(776,null)"
+      ]
+    },
+    "editorSuggestWidget.selectedForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorSuggestWidget.selectedForeground\"",
+        "{dark:y$,light:y$,hcDark:roi,hcLight:roi}",
+        "d(1689,null)"
+      ]
+    },
+    "editorWhitespace.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorWhitespace.foreground\"",
+        "{dark:\"#e3e4e229\",light:\"#33333333\",hcDark:\"#e3e4e229\",hcLight:\"#CCCCCC\"}",
+        "d(823,null)"
+      ]
+    },
+    "editorWidget.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"editorWidget.background\"",
+        "{dark:\"#252526\",light:\"#F3F3F3\",hcDark:\"#0C141F\",hcLight:et.white}",
+        "d(4839,null)"
+      ]
+    },
+    "extensionButton.prominentBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"extensionButton.prominentBackground\"",
+        "{dark:Mf,light:Mf,hcDark:null,hcLight:null}",
+        "d(22503,null)"
+      ]
+    },
+    "extensionButton.prominentHoverBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"extensionButton.prominentHoverBackground\"",
+        "{dark:Dee,light:Dee,hcDark:null,hcLight:null}",
+        "d(22505,null)"
+      ]
+    },
+    "focusBorder": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"focusBorder\"",
+        "{dark:\"#007FD4\",light:\"#0090F1\",hcDark:\"#F38518\",hcLight:\"#006BBD\"}",
+        "d(4759,null)"
+      ]
+    },
+    "input.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"input.background\"",
+        "{dark:\"#3C3C3C\",light:et.white,hcDark:et.black,hcLight:et.white}",
+        "d(4902,null)"
+      ]
+    },
+    "input.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"input.foreground\"",
+        "Go",
+        "d(4904,null)"
+      ]
+    },
+    "input.placeholderForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"input.placeholderForeground\"",
+        "{light:Mi(Go,.5),dark:Mi(Go,.5),hcDark:Mi(Go,.7),hcLight:Mi(Go,.7)}",
+        "d(4908,null)"
+      ]
+    },
+    "inputOption.activeBorder": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"inputOption.activeBorder\"",
+        "{dark:\"#007ACC\",light:\"#007ACC\",hcDark:ao,hcLight:ao}",
+        "d(4901,null)"
+      ]
+    },
+    "list.activeSelectionBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"list.activeSelectionBackground\"",
+        "{dark:\"#04395E\",light:\"#0060C0\",hcDark:null,hcLight:et.fromHex(\"#0F4A85\").transparent(.1)}",
+        "d(4935,null)"
+      ]
+    },
+    "list.activeSelectionForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"list.activeSelectionForeground\"",
+        "{dark:et.white,light:et.white,hcDark:null,hcLight:null}",
+        "d(4936,null)"
+      ]
+    },
+    "list.highlightForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"list.highlightForeground\"",
+        "{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:yd,hcLight:yd}",
+        "d(4933,null)"
+      ]
+    },
+    "list.hoverBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"list.hoverBackground\"",
+        "{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:et.white.transparent(.1),hcLight:et.fromHex(\"#0F4A85\").transparent(.1)}",
+        "d(4953,null)"
+      ]
+    },
+    "list.inactiveSelectionBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"list.inactiveSelectionBackground\"",
+        "{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:et.fromHex(\"#0F4A85\").transparent(.1)}",
+        "d(4957,null)"
+      ]
+    },
+    "minimap.selectionHighlight": {
+      "source": "direct registration",
+      "needsTransparency": true,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"minimap.selectionHighlight\"",
+        "KS",
+        "d(4977,null)",
+        "!0"
+      ]
+    },
+    "panel.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"panel.border\"",
+        "{dark:et.fromHex(\"#808080\").transparent(.35),light:et.fromHex(\"#808080\").transparent(.35),hcDark:ao,hcLight:ao}",
+        "d(11648,null)"
+      ]
+    },
+    "peekView.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"peekView.border\"",
+        "{dark:Rg,light:Rg,hcDark:ao,hcLight:ao}",
+        "d(1526,null)"
+      ]
+    },
+    "peekViewEditor.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"peekViewEditor.background\"",
+        "{dark:\"#001F33\",light:\"#F2F8FC\",hcDark:et.black,hcLight:et.white}",
+        "d(1527,null)"
+      ]
+    },
+    "peekViewEditor.matchHighlightBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"peekViewEditor.matchHighlightBackground\"",
+        "{dark:\"#ff8f0099\",light:\"#f5d802de\",hcDark:null,hcLight:null}",
+        "d(1529,null)"
+      ]
+    },
+    "peekViewResult.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"peekViewResult.background\"",
+        "{dark:\"#252526\",light:\"#F3F3F3\",hcDark:et.black,hcLight:et.white}",
+        "d(1533,null)"
+      ]
+    },
+    "peekViewTitle.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"peekViewTitle.background\"",
+        "{dark:\"#252526\",light:\"#F3F3F3\",hcDark:et.black,hcLight:et.white}",
+        "d(1539,null)"
+      ]
+    },
+    "pickerGroup.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"pickerGroup.border\"",
+        "{dark:\"#3F3F46\",light:\"#CCCEDB\",hcDark:et.white,hcLight:\"#0F4A85\"}",
+        "d(5001,null)"
+      ]
+    },
+    "pickerGroup.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"pickerGroup.foreground\"",
+        "{dark:\"#3794FF\",light:\"#0066BF\",hcDark:et.white,hcLight:\"#0F4A85\"}",
+        "d(5002,null)"
+      ]
+    },
+    "ports.iconRunningProcessForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"ports.iconRunningProcessForeground\"",
+        "Fhn",
+        "d(26090,null)"
+      ]
+    },
+    "progressBar.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"progressBar.background\"",
+        "{dark:et.fromHex(\"#0E70C0\"),light:et.fromHex(\"#0E70C0\"),hcDark:ao,hcLight:ao}",
+        "d(4992,null)"
+      ]
+    },
+    "quickInputList.focusBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"quickInputList.focusBackground\"",
+        "{dark:u0(fon,rE),light:u0(fon,rE),hcDark:null,hcLight:null}",
+        "d(5005,null)"
+      ]
+    },
+    "scrollbarSlider.activeBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"scrollbarSlider.activeBackground\"",
+        "{dark:et.fromHex(\"#BFBFBF\").transparent(.4),light:et.fromHex(\"#000000\").transparent(.6),hcDark:ao,hcLight:ao}",
+        "d(4996,null)"
+      ]
+    },
+    "scrollbarSlider.hoverBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"scrollbarSlider.hoverBackground\"",
+        "{dark:et.fromHex(\"#646464\").transparent(.7),light:et.fromHex(\"#646464\").transparent(.7),hcDark:Mi(ao,.8),hcLight:Mi(ao,.8)}",
+        "d(4998,null)"
+      ]
+    },
+    "selection.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"selection.background\"",
+        "null",
+        "d(4762,null)"
+      ]
+    },
+    "sideBar.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"sideBar.background\"",
+        "{dark:\"#252526\",light:\"#F3F3F3\",hcDark:\"#000000\",hcLight:\"#FFFFFF\"}",
+        "d(11666,null)"
+      ]
+    },
+    "sideBarTitle.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"sideBarTitle.foreground\"",
+        "eH",
+        "d(11678,null)"
+      ]
+    },
+    "statusBar.background": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBar.background\"",
+        "{dark:\"#007ACC\",light:\"#007ACC\",hcDark:null,hcLight:null}",
+        "d(11681,null)"
+      ]
+    },
+    "statusBar.debuggingBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBar.debuggingBackground\"",
+        "{dark:\"#CC6633\",light:\"#CC6633\",hcDark:\"#BA592C\",hcLight:\"#B5200D\"}",
+        "d(21917,null)"
+      ]
+    },
+    "statusBar.foreground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBar.foreground\"",
+        "{dark:\"#FFFFFF\",light:\"#FFFFFF\",hcDark:\"#FFFFFF\",hcLight:ih}",
+        "d(11688,null)"
+      ]
+    },
+    "statusBar.noFolderBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBar.noFolderBackground\"",
+        "{dark:\"#68217A\",light:\"#68217A\",hcDark:null,hcLight:null}",
+        "d(11699,null)"
+      ]
+    },
+    "statusBarItem.prominentBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBarItem.prominentBackground\"",
+        "et.black.transparent(.5)",
+        "d(11704,null)"
+      ]
+    },
+    "statusBarItem.prominentHoverBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBarItem.prominentHoverBackground\"",
+        "mj",
+        "d(11706,null)"
+      ]
+    },
+    "statusBarItem.remoteBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBarItem.remoteBackground\"",
+        "KN",
+        "d(11697,null)"
+      ]
+    },
+    "statusBarItem.remoteHoverForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"statusBarItem.remoteHoverForeground\"",
+        "S_t",
+        "d(11709,null)"
+      ]
+    },
+    "tab.activeBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"tab.activeBackground\"",
+        "_n",
+        "d(11717,null)"
+      ]
+    },
+    "tab.activeModifiedBorder": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"tab.activeModifiedBorder\"",
+        "{dark:\"#3399CC\",light:\"#33AAEE\",hcDark:null,hcLight:ao}",
+        "d(11721,null)"
+      ]
+    },
+    "tab.border": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"tab.border\"",
+        "{dark:\"#252526\",light:\"#F3F3F3\",hcDark:ao,hcLight:ao}",
+        "d(11724,null)"
+      ]
+    },
+    "tab.inactiveBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"tab.inactiveBackground\"",
+        "{dark:\"#2D2D2D\",light:\"#ECECEC\",hcDark:null,hcLight:null}",
+        "d(11730,null)"
+      ]
+    },
+    "tab.inactiveForeground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"tab.inactiveForeground\"",
+        "{dark:Mi(BP,.5),light:Mi(BP,.7),hcDark:et.white,hcLight:\"#292929\"}",
+        "d(11731,null)"
+      ]
+    },
+    "tab.lastPinnedBorder": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"tab.lastPinnedBorder\"",
+        "{dark:I1e,light:I1e,hcDark:ao,hcLight:ao}",
+        "d(11595,null)"
+      ]
+    },
+    "terminal.ansiBlack": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBlue": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightBlack": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightBlue": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightCyan": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightGreen": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightMagenta": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightRed": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightWhite": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiBrightYellow": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiCyan": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiGreen": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiMagenta": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiRed": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiWhite": {
+      "source": "terminal ANSI registration loop"
+    },
+    "terminal.ansiYellow": {
+      "source": "terminal ANSI registration loop"
+    },
+    "titleBar.activeBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"titleBar.activeBackground\"",
+        "{dark:\"#3C3C3C\",light:\"#DDDDDD\",hcDark:\"#000000\",hcLight:\"#FFFFFF\"}",
+        "d(11745,null)"
+      ]
+    },
+    "walkThrough.embeddedEditorBackground": {
+      "source": "direct registration",
+      "needsTransparency": false,
+      "deprecation": null,
+      "registrationArguments": [
+        "\"walkThrough.embeddedEditorBackground\"",
+        "{dark:new et(new ki(0,0,0,.4)),light:\"#f4f4f4\",hcDark:null,hcLight:null}",
+        "d(29882,null)"
+      ]
+    }
+  },
+  "limitations": [
+    "Static configuration audit; not a full VS Code version matrix or screenshot regression.",
+    "Semantic selector types checked against installed rust-analyzer extension and retained Rust/clangd LSP legends.",
+    "No conclusion about other languages or unobserved UI states."
+  ],
+  "selectorCorrection": {
+    "before": "comparision:rust",
+    "after": "comparison:rust",
+    "foreground": "#146dad",
+    "onlyThemeTextChangeDuringCloseout": true
+  },
+  "sourceEvidence": {
+    "colorRegistry": "VS Code 1.145.2 installed desktop bundle; direct registrations and verified Dpi ANSI loop",
+    "semanticTypes": "rust-analyzer 0.3.3081 installed package and actual LSP initialize legend retained from 2026-11-06"
+  },
+  "retainedSampleComparisonTokenCounts": {
+    "default": 0,
+    "specialized": 0
+  },
+  "subsequentChanges": [
+    {
+      "selector": "builtinAttribute:rust",
+      "style": {
+        "foreground": "#073642",
+        "bold": false
+      },
+      "reason": "User requested built-in attributes use keyword styling; does not target derive or macro tokens.",
+      "evidence": "rust-builtin-attribute-audit.json"
+    },
+    {
+      "selector": "derive:rust",
+      "style": {
+        "foreground": "#db7800",
+        "bold": true
+      },
+      "reason": "Implement previously requested trait-orange derive macro names; screenshot showed green TextMate fallback.",
+      "evidence": "rust-derive-color-audit.json"
+    },
+    {
+      "selector": "decorator:rust",
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false
+      },
+      "reason": "User-approved ordinary-function style for attribute macros and derive entry.",
+      "evidence": "rust-attribute-macro-audit.json"
+    },
+    {
+      "selector": "deriveHelper:rust",
+      "style": {
+        "foreground": "#073642",
+        "bold": false
+      },
+      "reason": "User-approved keyword style for derive helper attributes; generic.attribute parameters retained.",
+      "evidence": "rust-attribute-macro-audit.json"
+    },
+    {
+      "scope": "variable.other.metavariable.specifier.rust",
+      "operation": "Added scope to existing type-name TextMate rule",
+      "style": {
+        "foreground": "#577909",
+        "fontStyle": "bold"
+      },
+      "reason": "User requested macro fragment specifiers use the type color scheme.",
+      "evidence": "rust-fragment-color-audit.json"
+    },
+    {
+      "scopes": [
+        "variable.other.metavariable.name.rust",
+        "entity.name.type.metavariable.rust"
+      ],
+      "operation": "Added Rust macro parameter name TextMate rule",
+      "style": {
+        "foreground": "#499504",
+        "fontStyle": "italic"
+      },
+      "reason": "User requested macro parameters use the ordinary function parameter style; fragment specifier green/bold accepted.",
+      "evidence": "rust-macro-parameter-audit.json",
+      "knownGrammarLimitation": "In helper($value), the bundled grammar marks value as variable.other.rust; this position remains unchanged to avoid recoloring ordinary variables.",
+      "limitationFollowup": "Function-call gap subsequently addressed by the scoped grammar injection; see rust-macro-injection-audit.json. Visual confirmation pending."
+    },
+    {
+      "operation": "Contributed a Rust macro-parameter grammar injection for function-call contexts",
+      "reason": "User reproduced the gap in the sample and requested a fix. Reuses existing theme scopes; no theme color changes.",
+      "evidence": "rust-macro-injection-audit.json"
+    },
+    {
+      "selector": "typeAlias.associated:rust",
+      "style": {
+        "foreground": "#577909",
+        "bold": true
+      },
+      "reason": "User confirmed associated types such as Output must use type-name styling, overriding the broad static modifier rule without changing functions or constants.",
+      "evidence": "rust-associated-type-audit.json"
+    },
+    {
+      "operation": "Contributed raw C string grammar injection",
+      "reason": "User screenshot exposed incorrect string boundaries that colored subsequent punctuation as strings. No color-value changes.",
+      "evidence": "rust-raw-c-string-audit.json"
+    }
+  ],
+  "extensionManifestSha256": "6ad15063ad492914cd64dcdf25dc1af956deebc637ce78ab8b02875b3ccaa60f",
+  "grammarInjections": [
+    {
+      "scopeName": "rust-macro-parameters.injection.sl-rust",
+      "path": "./syntaxes/rust-macro-parameters.tmLanguage.json",
+      "injectTo": [
+        "source.rust"
+      ],
+      "injectionSelector": "L:source.rust meta.function.call.rust - comment - string",
+      "sha256": "677c4eeb8f262839fb4a293f97e0ba7233fd047eb7daa32787166dfe84b021bd",
+      "evidence": "rust-macro-injection-audit.json",
+      "visualVerification": "Pending development host restart and user feedback",
+      "activationScope": "While extension enabled, regardless of selected theme"
+    },
+    {
+      "scopeName": "rust-raw-c-strings.injection.sl-rust",
+      "path": "./syntaxes/rust-raw-c-strings.tmLanguage.json",
+      "injectTo": [
+        "source.rust"
+      ],
+      "injectionSelector": "L:source.rust - comment - string",
+      "sha256": "394e2f66831356668ebcc011dd770ff18cc73f49d8ec056e5da1646ac1e6606c",
+      "evidence": "rust-raw-c-string-audit.json",
+      "visualVerification": "2026-11-07: user reported everything now displays normally in the observed sample.",
+      "activationScope": "While extension enabled, regardless of selected theme"
+    }
+  ],
+  "formatCaptureLimitation": {
+    "status": "deferred_by_user_unresolved",
+    "server": "rust-analyzer 0.3.3081-standalone",
+    "evidence": "rust-format-capture-audit.json",
+    "description": "Implicit captures of parameters and constants in the tested formatting path are emitted as plain variable; preserving original styling requires semantic classification support.",
+    "userDecision": "2026-11-07: retain current behavior and proceed to the next Rust category."
+  },
+  "reviewStatus": {
+    "date": "2026-11-07",
+    "phase": "User confirms Rust keeps underlines and C++ does not; trial reverted byte-for-byte to cpp-r3; actual-project trial suggested but not started; known classification gaps remain",
+    "latestUserAccepted": [
+      "ordinary comments",
+      "block comments",
+      "observed documentation content",
+      "ordinary local-variable readability",
+      "observed softer warm-beige text selection in selection-r2"
+    ],
+    "unresolvedRetained": [
+      "format capture semantic classification (deferred by user)",
+      "token foreground alpha convention",
+      "opaque minimap selection color convention",
+      "C++ constexpr-variable classification (deferred by user)"
+    ],
+    "uncovered": [
+      "specialized UI states",
+      "complete other-language coverage"
+    ],
+    "standalonePostChangeFeedbackNotRecorded": [
+      "macro-parameter grammar injection",
+      "associated-type Output override"
+    ],
+    "packaged": true,
+    "published": false,
+    "localPackageRecord": "local-vsix-cpp-r3-build.json",
+    "installedIntoUserProfile": false,
+    "previousLocalPackageFeedback": "User reports everything currently looks normal, then requests a softer multiline selection."
+  },
+  "selectionTrial": {
+    "date": "2026-11-07",
+    "status": "accepted_by_user_for_observed_selection",
+    "values": {
+      "editor.selectionBackground": {
+        "before": "#EA5C0044",
+        "after": "#E7C49666"
+      },
+      "editor.inactiveSelectionBackground": {
+        "before": "#EA5C0033",
+        "after": "#E7C49644"
+      }
+    },
+    "scope": "All editor text selections share these values, including single-word selections. Find-match and occurrence backgrounds remain unchanged.",
+    "evidence": "local-vsix-selection-r2-build.json",
+    "userFeedback": {
+      "date": "2026-11-07",
+      "quote": "我天，好太多了",
+      "scope": "Observed warm-beige selection accepted; individual inactive/overlay states not separately confirmed."
+    }
+  },
+  "clangdVersion": "23.1.0",
+  "cppReview": {
+    "status": "no_cpp_mutability_underlines_confirmed_trial_reverted",
+    "userDecisions": [
+      "Use clangd",
+      "Keep Rust mutable-item underlines; no C++ mutability underlines after trial and user confirmation"
+    ],
+    "evidence": "cpp-clangd-audit.json",
+    "design": "cpp-design.md",
+    "sampleBuildConfigurationFix": "cpp-build-configuration-audit.json",
+    "latestUserFeedback": {
+      "date": "2026-11-07",
+      "quote": "那就这样吧",
+      "context": "Accepts the preceding recommendation to keep Rust mutable-item underlines and use C++ without mutability underlines.",
+      "rust": "retain_existing_underlines",
+      "cpp": "no_mutability_underlines",
+      "status": "confirmed_and_reverted_to_cpp_r3"
+    },
+    "templateConceptReview": {
+      "date": "2026-11-07",
+      "quote": "符合",
+      "accepted": [
+        "template type parameter T: green and bold",
+        "non-type template parameter N: light teal",
+        "type alias value_type: green and bold",
+        "concept Addable: orange and bold",
+        "abstract class Renderable: green and bold"
+      ],
+      "nextReview": [
+        "lambda parameters",
+        "lambda captures",
+        "structured bindings"
+      ]
+    },
+    "lambdaBindingReview": {
+      "date": "2026-11-07",
+      "quote": "这部分也没问题",
+      "accepted": [
+        "lambda parameters delta and step: light green and italic",
+        "captures local, counter and init-capture value: ordinary-variable color",
+        "structured bindings x and y: ordinary-variable color",
+        "no mutability underlines in this preview"
+      ],
+      "nextReview": [
+        "pointers and references",
+        "const-qualified pointer/reference readonly classification"
+      ]
+    },
+    "readonlyReview": "cpp-readonly-review.json",
+    "readonlyFix": "cpp-readonly-fix-audit.json",
+    "constexprStatus": "deferred_by_user_unresolved",
+    "readonlyVisualFeedback": {
+      "date": "2026-11-07",
+      "quote": "目前看起来还行",
+      "scope": "Positive feedback on the observed cpp-r2 readonly narrowing; not full C++ or per-token acceptance.",
+      "nextReview": [
+        "macro definitions and calls",
+        "standard attributes"
+      ],
+      "constexprStatus": "deferred_by_user_unresolved"
+    },
+    "macroAttributeReview": {
+      "date": "2026-11-07",
+      "quote": "okay，接下来呢",
+      "scope": "User agrees to continue after the macro/attribute observation group; retain its current appearance. This does not resolve the macro replacement-body parameter classification gap.",
+      "nextReview": [
+        "constructors and destructors",
+        "this and fields",
+        "operator overloads and conversion functions",
+        "ordinary, static, constexpr and consteval functions"
+      ]
+    },
+    "specialFunctionReview": {
+      "date": "2026-11-07",
+      "quote": "都没问题",
+      "scope": "User accepts the observed constructor/destructor, this, overloaded-operator and special-function group from the preceding preview instructions.",
+      "accepted": [
+        "Counter constructor/destructor names: green and bold",
+        "this: dark and italic; value: light green and italic",
+        "operator and overloaded +: dark, no underline; other: light green and italic",
+        "operator bool conversion target bool: ordinary dark gray",
+        "add/square/fixed_size: function blue; internal: light teal"
+      ],
+      "nextReview": [
+        "ordinary and raw strings",
+        "escapes and character literals",
+        "numeric literals and booleans",
+        "line and documentation comments"
+      ]
+    },
+    "literalReview": {
+      "status": "observed_group_accepted",
+      "booleans": "cpp-r3 #D33682 confirmed by user in this group.",
+      "numericFragments": "Digits are #D33682; 0x/u/e/- fragments in the sample are #073642.",
+      "commentsScope": "Sample covers line and documentation line comments; block comments not present.",
+      "userVisualFeedback": {
+        "date": "2026-11-07",
+        "quote": "这一组没问题了，接下来呢",
+        "scope": "Accepts observed literal/line-comment group, including the cpp-r3 boolean-color change. Does not include newly added block comments or standard-library/header samples.",
+        "nextReview": [
+          "standard-library types and calls",
+          "cross-file types and functions",
+          "preprocessor and inactive-branch readability",
+          "block and documentation comments"
+        ]
+      }
+    },
+    "booleanColorChange": {
+      "userRequest": "true/false这个能改成跟rust一样吗",
+      "foreground": "#D33682",
+      "status": "implemented_user_visual_feedback_positive",
+      "evidence": "cpp-boolean-color-audit.json"
+    },
+    "libraryHeaderSamples": {
+      "status": "observed_group_accepted",
+      "evidence": "cpp-library-sample-audit.json",
+      "existingPackageUsable": "cpp-r3",
+      "themeChanged": false,
+      "userVisualFeedback": {
+        "date": "2026-11-07",
+        "quote": "这一组没问题了，接下来呢",
+        "scope": "Accepts observed supplemental standard-library, cross-file, preprocessor and block-comment group; not a company toolchain or exhaustive C++ acceptance.",
+        "nextSuggested": "Use existing cpp-r3 in a real company C++ project; not yet performed or accepted."
+      }
+    },
+    "nextSuggestedReview": {
+      "status": "suggested_not_started",
+      "scope": "Actual company C++ project, clangd version, third-party types/functions, project macros and cross-file consistency",
+      "package": "cpp-r3"
+    },
+    "remainingWork": [
+      "constexpr versus ordinary const classification deferred by user",
+      "macro replacement-body parameter classification unresolved",
+      "file-scope static and company-toolchain classification boundaries retained"
+    ],
+    "underlineTrial": {
+      "userRequest": "下划线添加以下试一试",
+      "status": "reverted_by_user_choice",
+      "evidence": "cpp-underline-audit.json",
+      "packageRecord": "local-vsix-cpp-r4-build.json",
+      "userDecision": {
+        "date": "2026-11-07",
+        "quote": "那就这样吧",
+        "context": "Accepts the preceding recommendation to keep Rust mutable-item underlines and use C++ without mutability underlines.",
+        "rust": "retain_existing_underlines",
+        "cpp": "no_mutability_underlines",
+        "status": "confirmed_and_reverted_to_cpp_r3"
+      }
+    },
+    "underlineDecision": {
+      "date": "2026-11-07",
+      "quote": "那就这样吧",
+      "context": "Accepts the preceding recommendation to keep Rust mutable-item underlines and use C++ without mutability underlines.",
+      "rust": "retain_existing_underlines",
+      "cpp": "no_mutability_underlines",
+      "status": "confirmed_and_reverted_to_cpp_r3"
+    }
+  }
+}

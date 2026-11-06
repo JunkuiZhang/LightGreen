@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-07",
+  "themeSha256": "a3149c8e1494a39bfde4e9c4d6eddd0e80f7b5c37161546727635e4bf50f6eeb",
+  "selector": "builtinAttribute:rust",
+  "style": {
+    "foreground": "#073642",
+    "bold": false
+  },
+  "evidence": "Retained actual LSP tokens from 2026-11-06; current attributes_macros.rs and local macro crate match source hashes. Rule matching checked against installed token hierarchy; no new LSP or GUI run.",
+  "affectedSampleTokens": [
+    {
+      "file": "attributes_macros.rs",
+      "line": 13,
+      "column": 4,
+      "length": 5,
+      "text": "allow",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 18,
+      "column": 3,
+      "length": 4,
+      "text": "repr",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 20,
+      "column": 3,
+      "length": 8,
+      "text": "must_use",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 26,
+      "column": 3,
+      "length": 6,
+      "text": "inline",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 27,
+      "column": 3,
+      "length": 3,
+      "text": "doc",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 32,
+      "column": 30,
+      "length": 6,
+      "text": "inline",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 10,
+      "column": 3,
+      "length": 4,
+      "text": "repr",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "../theme_macros/src/lib.rs",
+      "line": 6,
+      "column": 3,
+      "length": 20,
+      "text": "proc_macro_attribute",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "../theme_macros/src/lib.rs",
+      "line": 12,
+      "column": 3,
+      "length": 10,
+      "text": "proc_macro",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "../theme_macros/src/lib.rs",
+      "line": 18,
+      "column": 3,
+      "length": 17,
+      "text": "proc_macro_derive",
+      "type": "builtinAttribute",
+      "modifiers": [
+        "attribute"
+      ]
+    }
+  ],
+  "excludedTypes": [
+    "keyword",
+    "decorator",
+    "derive",
+    "deriveHelper",
+    "generic",
+    "macro",
+    "procMacro"
+  ]
+}

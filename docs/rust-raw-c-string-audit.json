@@ -1,0 +1,472 @@
+{
+  "date": "2026-11-07",
+  "vscodeVersion": "1.145.2",
+  "validation": "Installed Rust TextMate grammar with prior macro injection always enabled; new raw C string injection toggled off/on. Real source plus in-memory controls. No fresh LSP or post-change GUI capture.",
+  "themeSha256": "bd4bd99a300faaf5fa237737d7285455a858e4fc5f130491e29a9b73d38a1375",
+  "sourceSha256": "4485d61805a8dd5ff9ec883e2b5cc4c2dd172c4a18003048247300aece2022f9",
+  "injectionSha256": "394e2f66831356668ebcc011dd770ff18cc73f49d8ec056e5da1646ac1e6606c",
+  "rootCause": "At literals.rs:10 the bundled grammar consumes cr as an identifier and treats raw contents as an escaped normal string, leaving a string state active across subsequent code. Semantic highlighting restores many symbols but does not cover ordinary punctuation in the retained output.",
+  "punctuationChecks": [
+    {
+      "line": 36,
+      "column": 20,
+      "text": "(",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 26,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 33,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 44,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 55,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 61,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 67,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 74,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 81,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 36,
+      "column": 82,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 37,
+      "column": 17,
+      "text": "(",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 37,
+      "column": 24,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 37,
+      "column": 32,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 37,
+      "column": 33,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 38,
+      "column": 18,
+      "text": "(",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 38,
+      "column": 29,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 38,
+      "column": 40,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 38,
+      "column": 55,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 38,
+      "column": 65,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 38,
+      "column": 66,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 39,
+      "column": 20,
+      "text": "(",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 39,
+      "column": 25,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 39,
+      "column": 32,
+      "text": ",",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.comma.rust"
+      ]
+    },
+    {
+      "line": 39,
+      "column": 40,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 39,
+      "column": 41,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 19,
+      "text": "[",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.square.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 22,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 25,
+      "text": "]",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.square.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 29,
+      "text": "[",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.square.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 34,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 37,
+      "text": "]",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.square.rust"
+      ]
+    },
+    {
+      "line": 44,
+      "column": 38,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 45,
+      "column": 15,
+      "text": "(",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 45,
+      "column": 16,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 45,
+      "column": 20,
+      "text": "(",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 45,
+      "column": 21,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 45,
+      "column": 22,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 50,
+      "column": 5,
+      "text": ")",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.round.rust"
+      ]
+    },
+    {
+      "line": 50,
+      "column": 6,
+      "text": ";",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.semi.rust"
+      ]
+    },
+    {
+      "line": 51,
+      "column": 1,
+      "text": "}",
+      "before": "#258F94",
+      "after": "#073642",
+      "scopes": [
+        "source.rust",
+        "punctuation.brackets.curly.rust"
+      ]
+    }
+  ],
+  "unchangedFiles": [
+    "src/advanced.rs",
+    "src/async_flow.rs",
+    "src/attributes_macros.rs",
+    "src/diagnostics/errors.rs",
+    "src/diagnostics.rs",
+    "src/functions.rs",
+    "src/main.rs",
+    "src/types_patterns.rs",
+    "theme_macros/src/lib.rs",
+    "negative controls (in memory)"
+  ],
+  "controls": {
+    "zeroOneMultipleHashes": true,
+    "embeddedQuotesAndBackslashes": true,
+    "multiline": true,
+    "functionCallsAndArrays": true,
+    "commentsAndOtherStringKindsUnchanged": true,
+    "macroInjectionStillWorks": true
+  },
+  "visualVerification": "2026-11-07: user reported everything now displays normally in the observed sample; no assistant after-change screenshot."
+}

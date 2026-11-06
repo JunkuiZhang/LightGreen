@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-07",
+  "server": {
+    "name": "rust-analyzer",
+    "version": "0.3.3081-standalone"
+  },
+  "status": {
+    "health": "ok",
+    "quiescent": true,
+    "message": null
+  },
+  "settings": {
+    "checkOnSave": false,
+    "cargo": {
+      "buildScripts": {
+        "enable": true
+      }
+    },
+    "semanticHighlighting": {
+      "nonStandardTokens": true,
+      "strings": {
+        "enable": true
+      },
+      "operator": {
+        "enable": true,
+        "specialization": {
+          "enable": false
+        }
+      },
+      "punctuation": {
+        "enable": false
+      }
+    },
+    "procMacro": {
+      "enable": true
+    }
+  },
+  "validation": "Fresh standalone LSP semanticTokens/full request to installed rust-analyzer. Opened actual attributes_macros.rs with an appended in-memory control function; no source files or editor settings were changed.",
+  "sourceSha256": "ff2e5bfa78c81f7691a1b6fd46d91d01e844d14fbec690898445ced1f9b4782b",
+  "inMemorySourceSha256": "0ee30e0bfaadc7a571d3216c6be58fc51e52f76600b585a9cef65713994e9281",
+  "inMemoryControl": "fn format_capture_probe(value: usize) {\n    let local = value;\n    const LIMIT: usize = 5;\n    println!(\"{value} {local} {LIMIT}\");\n    println!(\"{value}\", value = value);\n    println!(\"{}\", value);\n}\n",
+  "samples": [
+    {
+      "line": 67,
+      "column": 15,
+      "length": 5,
+      "text": "value",
+      "type": "parameter",
+      "modifiers": [
+        "declaration"
+      ],
+      "source": "fn show_value(value: usize) {"
+    },
+    {
+      "line": 68,
+      "column": 31,
+      "length": 5,
+      "text": "value",
+      "type": "variable",
+      "modifiers": [],
+      "source": "    println!(\"function call: {value}\");"
+    },
+    {
+      "line": 90,
+      "column": 25,
+      "length": 5,
+      "text": "value",
+      "type": "parameter",
+      "modifiers": [
+        "declaration"
+      ],
+      "source": "fn format_capture_probe(value: usize) {"
+    },
+    {
+      "line": 91,
+      "column": 9,
+      "length": 5,
+      "text": "local",
+      "type": "variable",
+      "modifiers": [
+        "declaration"
+      ],
+      "source": "    let local = value;"
+    },
+    {
+      "line": 91,
+      "column": 17,
+      "length": 5,
+      "text": "value",
+      "type": "parameter",
+      "modifiers": [],
+      "source": "    let local = value;"
+    },
+    {
+      "line": 92,
+      "column": 11,
+      "length": 5,
+      "text": "LIMIT",
+      "type": "const",
+      "modifiers": [
+        "declaration",
+        "constant"
+      ],
+      "source": "    const LIMIT: usize = 5;"
+    },
+    {
+      "line": 93,
+      "column": 16,
+      "length": 5,
+      "text": "value",
+      "type": "variable",
+      "modifiers": [],
+      "source": "    println!(\"{value} {local} {LIMIT}\");"
+    },
+    {
+      "line": 93,
+      "column": 24,
+      "length": 5,
+      "text": "local",
+      "type": "variable",
+      "modifiers": [],
+      "source": "    println!(\"{value} {local} {LIMIT}\");"
+    },
+    {
+      "line": 93,
+      "column": 32,
+      "length": 5,
+      "text": "LIMIT",
+      "type": "variable",
+      "modifiers": [],
+      "source": "    println!(\"{value} {local} {LIMIT}\");"
+    },
+    {
+      "line": 94,
+      "column": 16,
+      "length": 5,
+      "text": "value",
+      "type": "variable",
+      "modifiers": [],
+      "source": "    println!(\"{value}\", value = value);"
+    },
+    {
+      "line": 94,
+      "column": 25,
+      "length": 5,
+      "text": "value",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "macro"
+      ],
+      "source": "    println!(\"{value}\", value = value);"
+    },
+    {
+      "line": 94,
+      "column": 33,
+      "length": 5,
+      "text": "value",
+      "type": "parameter",
+      "modifiers": [
+        "macro"
+      ],
+      "source": "    println!(\"{value}\", value = value);"
+    },
+    {
+      "line": 95,
+      "column": 20,
+      "length": 5,
+      "text": "value",
+      "type": "parameter",
+      "modifiers": [
+        "macro"
+      ],
+      "source": "    println!(\"{}\", value);"
+    }
+  ],
+  "screenshot": "codex-clipboard-0edd73e4-0a78-4ecb-b4dc-8def535ed408.png; user observes actual parameter/format-capture color mismatch at lines 67/68",
+  "upstreamSource": "https://github.com/rust-lang/rust-analyzer/blob/2026-10-12/crates/ide/src/syntax_highlighting/format.rs#L21-L34",
+  "cause": "The format-string lexer path maps FormatSpecifier::Identifier to SymbolKind::Local and returns before the separate semantic-resolution path. Installed server emits variable without parameter/constant modifiers for these captures.",
+  "resolution": "Not fixed. Accurate category preservation requires a semantic classification fix in rust-analyzer (or a separate semantic implementation), not a theme color rule or the existing macro TextMate injection.",
+  "workaround": "The explicit argument in println!(\"{}\", value) remains parameter.macro in the control; braces contain no identifier. Original sample retained.",
+  "themeChanged": false,
+  "grammarChanged": false,
+  "editorSettingsChanged": false
+}

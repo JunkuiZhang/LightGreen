@@ -1,0 +1,966 @@
+{
+  "date": "2026-11-06",
+  "rustc": "1.99.0 (b940084d7 2026-09-28)",
+  "rustAnalyzer": {
+    "name": "rust-analyzer",
+    "version": "0.3.3081-standalone"
+  },
+  "note": "Actual LSP tokens from three isolated rust-analyzer sessions. No VS Code settings or theme modifications. Client augments TextMate; missing semantic token types do not establish missing source syntax. Specialized mode did not emit comparison/logical tokens despite those operators being present in the code. No GUI screenshot verification. generic.attribute was observed in new attribute examples. Default unresolvedReference tokens occur inside cfg-disabled diagnostic calls; the active unresolved sample is verified in diagnostic mode.",
+  "themeSha256": "a523c37092fbc468e281ad0370dadbff00f47bfd2e39fcbcb426079171df15e5",
+  "sourceSha256": {
+    "src/advanced.rs": "aa3b1e040432b12dce9b4da0fe21d153b7e99459a5b0a64e54f792626a86035b",
+    "src/async_flow.rs": "b6e42bc8574a7359fcfa771a2ccbecc15c4d38db094b0497dea70c55bec9b1d2",
+    "src/attributes_macros.rs": "19bfafba8975e8450735e1c888f56296f1d18107c759612050667702ee46252c",
+    "src/diagnostics/errors.rs": "fc7176df444b405ca78a12311d9bbefb0ffe9b4ca4b98520d824d9c95579ed4a",
+    "src/diagnostics.rs": "e6f287c7365a10c76d09467c940ec3dd2146b9878aab80ffe3f46611f53cc772",
+    "src/functions.rs": "140883fdc088f0d08955d8c57793d08005d52f3316dbd4c116eaae06ccd9d754",
+    "src/literals.rs": "4485d61805a8dd5ff9ec883e2b5cc4c2dd172c4a18003048247300aece2022f9",
+    "src/main.rs": "e1197c36c6d731c549ca3323fa680e094c7b3c36262268efa458905a6a5d86f5",
+    "src/types_patterns.rs": "e07e852e2bcc548996f1ee2f4cad416020a5c7a500c2e84f9bc17b817ed9632e",
+    "theme_macros/src/lib.rs": "01d8453566f1b813fe183c7f74b4ef869cecdf3832ba5644bf1ecd4ba2ea6efb",
+    "Cargo.toml": "558af89242333d41e12f3ae3abbdbaec92eaa30ef025ceb24f74ca31e70d0c24",
+    "theme_macros/Cargo.toml": "4b96fdafdb0aec395a2afb755472b6ef88a79ff036e5380ec5ca6b4c4050a753",
+    "Cargo.lock": "506daf7c60dbc077a41266578567358f5a9901719e5b6853f90c31351e3b7253"
+  },
+  "checks": {
+    "cargo fmt --all -- --check": "passed",
+    "cargo check --all-targets --offline": "passed without warnings",
+    "cargo run --offline": "passed",
+    "cargo check --all-targets --offline --features diagnostic-preview": "passed with 6 intentional warning categories",
+    "cargo check --offline --features error-preview": "expected exit 101: invalid escape, unresolved name, type mismatch"
+  },
+  "modes": {
+    "default": {
+      "configuration": {
+        "checkOnSave": false,
+        "cargo": {
+          "buildScripts": {
+            "enable": true
+          }
+        },
+        "semanticHighlighting": {
+          "nonStandardTokens": true,
+          "strings": {
+            "enable": true
+          },
+          "operator": {
+            "enable": true,
+            "specialization": {
+              "enable": false
+            }
+          },
+          "punctuation": {
+            "enable": false
+          }
+        },
+        "procMacro": {
+          "enable": true
+        }
+      },
+      "serverStatus": {
+        "health": "ok",
+        "quiescent": true,
+        "message": null
+      },
+      "tokensByFile": {
+        "src/advanced.rs": 239,
+        "src/async_flow.rs": 226,
+        "src/attributes_macros.rs": 201,
+        "src/functions.rs": 327,
+        "src/literals.rs": 239,
+        "src/main.rs": 338,
+        "src/types_patterns.rs": 398,
+        "theme_macros/src/lib.rs": 39
+      },
+      "tokenTypes": {
+        "arithmetic": 1,
+        "attributeBracket": 70,
+        "builtinAttribute": 10,
+        "builtinType": 103,
+        "comment": 26,
+        "const": 15,
+        "constParameter": 2,
+        "decorator": 11,
+        "derive": 18,
+        "deriveHelper": 1,
+        "enum": 22,
+        "enumMember": 31,
+        "escapeSequence": 12,
+        "formatSpecifier": 316,
+        "function": 104,
+        "generic": 19,
+        "interface": 21,
+        "keyword": 67,
+        "label": 5,
+        "lifetime": 9,
+        "macro": 120,
+        "method": 54,
+        "namespace": 34,
+        "number": 14,
+        "operator": 71,
+        "parameter": 79,
+        "procMacro": 2,
+        "property": 65,
+        "punctuation": 9,
+        "selfKeyword": 35,
+        "selfTypeKeyword": 15,
+        "static": 7,
+        "string": 178,
+        "struct": 66,
+        "typeAlias": 27,
+        "typeParameter": 14,
+        "union": 2,
+        "unresolvedReference": 2,
+        "variable": 350
+      },
+      "modifiers": {
+        "associated": 56,
+        "async": 24,
+        "attribute": 130,
+        "callable": 23,
+        "constant": 52,
+        "consuming": 11,
+        "controlFlow": 37,
+        "crateRoot": 10,
+        "declaration": 315,
+        "defaultLibrary": 202,
+        "documentation": 28,
+        "injected": 30,
+        "intraDocLink": 2,
+        "library": 210,
+        "macro": 343,
+        "mutable": 159,
+        "procMacro": 13,
+        "public": 17,
+        "reference": 118,
+        "static": 39,
+        "trait": 42,
+        "unsafe": 17
+      },
+      "samples": [
+        {
+          "file": "src/async_flow.rs",
+          "line": 8,
+          "column": 10,
+          "length": 11,
+          "text": "fetch_count",
+          "type": "function",
+          "modifiers": [
+            "async",
+            "declaration"
+          ]
+        },
+        {
+          "file": "src/async_flow.rs",
+          "line": 9,
+          "column": 47,
+          "length": 5,
+          "text": "await",
+          "type": "keyword",
+          "modifiers": [
+            "async",
+            "controlFlow"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 15,
+          "column": 19,
+          "length": 11,
+          "text": "ThemeSample",
+          "type": "derive",
+          "modifiers": [
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 26,
+          "column": 10,
+          "length": 6,
+          "text": "always",
+          "type": "generic",
+          "modifiers": [
+            "attribute"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 40,
+          "column": 3,
+          "length": 10,
+          "text": "theme_hint",
+          "type": "deriveHelper",
+          "modifiers": [
+            "attribute",
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 45,
+          "column": 17,
+          "length": 8,
+          "text": "identity",
+          "type": "decorator",
+          "modifiers": [
+            "attribute",
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 47,
+          "column": 19,
+          "length": 13,
+          "text": "identity_expr",
+          "type": "procMacro",
+          "modifiers": [
+            "library",
+            "macro",
+            "procMacro"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 9,
+          "column": 10,
+          "length": 12,
+          "text": "const_double",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "constant"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 23,
+          "column": 32,
+          "length": 3,
+          "text": "new",
+          "type": "function",
+          "modifiers": [
+            "static",
+            "associated",
+            "constant"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 25,
+          "column": 8,
+          "length": 8,
+          "text": "diagonal",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "static",
+            "associated"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 33,
+          "column": 14,
+          "length": 5,
+          "text": "total",
+          "type": "method",
+          "modifiers": [
+            "declaration",
+            "associated",
+            "constant",
+            "reference"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 76,
+          "column": 9,
+          "length": 8,
+          "text": "writable",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "mutable",
+            "reference"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 110,
+          "column": 9,
+          "length": 7,
+          "text": "pointer",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "callable"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 115,
+          "column": 9,
+          "length": 11,
+          "text": "accumulator",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "callable"
+          ]
+        },
+        {
+          "file": "src/types_patterns.rs",
+          "line": 11,
+          "column": 7,
+          "length": 4,
+          "text": "Word",
+          "type": "union",
+          "modifiers": [
+            "declaration"
+          ]
+        }
+      ]
+    },
+    "specialized": {
+      "configuration": {
+        "checkOnSave": false,
+        "cargo": {
+          "buildScripts": {
+            "enable": true
+          }
+        },
+        "semanticHighlighting": {
+          "nonStandardTokens": true,
+          "strings": {
+            "enable": true
+          },
+          "operator": {
+            "enable": true,
+            "specialization": {
+              "enable": true
+            }
+          },
+          "punctuation": {
+            "enable": true,
+            "specialization": {
+              "enable": true
+            },
+            "separate": {
+              "macro": {
+                "bang": true
+              }
+            }
+          }
+        },
+        "procMacro": {
+          "enable": true
+        }
+      },
+      "serverStatus": {
+        "health": "ok",
+        "quiescent": true,
+        "message": null
+      },
+      "tokensByFile": {
+        "src/advanced.rs": 250,
+        "src/async_flow.rs": 243,
+        "src/attributes_macros.rs": 251,
+        "src/functions.rs": 343,
+        "src/literals.rs": 244,
+        "src/main.rs": 353,
+        "src/types_patterns.rs": 418,
+        "theme_macros/src/lib.rs": 44
+      },
+      "tokenTypes": {
+        "arithmetic": 25,
+        "attributeBracket": 70,
+        "bitwise": 5,
+        "brace": 2,
+        "bracket": 2,
+        "builtinAttribute": 10,
+        "builtinType": 103,
+        "colon": 4,
+        "comma": 63,
+        "comment": 26,
+        "const": 15,
+        "constParameter": 2,
+        "decorator": 11,
+        "derive": 18,
+        "deriveHelper": 1,
+        "enum": 22,
+        "enumMember": 31,
+        "escapeSequence": 12,
+        "formatSpecifier": 316,
+        "function": 104,
+        "generic": 19,
+        "interface": 21,
+        "keyword": 67,
+        "label": 5,
+        "lifetime": 9,
+        "macro": 60,
+        "macroBang": 8,
+        "method": 54,
+        "namespace": 34,
+        "number": 14,
+        "operator": 42,
+        "parameter": 79,
+        "parenthesis": 126,
+        "procMacro": 2,
+        "property": 65,
+        "selfKeyword": 35,
+        "selfTypeKeyword": 15,
+        "semicolon": 3,
+        "static": 7,
+        "string": 178,
+        "struct": 66,
+        "typeAlias": 27,
+        "typeParameter": 14,
+        "union": 2,
+        "unresolvedReference": 2,
+        "variable": 350
+      },
+      "modifiers": {
+        "associated": 56,
+        "async": 24,
+        "attribute": 180,
+        "callable": 23,
+        "constant": 52,
+        "consuming": 11,
+        "controlFlow": 37,
+        "crateRoot": 10,
+        "declaration": 315,
+        "defaultLibrary": 202,
+        "documentation": 28,
+        "injected": 30,
+        "intraDocLink": 2,
+        "library": 210,
+        "macro": 484,
+        "mutable": 159,
+        "procMacro": 20,
+        "public": 17,
+        "reference": 118,
+        "static": 39,
+        "trait": 42,
+        "unsafe": 17
+      },
+      "samples": [
+        {
+          "file": "src/async_flow.rs",
+          "line": 8,
+          "column": 10,
+          "length": 11,
+          "text": "fetch_count",
+          "type": "function",
+          "modifiers": [
+            "async",
+            "declaration"
+          ]
+        },
+        {
+          "file": "src/async_flow.rs",
+          "line": 9,
+          "column": 47,
+          "length": 5,
+          "text": "await",
+          "type": "keyword",
+          "modifiers": [
+            "async",
+            "controlFlow"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 15,
+          "column": 19,
+          "length": 11,
+          "text": "ThemeSample",
+          "type": "derive",
+          "modifiers": [
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 26,
+          "column": 10,
+          "length": 6,
+          "text": "always",
+          "type": "generic",
+          "modifiers": [
+            "attribute"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 40,
+          "column": 3,
+          "length": 10,
+          "text": "theme_hint",
+          "type": "deriveHelper",
+          "modifiers": [
+            "attribute",
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 45,
+          "column": 17,
+          "length": 8,
+          "text": "identity",
+          "type": "decorator",
+          "modifiers": [
+            "attribute",
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 47,
+          "column": 19,
+          "length": 13,
+          "text": "identity_expr",
+          "type": "procMacro",
+          "modifiers": [
+            "library",
+            "macro",
+            "procMacro"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 9,
+          "column": 10,
+          "length": 12,
+          "text": "const_double",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "constant"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 23,
+          "column": 32,
+          "length": 3,
+          "text": "new",
+          "type": "function",
+          "modifiers": [
+            "static",
+            "associated",
+            "constant"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 25,
+          "column": 8,
+          "length": 8,
+          "text": "diagonal",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "static",
+            "associated"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 33,
+          "column": 14,
+          "length": 5,
+          "text": "total",
+          "type": "method",
+          "modifiers": [
+            "declaration",
+            "associated",
+            "constant",
+            "reference"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 76,
+          "column": 9,
+          "length": 8,
+          "text": "writable",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "mutable",
+            "reference"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 110,
+          "column": 9,
+          "length": 7,
+          "text": "pointer",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "callable"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 115,
+          "column": 9,
+          "length": 11,
+          "text": "accumulator",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "callable"
+          ]
+        },
+        {
+          "file": "src/types_patterns.rs",
+          "line": 11,
+          "column": 7,
+          "length": 4,
+          "text": "Word",
+          "type": "union",
+          "modifiers": [
+            "declaration"
+          ]
+        }
+      ]
+    },
+    "diagnostics": {
+      "configuration": {
+        "checkOnSave": false,
+        "cargo": {
+          "buildScripts": {
+            "enable": true
+          },
+          "features": [
+            "error-preview"
+          ]
+        },
+        "semanticHighlighting": {
+          "nonStandardTokens": true,
+          "strings": {
+            "enable": true
+          },
+          "operator": {
+            "enable": true,
+            "specialization": {
+              "enable": false
+            }
+          },
+          "punctuation": {
+            "enable": false
+          }
+        },
+        "procMacro": {
+          "enable": true
+        }
+      },
+      "serverStatus": {
+        "health": "ok",
+        "quiescent": true,
+        "message": null
+      },
+      "tokensByFile": {
+        "src/advanced.rs": 239,
+        "src/async_flow.rs": 226,
+        "src/attributes_macros.rs": 201,
+        "src/diagnostics/errors.rs": 24,
+        "src/diagnostics.rs": 70,
+        "src/functions.rs": 327,
+        "src/literals.rs": 239,
+        "src/main.rs": 338,
+        "src/types_patterns.rs": 398,
+        "theme_macros/src/lib.rs": 39
+      },
+      "tokenTypes": {
+        "arithmetic": 1,
+        "attributeBracket": 85,
+        "builtinAttribute": 11,
+        "builtinType": 108,
+        "comment": 30,
+        "const": 15,
+        "constParameter": 2,
+        "decorator": 11,
+        "derive": 18,
+        "deriveHelper": 1,
+        "enum": 22,
+        "enumMember": 31,
+        "escapeSequence": 12,
+        "formatSpecifier": 328,
+        "function": 114,
+        "generic": 21,
+        "interface": 21,
+        "invalidEscapeSequence": 1,
+        "keyword": 70,
+        "label": 5,
+        "lifetime": 9,
+        "macro": 126,
+        "method": 54,
+        "namespace": 39,
+        "number": 14,
+        "operator": 76,
+        "parameter": 80,
+        "procMacro": 2,
+        "property": 65,
+        "punctuation": 9,
+        "selfKeyword": 35,
+        "selfTypeKeyword": 15,
+        "static": 7,
+        "string": 190,
+        "struct": 67,
+        "toolModule": 2,
+        "typeAlias": 27,
+        "typeParameter": 14,
+        "union": 2,
+        "unresolvedReference": 1,
+        "variable": 360
+      },
+      "modifiers": {
+        "associated": 56,
+        "async": 24,
+        "attribute": 162,
+        "callable": 23,
+        "constant": 52,
+        "consuming": 11,
+        "controlFlow": 37,
+        "crateRoot": 11,
+        "declaration": 329,
+        "defaultLibrary": 208,
+        "deprecated": 2,
+        "documentation": 32,
+        "injected": 30,
+        "intraDocLink": 2,
+        "library": 216,
+        "macro": 353,
+        "mutable": 160,
+        "procMacro": 13,
+        "public": 21,
+        "reference": 120,
+        "static": 39,
+        "trait": 42,
+        "unsafe": 17
+      },
+      "samples": [
+        {
+          "file": "src/async_flow.rs",
+          "line": 8,
+          "column": 10,
+          "length": 11,
+          "text": "fetch_count",
+          "type": "function",
+          "modifiers": [
+            "async",
+            "declaration"
+          ]
+        },
+        {
+          "file": "src/async_flow.rs",
+          "line": 9,
+          "column": 47,
+          "length": 5,
+          "text": "await",
+          "type": "keyword",
+          "modifiers": [
+            "async",
+            "controlFlow"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 15,
+          "column": 19,
+          "length": 11,
+          "text": "ThemeSample",
+          "type": "derive",
+          "modifiers": [
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 26,
+          "column": 10,
+          "length": 6,
+          "text": "always",
+          "type": "generic",
+          "modifiers": [
+            "attribute"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 40,
+          "column": 3,
+          "length": 10,
+          "text": "theme_hint",
+          "type": "deriveHelper",
+          "modifiers": [
+            "attribute",
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 45,
+          "column": 17,
+          "length": 8,
+          "text": "identity",
+          "type": "decorator",
+          "modifiers": [
+            "attribute",
+            "library"
+          ]
+        },
+        {
+          "file": "src/attributes_macros.rs",
+          "line": 47,
+          "column": 19,
+          "length": 13,
+          "text": "identity_expr",
+          "type": "procMacro",
+          "modifiers": [
+            "library",
+            "macro",
+            "procMacro"
+          ]
+        },
+        {
+          "file": "src/diagnostics/errors.rs",
+          "line": 6,
+          "column": 22,
+          "length": 14,
+          "text": "missing_symbol",
+          "type": "unresolvedReference",
+          "modifiers": []
+        },
+        {
+          "file": "src/diagnostics/errors.rs",
+          "line": 7,
+          "column": 39,
+          "length": 2,
+          "text": "\\q",
+          "type": "invalidEscapeSequence",
+          "modifiers": []
+        },
+        {
+          "file": "src/diagnostics.rs",
+          "line": 13,
+          "column": 4,
+          "length": 9,
+          "text": "old_value",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "deprecated"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 9,
+          "column": 10,
+          "length": 12,
+          "text": "const_double",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "constant"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 23,
+          "column": 32,
+          "length": 3,
+          "text": "new",
+          "type": "function",
+          "modifiers": [
+            "static",
+            "associated",
+            "constant"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 25,
+          "column": 8,
+          "length": 8,
+          "text": "diagonal",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "static",
+            "associated"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 33,
+          "column": 14,
+          "length": 5,
+          "text": "total",
+          "type": "method",
+          "modifiers": [
+            "declaration",
+            "associated",
+            "constant",
+            "reference"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 76,
+          "column": 9,
+          "length": 8,
+          "text": "writable",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "mutable",
+            "reference"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 110,
+          "column": 9,
+          "length": 7,
+          "text": "pointer",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "callable"
+          ]
+        },
+        {
+          "file": "src/functions.rs",
+          "line": 115,
+          "column": 9,
+          "length": 11,
+          "text": "accumulator",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "callable"
+          ]
+        },
+        {
+          "file": "src/types_patterns.rs",
+          "line": 11,
+          "column": 7,
+          "length": 4,
+          "text": "Word",
+          "type": "union",
+          "modifiers": [
+            "declaration"
+          ]
+        }
+      ]
+    }
+  }
+}

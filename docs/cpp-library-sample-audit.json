@@ -1,0 +1,3368 @@
+{
+  "date": "2026-11-07",
+  "phase": "supplemental standard-library/header/preprocessor group: observed visual feedback accepted",
+  "themeChanged": false,
+  "themeSha256": "cc9394a152c0107d7170d3c6525c084f180720f373e35a879df6be06ed4040d6",
+  "package": "local-vsix-cpp-r3-build.json",
+  "server": {
+    "name": "clangd",
+    "version": "clangd version 23.1.0 (https://github.com/llvm/llvm-project ea7d852a70e8bdfaf601d6626a760f9771b2c4b4) linux+grpc x86_64-unknown-linux-gnu"
+  },
+  "files": [
+    {
+      "source": "/home/xiaobai/projects/cpp_theme_test/standard_library.cpp",
+      "sourceSha256": "1214aa1e694bcd48ae232dfe9c0bf1351b965bf4d42ab436cc414a9685eba727",
+      "semanticTokens": 96,
+      "textMateTokens": 392,
+      "diagnostics": [
+        {
+          "diagnostics": [],
+          "uri": "file:///home/xiaobai/projects/cpp_theme_test/standard_library.cpp",
+          "version": 1
+        }
+      ],
+      "tokens": [
+        {
+          "line": 8,
+          "column": 9,
+          "length": 23,
+          "text": "LIGHTGREEN_EXTRA_SAMPLE",
+          "type": "macro",
+          "modifiers": [
+            "declaration",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 10,
+          "column": 11,
+          "length": 15,
+          "text": "library_preview",
+          "type": "namespace",
+          "modifiers": [
+            "declaration",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 12,
+          "column": 1,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 12,
+          "column": 6,
+          "length": 6,
+          "text": "string",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "fileScope"
+          ]
+        },
+        {
+          "line": 12,
+          "column": 13,
+          "length": 8,
+          "text": "describe",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 12,
+          "column": 28,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 12,
+          "column": 35,
+          "length": 5,
+          "text": "entry",
+          "type": "parameter",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 12,
+          "length": 5,
+          "text": "entry",
+          "type": "parameter",
+          "modifiers": [
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 18,
+          "length": 4,
+          "text": "name",
+          "type": "property",
+          "modifiers": [
+            "classScope"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 23,
+          "length": 1,
+          "text": "+",
+          "type": "operator",
+          "modifiers": [
+            "userDefined"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 29,
+          "length": 1,
+          "text": "+",
+          "type": "operator",
+          "modifiers": [
+            "userDefined"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 31,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 36,
+          "length": 9,
+          "text": "to_string",
+          "type": "function",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 46,
+          "length": 5,
+          "text": "entry",
+          "type": "parameter",
+          "modifiers": [
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 13,
+          "column": 52,
+          "length": 5,
+          "text": "count",
+          "type": "property",
+          "modifiers": [
+            "classScope"
+          ]
+        },
+        {
+          "line": 18,
+          "column": 5,
+          "length": 4,
+          "text": "main",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 20,
+          "column": 11,
+          "length": 15,
+          "text": "library_preview",
+          "type": "namespace",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 20,
+          "column": 28,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 21,
+          "column": 11,
+          "length": 9,
+          "text": "EntryList",
+          "type": "class",
+          "modifiers": [
+            "declaration",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 21,
+          "column": 23,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 21,
+          "column": 28,
+          "length": 6,
+          "text": "vector",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 21,
+          "column": 34,
+          "length": 1,
+          "text": "<",
+          "type": "bracket",
+          "modifiers": []
+        },
+        {
+          "line": 21,
+          "column": 35,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 21,
+          "column": 40,
+          "length": 1,
+          "text": ">",
+          "type": "bracket",
+          "modifiers": []
+        },
+        {
+          "line": 22,
+          "column": 5,
+          "length": 9,
+          "text": "EntryList",
+          "type": "class",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 22,
+          "column": 15,
+          "length": 7,
+          "text": "entries",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 23,
+          "column": 5,
+          "length": 7,
+          "text": "entries",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 23,
+          "column": 13,
+          "length": 9,
+          "text": "push_back",
+          "type": "method",
+          "modifiers": [
+            "defaultLibrary",
+            "classScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 5,
+          "length": 4,
+          "text": "auto",
+          "type": "class",
+          "modifiers": [
+            "deduced",
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 10,
+          "length": 6,
+          "text": "chosen",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 19,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 24,
+          "length": 11,
+          "text": "make_unique",
+          "type": "function",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 35,
+          "length": 1,
+          "text": "<",
+          "type": "bracket",
+          "modifiers": []
+        },
+        {
+          "line": 26,
+          "column": 36,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 41,
+          "length": 1,
+          "text": ">",
+          "type": "bracket",
+          "modifiers": []
+        },
+        {
+          "line": 26,
+          "column": 43,
+          "length": 7,
+          "text": "entries",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 26,
+          "column": 51,
+          "length": 5,
+          "text": "front",
+          "type": "method",
+          "modifiers": [
+            "defaultLibrary",
+            "classScope"
+          ]
+        },
+        {
+          "line": 27,
+          "column": 5,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 27,
+          "column": 10,
+          "length": 8,
+          "text": "optional",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 27,
+          "column": 18,
+          "length": 1,
+          "text": "<",
+          "type": "bracket",
+          "modifiers": []
+        },
+        {
+          "line": 27,
+          "column": 19,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 27,
+          "column": 24,
+          "length": 1,
+          "text": ">",
+          "type": "bracket",
+          "modifiers": []
+        },
+        {
+          "line": 27,
+          "column": 26,
+          "length": 14,
+          "text": "optional_entry",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 27,
+          "column": 43,
+          "length": 1,
+          "text": "*",
+          "type": "operator",
+          "modifiers": [
+            "userDefined"
+          ]
+        },
+        {
+          "line": 27,
+          "column": 44,
+          "length": 6,
+          "text": "chosen",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 11,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 16,
+          "length": 6,
+          "text": "string",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "fileScope"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 23,
+          "length": 5,
+          "text": "label",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 31,
+          "length": 15,
+          "text": "library_preview",
+          "type": "namespace",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 48,
+          "length": 8,
+          "text": "describe",
+          "type": "function",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 57,
+          "length": 1,
+          "text": "*",
+          "type": "operator",
+          "modifiers": [
+            "userDefined"
+          ]
+        },
+        {
+          "line": 28,
+          "column": 58,
+          "length": 6,
+          "text": "chosen",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 29,
+          "column": 5,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 29,
+          "column": 10,
+          "length": 6,
+          "text": "string",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "fileScope"
+          ]
+        },
+        {
+          "line": 29,
+          "column": 18,
+          "length": 9,
+          "text": "size_type",
+          "type": "type",
+          "modifiers": [
+            "defaultLibrary",
+            "classScope"
+          ]
+        },
+        {
+          "line": 29,
+          "column": 28,
+          "length": 6,
+          "text": "length",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 29,
+          "column": 37,
+          "length": 5,
+          "text": "label",
+          "type": "variable",
+          "modifiers": [
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 29,
+          "column": 43,
+          "length": 4,
+          "text": "size",
+          "type": "method",
+          "modifiers": [
+            "readonly",
+            "defaultLibrary",
+            "classScope"
+          ]
+        },
+        {
+          "line": 32,
+          "column": 9,
+          "length": 5,
+          "text": "total",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 33,
+          "column": 16,
+          "length": 4,
+          "text": "auto",
+          "type": "class",
+          "modifiers": [
+            "deduced",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 33,
+          "column": 22,
+          "length": 5,
+          "text": "entry",
+          "type": "variable",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 33,
+          "column": 30,
+          "length": 7,
+          "text": "entries",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 34,
+          "column": 9,
+          "length": 5,
+          "text": "total",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 34,
+          "column": 15,
+          "length": 2,
+          "text": "+=",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 34,
+          "column": 18,
+          "length": 5,
+          "text": "entry",
+          "type": "variable",
+          "modifiers": [
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 34,
+          "column": 24,
+          "length": 5,
+          "text": "count",
+          "type": "property",
+          "modifiers": [
+            "classScope"
+          ]
+        },
+        {
+          "line": 36,
+          "column": 5,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 36,
+          "column": 10,
+          "length": 4,
+          "text": "sort",
+          "type": "function",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 36,
+          "column": 15,
+          "length": 7,
+          "text": "entries",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 36,
+          "column": 23,
+          "length": 5,
+          "text": "begin",
+          "type": "method",
+          "modifiers": [
+            "defaultLibrary",
+            "classScope"
+          ]
+        },
+        {
+          "line": 36,
+          "column": 32,
+          "length": 7,
+          "text": "entries",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 36,
+          "column": 40,
+          "length": 3,
+          "text": "end",
+          "type": "method",
+          "modifiers": [
+            "defaultLibrary",
+            "classScope"
+          ]
+        },
+        {
+          "line": 37,
+          "column": 24,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 37,
+          "column": 31,
+          "length": 4,
+          "text": "left",
+          "type": "parameter",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 37,
+          "column": 43,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 37,
+          "column": 50,
+          "length": 5,
+          "text": "right",
+          "type": "parameter",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 38,
+          "column": 26,
+          "length": 4,
+          "text": "left",
+          "type": "parameter",
+          "modifiers": [
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 38,
+          "column": 31,
+          "length": 5,
+          "text": "count",
+          "type": "property",
+          "modifiers": [
+            "classScope"
+          ]
+        },
+        {
+          "line": 38,
+          "column": 37,
+          "length": 1,
+          "text": "<",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 38,
+          "column": 39,
+          "length": 5,
+          "text": "right",
+          "type": "parameter",
+          "modifiers": [
+            "readonly",
+            "functionScope"
+          ]
+        },
+        {
+          "line": 38,
+          "column": 45,
+          "length": 5,
+          "text": "count",
+          "type": "property",
+          "modifiers": [
+            "classScope"
+          ]
+        },
+        {
+          "line": 42,
+          "column": 5,
+          "length": 23,
+          "text": "LIGHTGREEN_EXTRA_SAMPLE",
+          "type": "macro",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 43,
+          "column": 5,
+          "length": 5,
+          "text": "total",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 43,
+          "column": 11,
+          "length": 2,
+          "text": "+=",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 43,
+          "column": 14,
+          "length": 14,
+          "text": "optional_entry",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 43,
+          "column": 28,
+          "length": 2,
+          "text": "->",
+          "type": "operator",
+          "modifiers": [
+            "userDefined"
+          ]
+        },
+        {
+          "line": 43,
+          "column": 30,
+          "length": 5,
+          "text": "count",
+          "type": "property",
+          "modifiers": [
+            "classScope"
+          ]
+        },
+        {
+          "line": 45,
+          "column": 1,
+          "length": 17,
+          "text": "    total -= 100;",
+          "type": "comment",
+          "modifiers": []
+        },
+        {
+          "line": 52,
+          "column": 17,
+          "length": 2,
+          "text": "&&",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 52,
+          "column": 20,
+          "length": 6,
+          "text": "length",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 52,
+          "column": 27,
+          "length": 1,
+          "text": ">",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 52,
+          "column": 31,
+          "length": 2,
+          "text": "&&",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 52,
+          "column": 34,
+          "length": 5,
+          "text": "total",
+          "type": "variable",
+          "modifiers": [
+            "functionScope"
+          ]
+        },
+        {
+          "line": 52,
+          "column": 40,
+          "length": 2,
+          "text": "==",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 52,
+          "column": 45,
+          "length": 1,
+          "text": "?",
+          "type": "operator",
+          "modifiers": []
+        },
+        {
+          "line": 52,
+          "column": 49,
+          "length": 1,
+          "text": ":",
+          "type": "operator",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "source": "/home/xiaobai/projects/cpp_theme_test/library_types.hpp",
+      "sourceSha256": "0b3bc5639cd20c784855da3853ea65cc581c86ee1fe65b112440239544879eca",
+      "semanticTokens": 11,
+      "textMateTokens": 66,
+      "diagnostics": [
+        {
+          "diagnostics": [],
+          "uri": "file:///home/xiaobai/projects/cpp_theme_test/library_types.hpp",
+          "version": 1
+        }
+      ],
+      "tokens": [
+        {
+          "line": 5,
+          "column": 11,
+          "length": 15,
+          "text": "library_preview",
+          "type": "namespace",
+          "modifiers": [
+            "declaration",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 8,
+          "column": 8,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 9,
+          "column": 5,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 9,
+          "column": 10,
+          "length": 6,
+          "text": "string",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "fileScope"
+          ]
+        },
+        {
+          "line": 9,
+          "column": 17,
+          "length": 4,
+          "text": "name",
+          "type": "property",
+          "modifiers": [
+            "declaration",
+            "classScope"
+          ]
+        },
+        {
+          "line": 10,
+          "column": 9,
+          "length": 5,
+          "text": "count",
+          "type": "property",
+          "modifiers": [
+            "declaration",
+            "classScope"
+          ]
+        },
+        {
+          "line": 18,
+          "column": 1,
+          "length": 3,
+          "text": "std",
+          "type": "namespace",
+          "modifiers": [
+            "defaultLibrary",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 18,
+          "column": 6,
+          "length": 6,
+          "text": "string",
+          "type": "class",
+          "modifiers": [
+            "defaultLibrary",
+            "fileScope"
+          ]
+        },
+        {
+          "line": 18,
+          "column": 13,
+          "length": 8,
+          "text": "describe",
+          "type": "function",
+          "modifiers": [
+            "declaration",
+            "globalScope"
+          ]
+        },
+        {
+          "line": 18,
+          "column": 28,
+          "length": 5,
+          "text": "Entry",
+          "type": "class",
+          "modifiers": [
+            "globalScope"
+          ]
+        },
+        {
+          "line": 18,
+          "column": 35,
+          "length": 5,
+          "text": "entry",
+          "type": "parameter",
+          "modifiers": [
+            "declaration",
+            "definition",
+            "readonly",
+            "functionScope"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "cmakeConfigureAndBuild": "passed",
+    "newExecutableRun": "exit 0",
+    "explicitCpp20Commands": "both targets have -std=c++20",
+    "clangdDiagnostics": "empty for both files",
+    "semanticTokens": 107,
+    "textMateTokens": 458,
+    "inferredSemanticStyles": "resolved against existing cpp-r3 rules; no underlines",
+    "visualPreview": "User confirms the observed group has no issues; no precise per-token screenshots or dimming measurements."
+  },
+  "expectedStyles": [
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 8,
+        "column": 9,
+        "length": 23,
+        "text": "LIGHTGREEN_EXTRA_SAMPLE",
+        "type": "macro",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 10,
+        "column": 11,
+        "length": 15,
+        "text": "library_preview",
+        "type": "namespace",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 12,
+        "column": 1,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 12,
+        "column": 6,
+        "length": 6,
+        "text": "string",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "fileScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 12,
+        "column": 13,
+        "length": 8,
+        "text": "describe",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 12,
+        "column": 28,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 12,
+        "column": 35,
+        "length": 5,
+        "text": "entry",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 12,
+        "length": 5,
+        "text": "entry",
+        "type": "parameter",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 18,
+        "length": 4,
+        "text": "name",
+        "type": "property",
+        "modifiers": [
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 23,
+        "length": 1,
+        "text": "+",
+        "type": "operator",
+        "modifiers": [
+          "userDefined"
+        ]
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 29,
+        "length": 1,
+        "text": "+",
+        "type": "operator",
+        "modifiers": [
+          "userDefined"
+        ]
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 31,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 36,
+        "length": 9,
+        "text": "to_string",
+        "type": "function",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 46,
+        "length": 5,
+        "text": "entry",
+        "type": "parameter",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 13,
+        "column": 52,
+        "length": 5,
+        "text": "count",
+        "type": "property",
+        "modifiers": [
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 18,
+        "column": 5,
+        "length": 4,
+        "text": "main",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 20,
+        "column": 11,
+        "length": 15,
+        "text": "library_preview",
+        "type": "namespace",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 20,
+        "column": 28,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 21,
+        "column": 11,
+        "length": 9,
+        "text": "EntryList",
+        "type": "class",
+        "modifiers": [
+          "declaration",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 21,
+        "column": 23,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 21,
+        "column": 28,
+        "length": 6,
+        "text": "vector",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 21,
+        "column": 34,
+        "length": 1,
+        "text": "<",
+        "type": "bracket",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#333333",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 21,
+        "column": 35,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 21,
+        "column": 40,
+        "length": 1,
+        "text": ">",
+        "type": "bracket",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#333333",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 22,
+        "column": 5,
+        "length": 9,
+        "text": "EntryList",
+        "type": "class",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 22,
+        "column": 15,
+        "length": 7,
+        "text": "entries",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 23,
+        "column": 5,
+        "length": 7,
+        "text": "entries",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 23,
+        "column": 13,
+        "length": 9,
+        "text": "push_back",
+        "type": "method",
+        "modifiers": [
+          "defaultLibrary",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 5,
+        "length": 4,
+        "text": "auto",
+        "type": "class",
+        "modifiers": [
+          "deduced",
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 10,
+        "length": 6,
+        "text": "chosen",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 19,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 24,
+        "length": 11,
+        "text": "make_unique",
+        "type": "function",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 35,
+        "length": 1,
+        "text": "<",
+        "type": "bracket",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#333333",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 36,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 41,
+        "length": 1,
+        "text": ">",
+        "type": "bracket",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#333333",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 43,
+        "length": 7,
+        "text": "entries",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 26,
+        "column": 51,
+        "length": 5,
+        "text": "front",
+        "type": "method",
+        "modifiers": [
+          "defaultLibrary",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 5,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 10,
+        "length": 8,
+        "text": "optional",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 18,
+        "length": 1,
+        "text": "<",
+        "type": "bracket",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#333333",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 19,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 24,
+        "length": 1,
+        "text": ">",
+        "type": "bracket",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#333333",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 26,
+        "length": 14,
+        "text": "optional_entry",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 43,
+        "length": 1,
+        "text": "*",
+        "type": "operator",
+        "modifiers": [
+          "userDefined"
+        ]
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 27,
+        "column": 44,
+        "length": 6,
+        "text": "chosen",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 11,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 16,
+        "length": 6,
+        "text": "string",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "fileScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 23,
+        "length": 5,
+        "text": "label",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 31,
+        "length": 15,
+        "text": "library_preview",
+        "type": "namespace",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 48,
+        "length": 8,
+        "text": "describe",
+        "type": "function",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 57,
+        "length": 1,
+        "text": "*",
+        "type": "operator",
+        "modifiers": [
+          "userDefined"
+        ]
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 28,
+        "column": 58,
+        "length": 6,
+        "text": "chosen",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 29,
+        "column": 5,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 29,
+        "column": 10,
+        "length": 6,
+        "text": "string",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "fileScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 29,
+        "column": 18,
+        "length": 9,
+        "text": "size_type",
+        "type": "type",
+        "modifiers": [
+          "defaultLibrary",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 29,
+        "column": 28,
+        "length": 6,
+        "text": "length",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 29,
+        "column": 37,
+        "length": 5,
+        "text": "label",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 29,
+        "column": 43,
+        "length": 4,
+        "text": "size",
+        "type": "method",
+        "modifiers": [
+          "readonly",
+          "defaultLibrary",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 32,
+        "column": 9,
+        "length": 5,
+        "text": "total",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 33,
+        "column": 16,
+        "length": 4,
+        "text": "auto",
+        "type": "class",
+        "modifiers": [
+          "deduced",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 33,
+        "column": 22,
+        "length": 5,
+        "text": "entry",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 33,
+        "column": 30,
+        "length": 7,
+        "text": "entries",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 34,
+        "column": 9,
+        "length": 5,
+        "text": "total",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 34,
+        "column": 15,
+        "length": 2,
+        "text": "+=",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 34,
+        "column": 18,
+        "length": 5,
+        "text": "entry",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 34,
+        "column": 24,
+        "length": 5,
+        "text": "count",
+        "type": "property",
+        "modifiers": [
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 36,
+        "column": 5,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 36,
+        "column": 10,
+        "length": 4,
+        "text": "sort",
+        "type": "function",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 36,
+        "column": 15,
+        "length": 7,
+        "text": "entries",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 36,
+        "column": 23,
+        "length": 5,
+        "text": "begin",
+        "type": "method",
+        "modifiers": [
+          "defaultLibrary",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 36,
+        "column": 32,
+        "length": 7,
+        "text": "entries",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 36,
+        "column": 40,
+        "length": 3,
+        "text": "end",
+        "type": "method",
+        "modifiers": [
+          "defaultLibrary",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 37,
+        "column": 24,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 37,
+        "column": 31,
+        "length": 4,
+        "text": "left",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 37,
+        "column": 43,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 37,
+        "column": 50,
+        "length": 5,
+        "text": "right",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 38,
+        "column": 26,
+        "length": 4,
+        "text": "left",
+        "type": "parameter",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 38,
+        "column": 31,
+        "length": 5,
+        "text": "count",
+        "type": "property",
+        "modifiers": [
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 38,
+        "column": 37,
+        "length": 1,
+        "text": "<",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 38,
+        "column": 39,
+        "length": 5,
+        "text": "right",
+        "type": "parameter",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 38,
+        "column": 45,
+        "length": 5,
+        "text": "count",
+        "type": "property",
+        "modifiers": [
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 42,
+        "column": 5,
+        "length": 23,
+        "text": "LIGHTGREEN_EXTRA_SAMPLE",
+        "type": "macro",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 43,
+        "column": 5,
+        "length": 5,
+        "text": "total",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 43,
+        "column": 11,
+        "length": 2,
+        "text": "+=",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 43,
+        "column": 14,
+        "length": 14,
+        "text": "optional_entry",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 43,
+        "column": 28,
+        "length": 2,
+        "text": "->",
+        "type": "operator",
+        "modifiers": [
+          "userDefined"
+        ]
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 43,
+        "column": 30,
+        "length": 5,
+        "text": "count",
+        "type": "property",
+        "modifiers": [
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 45,
+        "column": 1,
+        "length": 17,
+        "text": "    total -= 100;",
+        "type": "comment",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#93A1A1",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 17,
+        "length": 2,
+        "text": "&&",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 20,
+        "length": 6,
+        "text": "length",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 27,
+        "length": 1,
+        "text": ">",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 31,
+        "length": 2,
+        "text": "&&",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 34,
+        "length": 5,
+        "text": "total",
+        "type": "variable",
+        "modifiers": [
+          "functionScope"
+        ]
+      },
+      "style": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 40,
+        "length": 2,
+        "text": "==",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 45,
+        "length": 1,
+        "text": "?",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "standard_library.cpp",
+      "token": {
+        "line": 52,
+        "column": 49,
+        "length": 1,
+        "text": ":",
+        "type": "operator",
+        "modifiers": []
+      },
+      "style": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 5,
+        "column": 11,
+        "length": 15,
+        "text": "library_preview",
+        "type": "namespace",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 8,
+        "column": 8,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 9,
+        "column": 5,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 9,
+        "column": 10,
+        "length": 6,
+        "text": "string",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "fileScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 9,
+        "column": 17,
+        "length": 4,
+        "text": "name",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 10,
+        "column": 9,
+        "length": 5,
+        "text": "count",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 18,
+        "column": 1,
+        "length": 3,
+        "text": "std",
+        "type": "namespace",
+        "modifiers": [
+          "defaultLibrary",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 18,
+        "column": 6,
+        "length": 6,
+        "text": "string",
+        "type": "class",
+        "modifiers": [
+          "defaultLibrary",
+          "fileScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 18,
+        "column": 13,
+        "length": 8,
+        "text": "describe",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "style": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 18,
+        "column": 28,
+        "length": 5,
+        "text": "Entry",
+        "type": "class",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "style": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "library_types.hpp",
+      "token": {
+        "line": 18,
+        "column": 35,
+        "length": 5,
+        "text": "entry",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "style": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "limitations": [
+    "Style results are based on actual token data and theme-rule inference, not screenshots.",
+    "User accepts the observed preprocessor group; token capture did not measure inactive-region dimming or verify all branch states.",
+    "Local clangd 23.1.0 and local standard library only; not a company toolchain or third-party library matrix."
+  ],
+  "userVisualFeedback": {
+    "date": "2026-11-07",
+    "quote": "这一组没问题了，接下来呢",
+    "scope": "Accepts observed supplemental standard-library, cross-file, preprocessor and block-comment group; not a company toolchain or exhaustive C++ acceptance.",
+    "nextSuggested": "Use existing cpp-r3 in a real company C++ project; not yet performed or accepted."
+  },
+  "historicalSnapshotFor": "cpp-r3 before the C++ underline trial",
+  "subsequentUnderlineTrial": "cpp-underline-audit.json"
+}

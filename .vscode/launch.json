@@ -6,6 +6,24 @@
 	"version": "0.2.0",
     "configurations": [
         {
+            "name": "Preview Rust Theme",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}",
+                "${workspaceFolder}/../rust_theme_test"
+            ]
+        },
+        {
+            "name": "Preview C++ Theme",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}",
+                "${workspaceFolder}/../cpp_theme_test"
+            ]
+        },
+        {
             "name": "Extension",
             "type": "extensionHost",
             "request": "launch",

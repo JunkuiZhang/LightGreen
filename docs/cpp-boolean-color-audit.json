@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "userRequest": "true/false这个能改成跟rust一样吗",
+  "status": "implemented_user_visual_feedback_positive",
+  "themeSha256": "cc9394a152c0107d7170d3c6525c084f180720f373e35a879df6be06ed4040d6",
+  "previousThemeSha256": "90fd15a254230f48192cab481cc69f569c1972bdef90945169e6ee855d6ceda2",
+  "change": {
+    "ruleIndex": 4,
+    "addedScopes": [
+      "constant.language.true.cpp",
+      "constant.language.false.cpp"
+    ],
+    "foreground": "#D33682",
+    "reuses": "Existing numeric TextMate foreground, matching Rust semantic boolean color",
+    "newRules": 0
+  },
+  "source": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+  "sourceSha256": "81a935f87008f4d59fd203b222dda1918fa95a8ae76cf21cde008db4f5dc23ce",
+  "checks": {
+    "exactThemeDiff": "Only the two scopes added to the existing numeric foreground rule",
+    "jsoncAndConfiguration": "passed; existing transparency limitations retained",
+    "semanticRulesAndUi": "unchanged",
+    "cppTextMateTokensCompared": 1600,
+    "cppChangedForegrounds": 2,
+    "allFonts": "unchanged",
+    "rustFilesCompared": 9,
+    "rustTextMateTokensUnchanged": 6653,
+    "semanticOverride": "No boolean literal tokens in retained clangd data for unchanged sample",
+    "eofNewline": "unchanged: absent"
+  },
+  "changedTokens": [
+    {
+      "file": "cpp/main.cpp",
+      "line": 135,
+      "text": "true",
+      "scope": "constant.language.true.cpp",
+      "before": "#B58900",
+      "after": "#D33682"
+    },
+    {
+      "file": "cpp/main.cpp",
+      "line": 136,
+      "text": "false",
+      "scope": "constant.language.false.cpp",
+      "before": "#B58900",
+      "after": "#D33682"
+    }
+  ],
+  "visualVerification": "User confirms the observed literal/line-comment group, including cpp-r3 true/false rose color.",
+  "limitations": [
+    "Real grammar comparison covers existing sample files, not all C++ syntax or all clangd versions."
+  ],
+  "packageRecord": "local-vsix-cpp-r3-build.json",
+  "userVisualFeedback": {
+    "date": "2026-11-07",
+    "quote": "这一组没问题了，接下来呢",
+    "scope": "Accepts observed literal/line-comment group, including the cpp-r3 boolean-color change. Does not include newly added block comments or standard-library/header samples.",
+    "nextReview": [
+      "standard-library types and calls",
+      "cross-file types and functions",
+      "preprocessor and inactive-branch readability",
+      "block and documentation comments"
+    ]
+  }
+}

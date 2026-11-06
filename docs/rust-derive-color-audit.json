@@ -1,0 +1,284 @@
+{
+  "date": "2026-11-07",
+  "themeSha256": "ab9c815153c2501481e58fae3722da82d502e4b3522c88a5b1cd05b4e6b5b5ef",
+  "selector": "derive:rust",
+  "style": {
+    "foreground": "#db7800",
+    "bold": true
+  },
+  "screenshotEvidence": {
+    "file": "codex-clipboard-ac502dce-0751-4b02-8731-a99599f90d7c.png",
+    "token": "Copy",
+    "semanticType": "derive",
+    "modifiers": [
+      "defaultLibrary",
+      "attribute",
+      "library",
+      "macro"
+    ],
+    "beforeForeground": "#577909",
+    "beforeFontStyle": "bold",
+    "textMateScope": "entity.name.type.rust",
+    "note": "Observed before applying the fix; not an after-fix screenshot."
+  },
+  "matchingEvidence": "Retained actual LSP tokens from 2026-11-06 and installed token hierarchy; not a new LSP session.",
+  "affectedSampleTokens": [
+    {
+      "file": "advanced.rs",
+      "line": 17,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 15,
+      "column": 19,
+      "length": 11,
+      "text": "ThemeSample",
+      "type": "derive",
+      "modifiers": [
+        "library"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 19,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 19,
+      "column": 17,
+      "length": 5,
+      "text": "Clone",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 19,
+      "column": 24,
+      "length": 4,
+      "text": "Copy",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 39,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 39,
+      "column": 17,
+      "length": 11,
+      "text": "ThemeSample",
+      "type": "derive",
+      "modifiers": [
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "functions.rs",
+      "line": 15,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "main.rs",
+      "line": 17,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "main.rs",
+      "line": 17,
+      "column": 17,
+      "length": 5,
+      "text": "Clone",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "main.rs",
+      "line": 17,
+      "column": 24,
+      "length": 4,
+      "text": "Copy",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "main.rs",
+      "line": 25,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 4,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 4,
+      "column": 17,
+      "length": 5,
+      "text": "Clone",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 4,
+      "column": 24,
+      "length": 4,
+      "text": "Copy",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 7,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 49,
+      "column": 10,
+      "length": 5,
+      "text": "Debug",
+      "type": "derive",
+      "modifiers": [
+        "defaultLibrary",
+        "attribute",
+        "library",
+        "macro"
+      ]
+    },
+    {
+      "file": "../theme_macros/src/lib.rs",
+      "line": 19,
+      "column": 8,
+      "length": 12,
+      "text": "theme_sample",
+      "type": "derive",
+      "modifiers": [
+        "declaration",
+        "public"
+      ]
+    }
+  ],
+  "excludedTypes": [
+    "decorator",
+    "builtinAttribute",
+    "keyword",
+    "deriveHelper",
+    "generic",
+    "macro",
+    "procMacro",
+    "struct",
+    "interface"
+  ]
+}

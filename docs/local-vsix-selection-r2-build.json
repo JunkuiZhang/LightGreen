@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-07",
+  "extensionId": "JunkuiZhang.sl-rust",
+  "version": "0.0.1",
+  "themeLabel": "Solarized Light Rust (Local Preview)",
+  "tool": {
+    "name": "@vscode/vsce",
+    "version": "4.1.0",
+    "nodeVersion": "24.22.1",
+    "npmVersion": "12.2.2"
+  },
+  "command": "vsce package --no-dependencies --out dist/sl-rust-0.0.1-local-preview-20261107-selection-r2.vsix",
+  "artifact": "/home/xiaobai/projects/LightGreen/dist/sl-rust-0.0.1-local-preview-20261107-selection-r2.vsix",
+  "windowsCopy": "C:\\Users\\36477\\Downloads\\sl-rust-0.0.1-local-preview-20261107-selection-r2.vsix",
+  "bytes": 13545,
+  "sha256": "c28e716cde5c83abfbeaf2bff12c72fa76d1758496350d3f0fdb9f67dad4eeaf",
+  "files": [
+    {
+      "path": "extension.vsixmanifest",
+      "bytes": 2557,
+      "sha256": "cc871fb0e2b2e9489a9c11e80ba90f529bb504ed819e953e28245fb2ff5d3d0b"
+    },
+    {
+      "path": "[Content_Types].xml",
+      "bytes": 348,
+      "sha256": "59e8be8fbc0df1f686b9f331c76aee9cac0c360f24db21d872965abfaf8d4693"
+    },
+    {
+      "path": "extension/changelog.md",
+      "bytes": 2912,
+      "sha256": "e68cb618cb7f3857e66dbe785b664dd01fc3c7ddc2b390cf69169b4c7382d296"
+    },
+    {
+      "path": "extension/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "d5d1e7a11f84cd3440859fcdba007007f9c959b3102c58617cdb459998bd0f9d"
+    },
+    {
+      "path": "extension/readme.md",
+      "bytes": 4280,
+      "sha256": "29f829532d7a0a21363c3a48bc871e9c568bc71556be1bf7304b9695cc21cffe"
+    },
+    {
+      "path": "extension/package.json",
+      "bytes": 1157,
+      "sha256": "6ad15063ad492914cd64dcdf25dc1af956deebc637ce78ab8b02875b3ccaa60f"
+    },
+    {
+      "path": "extension/syntaxes/rust-macro-parameters.tmLanguage.json",
+      "bytes": 748,
+      "sha256": "677c4eeb8f262839fb4a293f97e0ba7233fd047eb7daa32787166dfe84b021bd"
+    },
+    {
+      "path": "extension/syntaxes/rust-raw-c-strings.tmLanguage.json",
+      "bytes": 1117,
+      "sha256": "394e2f66831356668ebcc011dd770ff18cc73f49d8ec056e5da1646ac1e6606c"
+    },
+    {
+      "path": "extension/themes/slr-color-theme.json",
+      "bytes": 34847,
+      "sha256": "513a98b14c86eeafd28067a9d3fb2665193a441edb7abdc125c4cf5dc3188acd"
+    }
+  ],
+  "runtimeSourceSha256": {
+    "package.json": "6ad15063ad492914cd64dcdf25dc1af956deebc637ce78ab8b02875b3ccaa60f",
+    "themes/slr-color-theme.json": "513a98b14c86eeafd28067a9d3fb2665193a441edb7abdc125c4cf5dc3188acd",
+    "syntaxes/rust-macro-parameters.tmLanguage.json": "677c4eeb8f262839fb4a293f97e0ba7233fd047eb7daa32787166dfe84b021bd",
+    "syntaxes/rust-raw-c-strings.tmLanguage.json": "394e2f66831356668ebcc011dd770ff18cc73f49d8ec056e5da1646ac1e6606c"
+  },
+  "checks": {
+    "vscePackage": "passed",
+    "zipIntegrity": "passed",
+    "expectedFileSet": "passed",
+    "manifestIdentity": "passed",
+    "runtimeBytesMatchSource": "passed",
+    "bothGrammarContributionsIncluded": "passed",
+    "windowsCopyMatches": "passed",
+    "themeStaticAudit": "passed with previously retained transparency limitations",
+    "exactTwoThemeValuesChanged": "passed"
+  },
+  "excluded": [
+    "AGENTS.md",
+    "docs/**",
+    ".vscode/**",
+    ".vscode-test/**",
+    "dist/**",
+    "*.vsix",
+    "vsc-extension-quickstart.md"
+  ],
+  "installedIntoUserProfile": false,
+  "userVisualVerification": "2026-11-07: user says 我天，好太多了 about the softer warm-beige selection; retain it. Individual inactive/overlay states and installed files were not independently inspected.",
+  "published": false,
+  "limitations": [
+    "Package inspection does not replace installation and visual verification in a normal VS Code window.",
+    "Version remains 0.0.1; use Local Preview label plus grammar checks to distinguish the local snapshot."
+  ],
+  "installedByAssistant": false,
+  "previousBuild": "local-vsix-build.json",
+  "themeChanges": {
+    "editor.selectionBackground": {
+      "before": "#EA5C0044",
+      "after": "#E7C49666"
+    },
+    "editor.inactiveSelectionBackground": {
+      "before": "#EA5C0033",
+      "after": "#E7C49644"
+    }
+  },
+  "changedArchiveEntries": [
+    "extension/changelog.md",
+    "extension/themes/slr-color-theme.json"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-07",
+  "userObservation": "C++ const locals often correspond to ordinary immutable Rust bindings, so broad readonly-to-teal coloring covers too many symbols.",
+  "status": "implemented_in_cpp_r2_observed_visual_feedback_positive",
+  "confirmedCause": [
+    "variable.readonly:cpp forces ordinary readonly locals and pointer/reference variables to teal",
+    "property.readonly:cpp changes const instance fields to teal"
+  ],
+  "implementationConstraint": "Broad variable/property readonly overrides removed. Const/constexpr variables without another distinguishing modifier retain ordinary-variable color; separate constexpr classification is deferred by user. Static items and non-type template parameters retain their existing teal rules.",
+  "themeChanged": true,
+  "repackaged": true,
+  "tokenEvidence": [
+    {
+      "line": 20,
+      "column": 17,
+      "length": 5,
+      "text": "LIMIT",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "readonly",
+        "fileScope"
+      ]
+    },
+    {
+      "line": 21,
+      "column": 13,
+      "length": 12,
+      "text": "DEFAULT_STEP",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "readonly",
+        "fileScope"
+      ]
+    },
+    {
+      "line": 30,
+      "column": 15,
+      "length": 6,
+      "text": "origin",
+      "type": "property",
+      "modifiers": [
+        "declaration",
+        "readonly",
+        "classScope"
+      ]
+    },
+    {
+      "line": 32,
+      "column": 23,
+      "length": 9,
+      "text": "instances",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "static",
+        "classScope"
+      ]
+    },
+    {
+      "line": 55,
+      "column": 27,
+      "length": 1,
+      "text": "N",
+      "type": "typeParameter",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "readonly",
+        "classScope"
+      ]
+    },
+    {
+      "line": 104,
+      "column": 15,
+      "length": 5,
+      "text": "fixed",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "readonly",
+        "functionScope"
+      ]
+    },
+    {
+      "line": 105,
+      "column": 19,
+      "length": 6,
+      "text": "extent",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "readonly",
+        "functionScope"
+      ]
+    },
+    {
+      "line": 106,
+      "column": 16,
+      "length": 12,
+      "text": "local_visits",
+      "type": "variable",
+      "modifiers": [
+        "declaration",
+        "definition",
+        "static",
+        "functionScope"
+      ]
+    }
+  ],
+  "sourceSha256": "81a935f87008f4d59fd203b222dda1918fa95a8ae76cf21cde008db4f5dc23ce",
+  "server": {
+    "name": "clangd",
+    "version": "clangd version 23.1.0 (https://github.com/llvm/llvm-project ea7d852a70e8bdfaf601d6626a760f9771b2c4b4) linux+grpc x86_64-unknown-linux-gnu"
+  },
+  "userDecision": {
+    "date": "2026-11-07",
+    "quote": "那就按这个方案改一下吧，constexpr 的识别问题先记下来"
+  },
+  "acceptedRoles": {
+    "ordinaryConstLocalsAndReadonlyPointerReferences": "ordinary variable color",
+    "constInstanceFieldsAndParameters": "parameter/field light green and italic",
+    "staticItemsAndNonTypeTemplateParameters": "retain teal where identifiable",
+    "constexprObjects": "constant role in principle; current clangd tokens do not distinguish ordinary const from constexpr"
+  },
+  "implementationEvidence": "cpp-readonly-fix-audit.json",
+  "constexprStatus": "deferred_by_user_unresolved",
+  "packageRecord": "local-vsix-cpp-r2-build.json",
+  "userVisualFeedback": {
+    "date": "2026-11-07",
+    "quote": "目前看起来还行",
+    "scope": "Positive feedback on the observed cpp-r2 readonly narrowing; not full C++ or per-token acceptance.",
+    "nextReview": [
+      "macro definitions and calls",
+      "standard attributes"
+    ],
+    "constexprStatus": "deferred_by_user_unresolved"
+  }
+}

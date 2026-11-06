@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-07",
+  "themeSha256": "cfa4f88aa68471d724ce8e274fdc30403ba4d6b4a934e962e0e92f0965d51c5f",
+  "addedRules": {
+    "decorator:rust": {
+      "foreground": "#146DAD",
+      "bold": false
+    },
+    "deriveHelper:rust": {
+      "foreground": "#073642",
+      "bold": false
+    }
+  },
+  "evidence": "Retained actual LSP tokens from 2026-11-06; matching attribute/macro sources verified by SHA-256; installed token hierarchy checked. No new LSP session or after-change GUI capture.",
+  "matchingSampleTokens": {
+    "decorator:rust": [
+      {
+        "file": "advanced.rs",
+        "line": 17,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "attributes_macros.rs",
+        "line": 19,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "attributes_macros.rs",
+        "line": 39,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "attributes_macros.rs",
+        "line": 45,
+        "column": 17,
+        "length": 8,
+        "text": "identity",
+        "type": "decorator",
+        "modifiers": [
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "functions.rs",
+        "line": 15,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "main.rs",
+        "line": 17,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "main.rs",
+        "line": 25,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "types_patterns.rs",
+        "line": 4,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "types_patterns.rs",
+        "line": 7,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "types_patterns.rs",
+        "line": 49,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      {
+        "file": "../theme_macros/src/lib.rs",
+        "line": 7,
+        "column": 8,
+        "length": 8,
+        "text": "identity",
+        "type": "decorator",
+        "modifiers": [
+          "declaration",
+          "public"
+        ]
+      }
+    ],
+    "deriveHelper:rust": [
+      {
+        "file": "attributes_macros.rs",
+        "line": 40,
+        "column": 3,
+        "length": 10,
+        "text": "theme_hint",
+        "type": "deriveHelper",
+        "modifiers": [
+          "attribute",
+          "library"
+        ]
+      }
+    ]
+  },
+  "retainedOrangeParameterTokens": [
+    {
+      "file": "attributes_macros.rs",
+      "line": 18,
+      "column": 8,
+      "length": 1,
+      "text": "C",
+      "type": "generic",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 26,
+      "column": 10,
+      "length": 6,
+      "text": "always",
+      "type": "generic",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 40,
+      "column": 14,
+      "length": 5,
+      "text": "label",
+      "type": "generic",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 40,
+      "column": 32,
+      "length": 7,
+      "text": "enabled",
+      "type": "generic",
+      "modifiers": [
+        "attribute"
+      ]
+    },
+    {
+      "file": "types_patterns.rs",
+      "line": 10,
+      "column": 8,
+      "length": 1,
+      "text": "C",
+      "type": "generic",
+      "modifiers": [
+        "attribute"
+      ]
+    }
+  ],
+  "retainedOrangeDeriveRule": {
+    "foreground": "#db7800",
+    "bold": true
+  },
+  "inheritanceNote": "toolModule is a decorator subtype and inherits its style; no toolModule token was present in this retained sample."
+}

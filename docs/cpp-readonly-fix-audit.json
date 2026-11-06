@@ -1,0 +1,1300 @@
+{
+  "date": "2026-11-07",
+  "server": {
+    "name": "clangd",
+    "version": "clangd version 23.1.0 (https://github.com/llvm/llvm-project ea7d852a70e8bdfaf601d6626a760f9771b2c4b4) linux+grpc x86_64-unknown-linux-gnu"
+  },
+  "source": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+  "sourceSha256": "81a935f87008f4d59fd203b222dda1918fa95a8ae76cf21cde008db4f5dc23ce",
+  "themeBeforeSha256": "4b23613cf1fe84a5df6d9b6bf36bd80a8d90291040e5ef675669f600829b2bf1",
+  "themeSha256": "90fd15a254230f48192cab481cc69f569c1972bdef90945169e6ee855d6ceda2",
+  "removedSelectors": [
+    "property.readonly:cpp",
+    "variable.readonly:cpp"
+  ],
+  "counts": {
+    "uiColors": 94,
+    "semanticRules": 43,
+    "textMateRules": 59,
+    "cppTokensCompared": 363,
+    "changedTokens": 26
+  },
+  "checkedSamples": [
+    {
+      "token": {
+        "line": 20,
+        "column": 17,
+        "length": 5,
+        "text": "LIMIT",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 21,
+        "column": 13,
+        "length": 12,
+        "text": "DEFAULT_STEP",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 104,
+        "column": 15,
+        "length": 5,
+        "text": "fixed",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 105,
+        "column": 19,
+        "length": 6,
+        "text": "extent",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 108,
+        "column": 16,
+        "length": 16,
+        "text": "pointer_to_const",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 109,
+        "column": 16,
+        "length": 13,
+        "text": "const_pointer",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 111,
+        "column": 16,
+        "length": 18,
+        "text": "readonly_reference",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 112,
+        "column": 17,
+        "length": 13,
+        "text": "fixed_counter",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 30,
+        "column": 15,
+        "length": 6,
+        "text": "origin",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 38,
+        "column": 25,
+        "length": 5,
+        "text": "extra",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 116,
+        "column": 47,
+        "length": 5,
+        "text": "delta",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 117,
+        "column": 47,
+        "length": 4,
+        "text": "step",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 32,
+        "column": 23,
+        "length": 9,
+        "text": "instances",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 33,
+        "column": 33,
+        "length": 8,
+        "text": "capacity",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 44,
+        "column": 20,
+        "length": 6,
+        "text": "create",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 50,
+        "column": 12,
+        "length": 8,
+        "text": "internal",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 55,
+        "column": 27,
+        "length": 1,
+        "text": "N",
+        "type": "typeParameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 106,
+        "column": 16,
+        "length": 12,
+        "text": "local_visits",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "changedTokens": [
+    {
+      "token": {
+        "line": 20,
+        "column": 17,
+        "length": 5,
+        "text": "LIMIT",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 21,
+        "column": 13,
+        "length": 12,
+        "text": "DEFAULT_STEP",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 30,
+        "column": 15,
+        "length": 6,
+        "text": "origin",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 33,
+        "column": 44,
+        "length": 5,
+        "text": "LIMIT",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 35,
+        "column": 53,
+        "length": 6,
+        "text": "origin",
+        "type": "property",
+        "modifiers": [
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 40,
+        "column": 30,
+        "length": 6,
+        "text": "origin",
+        "type": "property",
+        "modifiers": [
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 97,
+        "column": 40,
+        "length": 4,
+        "text": "NAME",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 101,
+        "column": 21,
+        "length": 12,
+        "text": "DEFAULT_STEP",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 104,
+        "column": 15,
+        "length": 5,
+        "text": "fixed",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 104,
+        "column": 23,
+        "length": 5,
+        "text": "LIMIT",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 105,
+        "column": 19,
+        "length": 6,
+        "text": "extent",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 108,
+        "column": 16,
+        "length": 16,
+        "text": "pointer_to_const",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 109,
+        "column": 16,
+        "length": 13,
+        "text": "const_pointer",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 111,
+        "column": 16,
+        "length": 18,
+        "text": "readonly_reference",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 112,
+        "column": 17,
+        "length": 13,
+        "text": "fixed_counter",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 124,
+        "column": 23,
+        "length": 8,
+        "text": "renderer",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 129,
+        "column": 34,
+        "length": 4,
+        "text": "text",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 130,
+        "column": 34,
+        "length": 3,
+        "text": "raw",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 138,
+        "column": 21,
+        "length": 12,
+        "text": "DEFAULT_STEP",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 143,
+        "column": 6,
+        "length": 13,
+        "text": "const_pointer",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 144,
+        "column": 29,
+        "length": 5,
+        "text": "fixed",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 144,
+        "column": 71,
+        "length": 6,
+        "text": "extent",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 146,
+        "column": 15,
+        "length": 8,
+        "text": "renderer",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 148,
+        "column": 16,
+        "length": 16,
+        "text": "pointer_to_const",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 148,
+        "column": 35,
+        "length": 18,
+        "text": "readonly_reference",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "token": {
+        "line": 148,
+        "column": 56,
+        "length": 13,
+        "text": "fixed_counter",
+        "type": "variable",
+        "modifiers": [
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "checks": {
+    "exactTwoSelectorsRemoved": true,
+    "allOtherSemanticRulesUnchanged": true,
+    "rustRulesUnchanged": true,
+    "uiAndTextMateUnchanged": true,
+    "allFontStylesUnchanged": true,
+    "staticAndNonTypeParameterTealPreserved": true,
+    "noCppUnderlines": true,
+    "sourceMatchesRetainedLsp": true
+  },
+  "validation": "Reused actual clangd 23.1.0 LSP and installed TextMate output with matching source hash; styles inferred through audited VS Code precedence. No fresh compilation/LSP/UI capture needed for these two selector removals.",
+  "constexprLimitation": {
+    "status": "deferred_by_user",
+    "reason": "Ordinary const and constexpr variables share readonly tokens in the captured server. Without another modifier, both now retain ordinary-variable color. Static constexpr capacity remains teal because it also carries static."
+  },
+  "visualVerification": "User reports the observed cpp-r2 readonly narrowing looks acceptable; not full C++ or per-token acceptance.",
+  "userVisualFeedback": {
+    "date": "2026-11-07",
+    "quote": "目前看起来还行",
+    "scope": "Positive feedback on the observed cpp-r2 readonly narrowing; not full C++ or per-token acceptance.",
+    "nextReview": [
+      "macro definitions and calls",
+      "standard attributes"
+    ],
+    "constexprStatus": "deferred_by_user_unresolved"
+  }
+}

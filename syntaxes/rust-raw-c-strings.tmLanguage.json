@@ -1,0 +1,31 @@
+{
+    "scopeName": "rust-raw-c-strings.injection.sl-rust",
+    "injectionSelector": "L:source.rust - comment - string",
+    "patterns": [
+        {
+            "comment": "Recognize raw C strings before the built-in grammar consumes cr as an identifier. Only a quote followed by the opening number of hashes closes the string; backslashes are literal.",
+            "name": "string.quoted.double.rust",
+            "begin": "\\b(cr)(#*)(\")",
+            "beginCaptures": {
+                "1": {
+                    "name": "string.quoted.other.raw.rust"
+                },
+                "2": {
+                    "name": "punctuation.definition.string.raw.rust"
+                },
+                "3": {
+                    "name": "punctuation.definition.string.rust"
+                }
+            },
+            "end": "(\")(\\2)",
+            "endCaptures": {
+                "1": {
+                    "name": "punctuation.definition.string.rust"
+                },
+                "2": {
+                    "name": "punctuation.definition.string.raw.rust"
+                }
+            }
+        }
+    ]
+}

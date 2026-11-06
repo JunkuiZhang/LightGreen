@@ -1,0 +1,19 @@
+{
+    "scopeName": "rust-macro-parameters.injection.sl-rust",
+    "injectionSelector": "L:source.rust meta.function.call.rust - comment - string",
+    "patterns": [
+        {
+            "comment": "Recognize macro parameters omitted by Rust's function-call rules. Keep $crate as a keyword and reuse the existing metavariable scopes.",
+            "name": "meta.macro.metavariable.rust",
+            "match": "(\\$)((?!crate\\b)(?:r#)?[_\\p{XID_Start}]\\p{XID_Continue}*)",
+            "captures": {
+                "1": {
+                    "name": "keyword.operator.macro.dollar.rust"
+                },
+                "2": {
+                    "name": "variable.other.metavariable.name.rust"
+                }
+            }
+        }
+    ]
+}

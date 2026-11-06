@@ -1,0 +1,338 @@
+{
+  "date": "2026-11-07",
+  "themeSha256": "bd4bd99a300faaf5fa237737d7285455a858e4fc5f130491e29a9b73d38a1375",
+  "selector": "typeAlias.associated:rust",
+  "style": {
+    "foreground": "#577909",
+    "bold": true
+  },
+  "validation": "Exact one-rule insertion and semantic selector precedence comparison using retained actual rust-analyzer token captures. Changed sample file hashes match capture. No fresh LSP or GUI verification.",
+  "modes": {
+    "default": {
+      "retainedTokensChecked": 2007,
+      "changedAssociatedTypes": 13
+    },
+    "specialized": {
+      "retainedTokensChecked": 2146,
+      "changedAssociatedTypes": 13
+    },
+    "diagnostics": {
+      "retainedTokensChecked": 2101,
+      "changedAssociatedTypes": 13
+    }
+  },
+  "sourceSha256": {
+    "types_patterns.rs": "e07e852e2bcc548996f1ee2f4cad416020a5c7a500c2e84f9bc17b817ed9632e",
+    "async_flow.rs": "b6e42bc8574a7359fcfa771a2ccbecc15c4d38db094b0497dea70c55bec9b1d2",
+    "advanced.rs": "aa3b1e040432b12dce9b4da0fe21d153b7e99459a5b0a64e54f792626a86035b"
+  },
+  "changedDefaultSamples": [
+    {
+      "file": "advanced.rs",
+      "token": {
+        "line": 11,
+        "column": 10,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "declaration",
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "token": {
+        "line": 14,
+        "column": 34,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "token": {
+        "line": 23,
+        "column": 10,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "declaration",
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "token": {
+        "line": 26,
+        "column": 34,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "async_flow.rs",
+      "token": {
+        "line": 80,
+        "column": 45,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "defaultLibrary",
+          "associated",
+          "library",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 18,
+        "column": 10,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "declaration",
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 19,
+        "column": 32,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 23,
+        "column": 10,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "declaration",
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 25,
+        "column": 32,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 30,
+        "column": 35,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 34,
+        "column": 40,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 151,
+        "column": 30,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    },
+    {
+      "file": "types_patterns.rs",
+      "token": {
+        "line": 152,
+        "column": 38,
+        "length": 6,
+        "text": "Output",
+        "type": "typeAlias",
+        "modifiers": [
+          "static",
+          "associated",
+          "trait"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true
+      }
+    }
+  ],
+  "protectedConstStaticConstGenericFunctionMethodTokensUnchanged": 556,
+  "otherThemeRulesUnchanged": true
+}

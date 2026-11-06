@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-07",
+  "themeSha256": "b876de20c1a3ed09b25ac58ecbc8f0e3fb90f2c40c2cc16b18bf4b05c571019d",
+  "scopes": [
+    "variable.other.metavariable.name.rust",
+    "entity.name.type.metavariable.rust"
+  ],
+  "validation": "Actual TextMate tokenization with installed VS Code 1.145.2 Rust grammar, before and after the rule addition. Tests matcher declarations and transcriber uses, uppercase names, ordinary names, fragment specifiers, dollar signs and $crate. Semantic rules unchanged; no GUI after-change capture.",
+  "sourceSha256": {
+    "attributes_macros.rs": "19bfafba8975e8450735e1c888f56296f1d18107c759612050667702ee46252c",
+    "advanced.rs": "aa3b1e040432b12dce9b4da0fe21d153b7e99459a5b0a64e54f792626a86035b"
+  },
+  "changedTokens": [
+    {
+      "file": "attributes_macros.rs",
+      "line": 52,
+      "column": 7,
+      "text": "label",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 52,
+      "column": 25,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 53,
+      "column": 33,
+      "text": "label",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 53,
+      "column": 41,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 43,
+      "column": 7,
+      "text": "label",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 43,
+      "column": 20,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 44,
+      "column": 32,
+      "text": "label",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 44,
+      "column": 40,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 4,
+      "column": 5,
+      "text": "Ty",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.type.rust",
+        "entity.name.type.metavariable.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 4,
+      "column": 13,
+      "text": "value",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.name.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 4,
+      "column": 38,
+      "text": "Ty",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.type.rust",
+        "entity.name.type.metavariable.rust"
+      ],
+      "style": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "preservedFragmentSpecifiers": [
+    {
+      "file": "attributes_macros.rs",
+      "line": 52,
+      "column": 13,
+      "text": "literal",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 52,
+      "column": 31,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 43,
+      "column": 13,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 43,
+      "column": 26,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 4,
+      "column": 8,
+      "text": "ty",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.type.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 4,
+      "column": 19,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "knownGrammarLimitations": [
+    {
+      "case": "helper($value) in a macro transcriber",
+      "token": {
+        "file": "controls (in memory)",
+        "line": 4,
+        "column": 59,
+        "text": "value",
+        "scopes": [
+          "source.rust",
+          "meta.function.call.rust",
+          "variable.other.rust"
+        ],
+        "style": {
+          "foreground": "#A57800",
+          "italic": false,
+          "bold": false,
+          "underline": false,
+          "strikethrough": false
+        }
+      },
+      "reason": "Bundled Rust grammar emits variable.other.rust here, not a macro-parameter name scope. This focused theme rule cannot distinguish it from an ordinary variable."
+    }
+  ],
+  "ordinaryNameControlsUnchanged": true,
+  "dollarSignsAndCrateUnchanged": true,
+  "nonParameterTokensUnchanged": true
+}

@@ -5,16 +5,33 @@
     "publisher": "JunkuiZhang",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.58.0"
+        "vscode": "^1.81.0"
     },
     "categories": [
         "Themes"
     ],
     "repository": "https://github.com/JunkuiZhang/LightGreen",
     "contributes": {
+        "grammars": [
+            {
+                "scopeName": "rust-macro-parameters.injection.sl-rust",
+                "path": "./syntaxes/rust-macro-parameters.tmLanguage.json",
+                "injectTo": [
+                    "source.rust"
+                ]
+            },
+            {
+                "scopeName": "rust-raw-c-strings.injection.sl-rust",
+                "path": "./syntaxes/rust-raw-c-strings.tmLanguage.json",
+                "injectTo": [
+                    "source.rust"
+                ]
+            }
+        ],
         "themes": [
             {
-                "label": "Solarized Light Rust",
+                "id": "Solarized Light Rust",
+                "label": "Solarized Light Rust (Local Preview)",
                 "uiTheme": "vs",
                 "path": "./themes/slr-color-theme.json"
             }

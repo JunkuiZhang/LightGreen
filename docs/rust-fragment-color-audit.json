@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-07",
+  "themeSha256": "b7f9d4fb2964190ba5bc220443c47f5f903d71c4d2436f91c09c54880928d0a1",
+  "scope": "variable.other.metavariable.specifier.rust",
+  "validation": "Actual TextMate tokenization with installed VS Code 1.145.2 Rust grammar, before and after the scope addition. Semantic rules unchanged; no GUI after-change capture.",
+  "sourceSha256": {
+    "attributes_macros.rs": "19bfafba8975e8450735e1c888f56296f1d18107c759612050667702ee46252c",
+    "advanced.rs": "aa3b1e040432b12dce9b4da0fe21d153b7e99459a5b0a64e54f792626a86035b"
+  },
+  "changedTokens": [
+    {
+      "file": "attributes_macros.rs",
+      "line": 52,
+      "column": 13,
+      "text": "literal",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "attributes_macros.rs",
+      "line": 52,
+      "column": 31,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 43,
+      "column": 13,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "advanced.rs",
+      "line": 43,
+      "column": 26,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 2,
+      "column": 30,
+      "text": "ty",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 2,
+      "column": 38,
+      "text": "ident",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 2,
+      "column": 48,
+      "text": "pat_param",
+      "scopes": [
+        "source.rust",
+        "meta.macro.metavariable.rust",
+        "variable.other.metavariable.specifier.rust"
+      ],
+      "style": {
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "before": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "unchangedOrdinaryNameControls": [
+    {
+      "file": "controls (in memory)",
+      "line": 1,
+      "column": 27,
+      "text": "literal",
+      "scopes": [
+        "source.rust",
+        "variable.other.rust"
+      ],
+      "style": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 1,
+      "column": 44,
+      "text": "expr",
+      "scopes": [
+        "source.rust",
+        "variable.other.rust"
+      ],
+      "style": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    },
+    {
+      "file": "controls (in memory)",
+      "line": 1,
+      "column": 51,
+      "text": "literal",
+      "scopes": [
+        "source.rust",
+        "variable.other.rust"
+      ],
+      "style": {
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      }
+    }
+  ],
+  "nonFragmentTokensUnchanged": true
+}

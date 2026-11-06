@@ -1,0 +1,1693 @@
+{
+  "vscodeVersion": "1.145.2",
+  "rustAnalyzer": {
+    "name": "rust-analyzer",
+    "version": "0.3.3081-standalone"
+  },
+  "note": "Semantic tokens captured from installed rust-analyzer through LSP; TextMate spans captured with installed VS Code grammar and tokenizer. Final styles inferred with VS Code rule precedence and scope defaults; no UI screenshot verification.",
+  "samples": [
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 10,
+        "column": 7,
+        "length": 5,
+        "text": "LIMIT",
+        "type": "const",
+        "modifiers": [
+          "declaration",
+          "constant"
+        ]
+      },
+      "textMate": {
+        "line": 10,
+        "column": 7,
+        "endColumn": 12,
+        "text": "LIMIT",
+        "scopes": [
+          "source.rust",
+          "constant.other.caps.rust"
+        ],
+        "foreground": "#017A56B7",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.constant"
+      ],
+      "inferredStyle": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic *.constant",
+        "bold": "semantic *.constant",
+        "italic": "actual TextMate constant.other.caps.rust",
+        "underline": "actual TextMate constant.other.caps.rust",
+        "strikethrough": "actual TextMate constant.other.caps.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 11,
+        "column": 8,
+        "length": 8,
+        "text": "APP_NAME",
+        "type": "static",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 11,
+        "column": 8,
+        "endColumn": 16,
+        "text": "APP_NAME",
+        "scopes": [
+          "source.rust",
+          "constant.other.caps.rust"
+        ],
+        "foreground": "#017A56B7",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate constant.other.caps.rust",
+        "italic": "actual TextMate constant.other.caps.rust",
+        "underline": "actual TextMate constant.other.caps.rust",
+        "strikethrough": "actual TextMate constant.other.caps.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 13,
+        "column": 8,
+        "length": 6,
+        "text": "VISITS",
+        "type": "static",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 13,
+        "column": 8,
+        "endColumn": 14,
+        "text": "VISITS",
+        "scopes": [
+          "source.rust",
+          "constant.other.caps.rust"
+        ],
+        "foreground": "#017A56B7",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate constant.other.caps.rust",
+        "italic": "actual TextMate constant.other.caps.rust",
+        "underline": "actual TextMate constant.other.caps.rust",
+        "strikethrough": "actual TextMate constant.other.caps.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 13,
+        "column": 43,
+        "length": 3,
+        "text": "new",
+        "type": "function",
+        "modifiers": [
+          "static",
+          "defaultLibrary",
+          "associated",
+          "constant",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 13,
+        "column": 43,
+        "endColumn": 46,
+        "text": "new",
+        "scopes": [
+          "source.rust",
+          "meta.function.call.rust",
+          "entity.name.function.rust"
+        ],
+        "foreground": "#146DAD",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "function",
+        "*.static",
+        "*.constant"
+      ],
+      "inferredStyle": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "bold": "semantic *.constant",
+        "foreground": "semantic *.constant",
+        "italic": "actual TextMate entity.name.function.rust",
+        "underline": "actual TextMate entity.name.function.rust",
+        "strikethrough": "actual TextMate entity.name.function.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 18,
+        "column": 6,
+        "length": 5,
+        "text": "Phase",
+        "type": "enum",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 18,
+        "column": 6,
+        "endColumn": 11,
+        "text": "Phase",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.enum.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enum"
+      ],
+      "inferredStyle": {
+        "bold": true,
+        "foreground": "#577909",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "bold": "semantic enum",
+        "foreground": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "italic": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "underline": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "strikethrough": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 19,
+        "column": 5,
+        "length": 5,
+        "text": "Ready",
+        "type": "enumMember",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 19,
+        "column": 5,
+        "endColumn": 10,
+        "text": "Ready",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enumMember"
+      ],
+      "inferredStyle": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic enumMember",
+        "bold": "semantic enumMember",
+        "italic": "actual TextMate entity.name.type.rust",
+        "underline": "actual TextMate entity.name.type.rust",
+        "strikethrough": "actual TextMate entity.name.type.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 26,
+        "column": 8,
+        "length": 7,
+        "text": "Counter",
+        "type": "struct",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 26,
+        "column": 8,
+        "endColumn": 15,
+        "text": "Counter",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.struct.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "struct"
+      ],
+      "inferredStyle": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic struct",
+        "bold": "semantic struct",
+        "italic": "default struct:rust -> TextMate entity.name.type (probe entity.name.type.struct.rust)",
+        "underline": "default struct:rust -> TextMate entity.name.type (probe entity.name.type.struct.rust)",
+        "strikethrough": "default struct:rust -> TextMate entity.name.type (probe entity.name.type.struct.rust)"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 28,
+        "column": 5,
+        "length": 5,
+        "text": "value",
+        "type": "property",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 28,
+        "column": 5,
+        "endColumn": 10,
+        "text": "value",
+        "scopes": [
+          "source.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "property"
+      ],
+      "inferredStyle": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic property",
+        "italic": "semantic property",
+        "bold": "actual TextMate variable.other.rust",
+        "underline": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 34,
+        "column": 11,
+        "length": 12,
+        "text": "DEFAULT_STEP",
+        "type": "const",
+        "modifiers": [
+          "declaration",
+          "static",
+          "associated",
+          "constant"
+        ]
+      },
+      "textMate": {
+        "line": 34,
+        "column": 11,
+        "endColumn": 23,
+        "text": "DEFAULT_STEP",
+        "scopes": [
+          "source.rust",
+          "constant.other.caps.rust"
+        ],
+        "foreground": "#017A56B7",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.static",
+        "*.constant"
+      ],
+      "inferredStyle": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic *.constant",
+        "bold": "semantic *.constant",
+        "italic": "actual TextMate constant.other.caps.rust",
+        "underline": "actual TextMate constant.other.caps.rust",
+        "strikethrough": "actual TextMate constant.other.caps.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 36,
+        "column": 8,
+        "length": 3,
+        "text": "new",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "static",
+          "associated"
+        ]
+      },
+      "textMate": {
+        "line": 36,
+        "column": 8,
+        "endColumn": 11,
+        "text": "new",
+        "scopes": [
+          "source.rust",
+          "meta.function.definition.rust",
+          "entity.name.function.rust"
+        ],
+        "foreground": "#146DAD",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "function",
+        "*.static"
+      ],
+      "inferredStyle": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "bold": "semantic *.static",
+        "foreground": "semantic *.static",
+        "italic": "actual TextMate entity.name.function.rust",
+        "underline": "actual TextMate entity.name.function.rust",
+        "strikethrough": "actual TextMate entity.name.function.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 36,
+        "column": 12,
+        "length": 5,
+        "text": "label",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "reference"
+        ]
+      },
+      "textMate": {
+        "line": 36,
+        "column": 12,
+        "endColumn": 17,
+        "text": "label",
+        "scopes": [
+          "source.rust",
+          "meta.function.definition.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "parameter"
+      ],
+      "inferredStyle": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "italic": "semantic parameter",
+        "foreground": "default parameter -> TextMate variable.parameter (probe variable.parameter)",
+        "bold": "actual TextMate variable.other.rust",
+        "underline": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 46,
+        "column": 21,
+        "length": 5,
+        "text": "extra",
+        "type": "parameter",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 46,
+        "column": 21,
+        "endColumn": 26,
+        "text": "extra",
+        "scopes": [
+          "source.rust",
+          "meta.function.definition.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "parameter"
+      ],
+      "inferredStyle": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "italic": "semantic parameter",
+        "foreground": "default parameter -> TextMate variable.parameter (probe variable.parameter)",
+        "bold": "actual TextMate variable.other.rust",
+        "underline": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 47,
+        "column": 25,
+        "length": 5,
+        "text": "value",
+        "type": "property",
+        "modifiers": []
+      },
+      "textMate": {
+        "line": 47,
+        "column": 25,
+        "endColumn": 30,
+        "text": "value",
+        "scopes": [
+          "source.rust"
+        ],
+        "foreground": "#073642",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "property"
+      ],
+      "inferredStyle": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic property",
+        "italic": "semantic property",
+        "bold": "actual TextMate source.rust",
+        "underline": "actual TextMate source.rust",
+        "strikethrough": "actual TextMate source.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 54,
+        "column": 8,
+        "length": 7,
+        "text": "advance",
+        "type": "method",
+        "modifiers": [
+          "declaration",
+          "associated",
+          "mutable",
+          "reference"
+        ]
+      },
+      "textMate": {
+        "line": 54,
+        "column": 8,
+        "endColumn": 15,
+        "text": "advance",
+        "scopes": [
+          "source.rust",
+          "meta.function.definition.rust",
+          "entity.name.function.rust"
+        ],
+        "foreground": "#146DAD",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "underline": true,
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "underline": "semantic *.mutable",
+        "foreground": "default method:rust -> TextMate entity.name.function (probe entity.name.function.rust)",
+        "bold": "actual TextMate entity.name.function.rust",
+        "italic": "actual TextMate entity.name.function.rust",
+        "strikethrough": "actual TextMate entity.name.function.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 54,
+        "column": 21,
+        "length": 4,
+        "text": "self",
+        "type": "selfKeyword",
+        "modifiers": [
+          "declaration",
+          "mutable",
+          "reference"
+        ]
+      },
+      "textMate": {
+        "line": 54,
+        "column": 21,
+        "endColumn": 25,
+        "text": "self",
+        "scopes": [
+          "source.rust",
+          "meta.function.definition.rust",
+          "variable.language.self.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "keyword",
+        "selfKeyword",
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "foreground": "#073642",
+        "bold": false,
+        "italic": true,
+        "underline": true,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic keyword",
+        "bold": "semantic selfKeyword",
+        "italic": "semantic selfKeyword",
+        "underline": "semantic *.mutable",
+        "strikethrough": "actual TextMate variable.language.self.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 54,
+        "column": 31,
+        "length": 4,
+        "text": "step",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "mutable"
+        ]
+      },
+      "textMate": {
+        "line": 54,
+        "column": 31,
+        "endColumn": 35,
+        "text": "step",
+        "scopes": [
+          "source.rust",
+          "meta.function.definition.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "parameter",
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "italic": true,
+        "underline": true,
+        "foreground": "#499504",
+        "bold": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "italic": "semantic parameter",
+        "underline": "semantic *.mutable",
+        "foreground": "default parameter -> TextMate variable.parameter (probe variable.parameter)",
+        "bold": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 56,
+        "column": 17,
+        "length": 4,
+        "text": "next",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "mutable"
+        ]
+      },
+      "textMate": {
+        "line": 56,
+        "column": 17,
+        "endColumn": 21,
+        "text": "next",
+        "scopes": [
+          "source.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "underline": true,
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "underline": "semantic *.mutable",
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate variable.other.rust",
+        "italic": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 58,
+        "column": 14,
+        "length": 5,
+        "text": "value",
+        "type": "property",
+        "modifiers": []
+      },
+      "textMate": {
+        "line": 58,
+        "column": 14,
+        "endColumn": 20,
+        "text": "value ",
+        "scopes": [
+          "source.rust"
+        ],
+        "foreground": "#073642",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "property"
+      ],
+      "inferredStyle": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic property",
+        "italic": "semantic property",
+        "bold": "actual TextMate source.rust",
+        "underline": "actual TextMate source.rust",
+        "strikethrough": "actual TextMate source.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 78,
+        "column": 16,
+        "length": 8,
+        "text": "APP_NAME",
+        "type": "variable",
+        "modifiers": []
+      },
+      "textMate": {
+        "line": 78,
+        "column": 16,
+        "endColumn": 24,
+        "text": "APP_NAME",
+        "scopes": [
+          "source.rust",
+          "string.quoted.double.rust",
+          "meta.interpolation.rust"
+        ],
+        "foreground": "#2AA198",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate meta.interpolation.rust",
+        "italic": "actual TextMate meta.interpolation.rust",
+        "underline": "actual TextMate meta.interpolation.rust",
+        "strikethrough": "actual TextMate meta.interpolation.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 81,
+        "column": 9,
+        "length": 5,
+        "text": "fixed",
+        "type": "variable",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 81,
+        "column": 9,
+        "endColumn": 14,
+        "text": "fixed",
+        "scopes": [
+          "source.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate variable.other.rust",
+        "italic": "actual TextMate variable.other.rust",
+        "underline": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 82,
+        "column": 13,
+        "length": 7,
+        "text": "counter",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "mutable"
+        ]
+      },
+      "textMate": {
+        "line": 82,
+        "column": 13,
+        "endColumn": 20,
+        "text": "counter",
+        "scopes": [
+          "source.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "underline": true,
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "underline": "semantic *.mutable",
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate variable.other.rust",
+        "italic": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 103,
+        "column": 13,
+        "length": 8,
+        "text": "borrowed",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "mutable",
+          "reference"
+        ]
+      },
+      "textMate": {
+        "line": 103,
+        "column": 13,
+        "endColumn": 21,
+        "text": "borrowed",
+        "scopes": [
+          "source.rust",
+          "variable.other.rust"
+        ],
+        "foreground": "#A57800",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "underline": true,
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "underline": "semantic *.mutable",
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate variable.other.rust",
+        "italic": "actual TextMate variable.other.rust",
+        "strikethrough": "actual TextMate variable.other.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 111,
+        "column": 18,
+        "length": 6,
+        "text": "Option",
+        "type": "enum",
+        "modifiers": [
+          "defaultLibrary",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 111,
+        "column": 18,
+        "endColumn": 24,
+        "text": "Option",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enum"
+      ],
+      "inferredStyle": {
+        "bold": true,
+        "foreground": "#577909",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "bold": "semantic enum",
+        "foreground": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "italic": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "underline": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "strikethrough": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 111,
+        "column": 34,
+        "length": 4,
+        "text": "Some",
+        "type": "enumMember",
+        "modifiers": [
+          "defaultLibrary",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 111,
+        "column": 34,
+        "endColumn": 38,
+        "text": "Some",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.option.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enumMember"
+      ],
+      "inferredStyle": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic enumMember",
+        "bold": "semantic enumMember",
+        "italic": "actual TextMate entity.name.type.option.rust",
+        "underline": "actual TextMate entity.name.type.option.rust",
+        "strikethrough": "actual TextMate entity.name.type.option.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 112,
+        "column": 33,
+        "length": 4,
+        "text": "None",
+        "type": "enumMember",
+        "modifiers": [
+          "defaultLibrary",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 112,
+        "column": 33,
+        "endColumn": 37,
+        "text": "None",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.option.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enumMember"
+      ],
+      "inferredStyle": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic enumMember",
+        "bold": "semantic enumMember",
+        "italic": "actual TextMate entity.name.type.option.rust",
+        "underline": "actual TextMate entity.name.type.option.rust",
+        "strikethrough": "actual TextMate entity.name.type.option.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 113,
+        "column": 18,
+        "length": 6,
+        "text": "Result",
+        "type": "enum",
+        "modifiers": [
+          "defaultLibrary",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 113,
+        "column": 18,
+        "endColumn": 24,
+        "text": "Result",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enum"
+      ],
+      "inferredStyle": {
+        "bold": true,
+        "foreground": "#577909",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "bold": "semantic enum",
+        "foreground": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "italic": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "underline": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)",
+        "strikethrough": "default enum:rust -> TextMate entity.name.type (probe entity.name.type.enum.rust)"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 113,
+        "column": 40,
+        "length": 2,
+        "text": "Ok",
+        "type": "enumMember",
+        "modifiers": [
+          "defaultLibrary",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 113,
+        "column": 40,
+        "endColumn": 42,
+        "text": "Ok",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.result.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enumMember"
+      ],
+      "inferredStyle": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic enumMember",
+        "bold": "semantic enumMember",
+        "italic": "actual TextMate entity.name.type.result.rust",
+        "underline": "actual TextMate entity.name.type.result.rust",
+        "strikethrough": "actual TextMate entity.name.type.result.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": {
+        "line": 114,
+        "column": 40,
+        "length": 3,
+        "text": "Err",
+        "type": "enumMember",
+        "modifiers": [
+          "defaultLibrary",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 114,
+        "column": 40,
+        "endColumn": 43,
+        "text": "Err",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.result.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "enumMember"
+      ],
+      "inferredStyle": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic enumMember",
+        "bold": "semantic enumMember",
+        "italic": "actual TextMate entity.name.type.result.rust",
+        "underline": "actual TextMate entity.name.type.result.rust",
+        "strikethrough": "actual TextMate entity.name.type.result.rust"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": {
+        "line": 10,
+        "column": 7,
+        "length": 9,
+        "text": "Summarize",
+        "type": "interface",
+        "modifiers": [
+          "declaration"
+        ]
+      },
+      "textMate": {
+        "line": 10,
+        "column": 7,
+        "endColumn": 16,
+        "text": "Summarize",
+        "scopes": [
+          "source.rust",
+          "entity.name.type.trait.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "interface"
+      ],
+      "inferredStyle": {
+        "foreground": "#db7800",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "semantic interface",
+        "bold": "semantic interface",
+        "italic": "default interface:rust -> TextMate entity.name.type (probe entity.name.type.trait.rust)",
+        "underline": "default interface:rust -> TextMate entity.name.type (probe entity.name.type.trait.rust)",
+        "strikethrough": "default interface:rust -> TextMate entity.name.type (probe entity.name.type.trait.rust)"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": {
+        "line": 17,
+        "column": 3,
+        "length": 6,
+        "text": "derive",
+        "type": "decorator",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library"
+        ]
+      },
+      "textMate": {
+        "line": 17,
+        "column": 3,
+        "endColumn": 9,
+        "text": "derive",
+        "scopes": [
+          "source.rust",
+          "meta.attribute.rust"
+        ],
+        "foreground": "#073642",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "default decorator -> TextMate entity.name.function (probe entity.name.function)",
+        "bold": "actual TextMate meta.attribute.rust",
+        "italic": "actual TextMate meta.attribute.rust",
+        "underline": "actual TextMate meta.attribute.rust",
+        "strikethrough": "actual TextMate meta.attribute.rust"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": {
+        "line": 17,
+        "column": 10,
+        "length": 5,
+        "text": "Debug",
+        "type": "derive",
+        "modifiers": [
+          "defaultLibrary",
+          "attribute",
+          "library",
+          "macro"
+        ]
+      },
+      "textMate": {
+        "line": 17,
+        "column": 10,
+        "endColumn": 15,
+        "text": "Debug",
+        "scopes": [
+          "source.rust",
+          "meta.attribute.rust",
+          "entity.name.type.rust"
+        ],
+        "foreground": "#577909",
+        "italic": false,
+        "bold": true,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "actual TextMate entity.name.type.rust",
+        "bold": "actual TextMate entity.name.type.rust",
+        "italic": "actual TextMate entity.name.type.rust",
+        "underline": "actual TextMate entity.name.type.rust",
+        "strikethrough": "actual TextMate entity.name.type.rust"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": {
+        "line": 50,
+        "column": 12,
+        "length": 12,
+        "text": "LEGACY_COUNT",
+        "type": "static",
+        "modifiers": [
+          "declaration",
+          "mutable",
+          "unsafe"
+        ]
+      },
+      "textMate": {
+        "line": 50,
+        "column": 12,
+        "endColumn": 24,
+        "text": "LEGACY_COUNT",
+        "scopes": [
+          "source.rust",
+          "constant.other.caps.rust"
+        ],
+        "foreground": "#017A56B7",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [
+        "*.mutable"
+      ],
+      "inferredStyle": {
+        "underline": true,
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "underline": "semantic *.mutable",
+        "foreground": "default variable:rust -> TextMate variable.other (probe variable.other.rust)",
+        "bold": "actual TextMate constant.other.caps.rust",
+        "italic": "actual TextMate constant.other.caps.rust",
+        "strikethrough": "actual TextMate constant.other.caps.rust"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": {
+        "line": 82,
+        "column": 28,
+        "length": 2,
+        "text": "\\n",
+        "type": "escapeSequence",
+        "modifiers": []
+      },
+      "textMate": {
+        "line": 82,
+        "column": 28,
+        "endColumn": 29,
+        "text": "\\",
+        "scopes": [
+          "source.rust",
+          "string.quoted.double.rust",
+          "constant.character.escape.rust",
+          "constant.character.escape.backslash.rust"
+        ],
+        "foreground": "#017A56B7",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#017A56B7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "actual TextMate constant.character.escape.backslash.rust",
+        "bold": "actual TextMate constant.character.escape.backslash.rust",
+        "italic": "actual TextMate constant.character.escape.backslash.rust",
+        "underline": "actual TextMate constant.character.escape.backslash.rust",
+        "strikethrough": "actual TextMate constant.character.escape.backslash.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": null,
+      "textMate": {
+        "line": 11,
+        "column": 26,
+        "endColumn": 36,
+        "text": "LightGreen",
+        "scopes": [
+          "source.rust",
+          "string.quoted.double.rust"
+        ],
+        "foreground": "#2AA198",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#2AA198",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "actual TextMate string.quoted.double.rust",
+        "bold": "actual TextMate string.quoted.double.rust",
+        "italic": "actual TextMate string.quoted.double.rust",
+        "underline": "actual TextMate string.quoted.double.rust",
+        "strikethrough": "actual TextMate string.quoted.double.rust"
+      }
+    },
+    {
+      "file": "src/main.rs",
+      "token": null,
+      "textMate": {
+        "line": 10,
+        "column": 22,
+        "endColumn": 24,
+        "text": "10",
+        "scopes": [
+          "source.rust",
+          "constant.numeric.decimal.rust"
+        ],
+        "foreground": "#D33682",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "actual TextMate constant.numeric.decimal.rust",
+        "bold": "actual TextMate constant.numeric.decimal.rust",
+        "italic": "actual TextMate constant.numeric.decimal.rust",
+        "underline": "actual TextMate constant.numeric.decimal.rust",
+        "strikethrough": "actual TextMate constant.numeric.decimal.rust"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": null,
+      "textMate": {
+        "line": 82,
+        "column": 20,
+        "endColumn": 28,
+        "text": "line one",
+        "scopes": [
+          "source.rust",
+          "string.quoted.double.rust"
+        ],
+        "foreground": "#2AA198",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#2AA198",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "actual TextMate string.quoted.double.rust",
+        "bold": "actual TextMate string.quoted.double.rust",
+        "italic": "actual TextMate string.quoted.double.rust",
+        "underline": "actual TextMate string.quoted.double.rust",
+        "strikethrough": "actual TextMate string.quoted.double.rust"
+      }
+    },
+    {
+      "file": "src/advanced.rs",
+      "token": null,
+      "textMate": {
+        "line": 83,
+        "column": 18,
+        "endColumn": 62,
+        "text": "{\"theme\": \"LightGreen\", \"path\": \"C:\\themes\"}",
+        "scopes": [
+          "source.rust",
+          "string.quoted.double.rust"
+        ],
+        "foreground": "#2AA198",
+        "italic": false,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "matchedSemanticRules": [],
+      "inferredStyle": {
+        "foreground": "#2AA198",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "styleOrigins": {
+        "foreground": "actual TextMate string.quoted.double.rust",
+        "bold": "actual TextMate string.quoted.double.rust",
+        "italic": "actual TextMate string.quoted.double.rust",
+        "underline": "actual TextMate string.quoted.double.rust",
+        "strikethrough": "actual TextMate string.quoted.double.rust"
+      }
+    }
+  ],
+  "date": "2026-11-06",
+  "project": "/home/xiaobai/projects/rust_theme_test",
+  "semanticTokenCounts": {
+    "main.rs": 308,
+    "advanced.rs": 239
+  },
+  "auditConfiguration": {
+    "checkOnSave": false,
+    "cargo": {
+      "buildScripts": {
+        "enable": true
+      }
+    },
+    "semanticHighlighting": {
+      "nonStandardTokens": true,
+      "strings": {
+        "enable": true
+      },
+      "operator": {
+        "enable": true,
+        "specialization": {
+          "enable": false
+        }
+      },
+      "punctuation": {
+        "enable": false
+      }
+    }
+  },
+  "sha256": {
+    "/home/xiaobai/projects/LightGreen/themes/slr-color-theme.json": "7cc7983b08930c497bf8768325d0f0280e5fee1ee5c42a60e54810c913580ec3",
+    "/home/xiaobai/projects/rust_theme_test/src/main.rs": "42196832d0e02b58762da9bb85c76e35843b8e33533771c32bd264c29deaa361",
+    "/home/xiaobai/projects/rust_theme_test/src/advanced.rs": "aa3b1e040432b12dce9b4da0fe21d153b7e99459a5b0a64e54f792626a86035b"
+  }
+}

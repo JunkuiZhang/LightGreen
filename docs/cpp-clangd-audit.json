@@ -1,0 +1,1795 @@
+{
+  "date": "2026-11-07",
+  "phase": "Templates/concepts/abstract classes and lambda/binding styles accepted; pointer/reference readonly classification next",
+  "vscodeVersion": "1.145.2",
+  "server": {
+    "name": "clangd",
+    "version": "clangd version 23.1.0 (https://github.com/llvm/llvm-project ea7d852a70e8bdfaf601d6626a760f9771b2c4b4) linux+grpc x86_64-unknown-linux-gnu"
+  },
+  "legend": {
+    "tokenModifiers": [
+      "declaration",
+      "definition",
+      "deprecated",
+      "deduced",
+      "readonly",
+      "static",
+      "abstract",
+      "virtual",
+      "dependentName",
+      "defaultLibrary",
+      "usedAsMutableReference",
+      "usedAsMutablePointer",
+      "constructorOrDestructor",
+      "userDefined",
+      "functionScope",
+      "classScope",
+      "fileScope",
+      "globalScope"
+    ],
+    "tokenTypes": [
+      "variable",
+      "variable",
+      "parameter",
+      "function",
+      "method",
+      "function",
+      "property",
+      "variable",
+      "class",
+      "interface",
+      "enum",
+      "enumMember",
+      "type",
+      "type",
+      "unknown",
+      "namespace",
+      "typeParameter",
+      "concept",
+      "type",
+      "macro",
+      "modifier",
+      "operator",
+      "bracket",
+      "label",
+      "comment"
+    ]
+  },
+  "source": "/home/xiaobai/projects/cpp_theme_test/main.cpp",
+  "sourceSha256": "81a935f87008f4d59fd203b222dda1918fa95a8ae76cf21cde008db4f5dc23ce",
+  "themeSha256": "4b23613cf1fe84a5df6d9b6bf36bd80a8d90291040e5ef675669f600829b2bf1",
+  "userDecisions": [
+    "Port Rust color roles to C++ using clangd.",
+    "Do not add C++ mutability underlines in this round; colors and italics first."
+  ],
+  "counts": {
+    "uiColors": 94,
+    "semanticRules": 45,
+    "textMateRules": 59,
+    "cppSemanticTokens": 363,
+    "checkedRoleSamples": 44
+  },
+  "addedSemanticRules": {
+    "type:cpp": {
+      "foreground": "#577909",
+      "bold": true
+    },
+    "class:cpp": {
+      "foreground": "#577909",
+      "bold": true
+    },
+    "enum:cpp": {
+      "foreground": "#577909",
+      "bold": true
+    },
+    "typeParameter:cpp": {
+      "foreground": "#577909",
+      "bold": true
+    },
+    "typeParameter.readonly:cpp": {
+      "foreground": "#017a56b7",
+      "bold": false
+    },
+    "concept:cpp": {
+      "foreground": "#db7800",
+      "bold": true
+    },
+    "function:cpp": {
+      "foreground": "#146DAD",
+      "bold": false
+    },
+    "method:cpp": {
+      "foreground": "#146DAD",
+      "bold": false
+    },
+    "function.static:cpp": {
+      "foreground": "#017a56b7",
+      "bold": false
+    },
+    "variable:cpp": {
+      "foreground": "#a57800",
+      "bold": false,
+      "italic": false
+    },
+    "variable.readonly:cpp": {
+      "foreground": "#017a56b7",
+      "bold": false
+    },
+    "variable.static:cpp": {
+      "foreground": "#017a56b7",
+      "bold": false
+    },
+    "parameter:cpp": {
+      "foreground": "#499504",
+      "bold": false,
+      "italic": true
+    },
+    "property:cpp": {
+      "foreground": "#499504",
+      "bold": false,
+      "italic": true
+    },
+    "property.readonly:cpp": {
+      "foreground": "#017a56b7",
+      "bold": false,
+      "italic": true
+    }
+  },
+  "checkedSamples": [
+    {
+      "token": {
+        "line": 10,
+        "column": 12,
+        "length": 5,
+        "text": "Phase",
+        "type": "enum",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "bold": true,
+        "foreground": "#577909",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": true,
+        "foreground": "#577909",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "bold": "semantic enum:cpp",
+        "foreground": "semantic enum:cpp",
+        "italic": "default enum -> TextMate entity.name.type (probe entity.name.type.enum)",
+        "underline": "default enum -> TextMate entity.name.type (probe entity.name.type.enum)",
+        "strikethrough": "default enum -> TextMate entity.name.type (probe entity.name.type.enum)"
+      }
+    },
+    {
+      "token": {
+        "line": 14,
+        "column": 8,
+        "length": 5,
+        "text": "Point",
+        "type": "class",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic class:cpp",
+        "bold": "semantic class:cpp",
+        "italic": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "underline": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "strikethrough": "default class -> TextMate entity.name.type (probe entity.name.type.class)"
+      }
+    },
+    {
+      "token": {
+        "line": 27,
+        "column": 7,
+        "length": 7,
+        "text": "Counter",
+        "type": "class",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic class:cpp",
+        "bold": "semantic class:cpp",
+        "italic": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "underline": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "strikethrough": "default class -> TextMate entity.name.type (probe entity.name.type.class)"
+      }
+    },
+    {
+      "token": {
+        "line": 35,
+        "column": 14,
+        "length": 7,
+        "text": "Counter",
+        "type": "class",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "constructorOrDestructor",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic class:cpp",
+        "bold": "semantic class:cpp",
+        "italic": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "underline": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "strikethrough": "default class -> TextMate entity.name.type (probe entity.name.type.class)"
+      }
+    },
+    {
+      "token": {
+        "line": 55,
+        "column": 20,
+        "length": 1,
+        "text": "T",
+        "type": "typeParameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic typeParameter:cpp",
+        "bold": "semantic typeParameter:cpp",
+        "italic": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)",
+        "underline": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)",
+        "strikethrough": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)"
+      }
+    },
+    {
+      "token": {
+        "line": 57,
+        "column": 11,
+        "length": 10,
+        "text": "value_type",
+        "type": "typeParameter",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic typeParameter:cpp",
+        "bold": "semantic typeParameter:cpp",
+        "italic": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)",
+        "underline": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)",
+        "strikethrough": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)"
+      }
+    },
+    {
+      "token": {
+        "line": 78,
+        "column": 8,
+        "length": 10,
+        "text": "Renderable",
+        "type": "class",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "abstract",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic class:cpp",
+        "bold": "semantic class:cpp",
+        "italic": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "underline": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "strikethrough": "default class -> TextMate entity.name.type (probe entity.name.type.class)"
+      }
+    },
+    {
+      "token": {
+        "line": 112,
+        "column": 11,
+        "length": 4,
+        "text": "auto",
+        "type": "class",
+        "modifiers": [
+          "deduced",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic class:cpp",
+        "bold": "semantic class:cpp",
+        "italic": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "underline": "default class -> TextMate entity.name.type (probe entity.name.type.class)",
+        "strikethrough": "default class -> TextMate entity.name.type (probe entity.name.type.class)"
+      }
+    },
+    {
+      "token": {
+        "line": 20,
+        "column": 17,
+        "length": 5,
+        "text": "LIMIT",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.readonly:cpp",
+        "bold": "semantic variable.readonly:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.LIMIT.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.LIMIT.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 21,
+        "column": 13,
+        "length": 12,
+        "text": "DEFAULT_STEP",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.readonly:cpp",
+        "bold": "semantic variable.readonly:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.DEFAULT_STEP.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.DEFAULT_STEP.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 32,
+        "column": 23,
+        "length": 9,
+        "text": "instances",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.static:cpp",
+        "bold": "semantic variable.static:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.instances.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.instances.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 33,
+        "column": 33,
+        "length": 8,
+        "text": "capacity",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.static:cpp",
+        "bold": "semantic variable.static:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.capacity.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.capacity.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 55,
+        "column": 27,
+        "length": 1,
+        "text": "N",
+        "type": "typeParameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#577909",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic typeParameter.readonly:cpp",
+        "bold": "semantic typeParameter.readonly:cpp",
+        "italic": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)",
+        "underline": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)",
+        "strikethrough": "default typeParameter -> TextMate entity.name.type (probe entity.name.type.parameter)"
+      }
+    },
+    {
+      "token": {
+        "line": 104,
+        "column": 15,
+        "length": 5,
+        "text": "fixed",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.readonly:cpp",
+        "bold": "semantic variable.readonly:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.assignment.cpp",
+        "strikethrough": "actual TextMate variable.other.assignment.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 105,
+        "column": 19,
+        "length": 6,
+        "text": "extent",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.readonly:cpp",
+        "bold": "semantic variable.readonly:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.extent.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.extent.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 106,
+        "column": 16,
+        "length": 12,
+        "text": "local_visits",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.static:cpp",
+        "bold": "semantic variable.static:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.assignment.cpp",
+        "strikethrough": "actual TextMate variable.other.assignment.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 108,
+        "column": 16,
+        "length": 16,
+        "text": "pointer_to_const",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.readonly:cpp",
+        "bold": "semantic variable.readonly:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.pointer_to_const.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.pointer_to_const.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 109,
+        "column": 16,
+        "length": 13,
+        "text": "const_pointer",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable.readonly:cpp",
+        "bold": "semantic variable.readonly:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.const_pointer.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.const_pointer.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 30,
+        "column": 15,
+        "length": 6,
+        "text": "origin",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#017a56b7",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic property.readonly:cpp",
+        "italic": "semantic property.readonly:cpp",
+        "bold": "semantic property.readonly:cpp",
+        "underline": "actual TextMate variable.other.declare.cpp",
+        "strikethrough": "actual TextMate variable.other.declare.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 29,
+        "column": 9,
+        "length": 5,
+        "text": "value",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic property:cpp",
+        "italic": "semantic property:cpp",
+        "bold": "semantic property:cpp",
+        "underline": "actual TextMate variable.other.declare.cpp",
+        "strikethrough": "actual TextMate variable.other.declare.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 31,
+        "column": 17,
+        "length": 6,
+        "text": "cached",
+        "type": "property",
+        "modifiers": [
+          "declaration",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#499504",
+        "italic": true,
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic property:cpp",
+        "italic": "semantic property:cpp",
+        "bold": "semantic property:cpp",
+        "underline": "actual TextMate variable.other.unknown.cached.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.cached.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 35,
+        "column": 26,
+        "length": 7,
+        "text": "initial",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "italic": "semantic parameter:cpp",
+        "foreground": "semantic parameter:cpp",
+        "bold": "semantic parameter:cpp",
+        "underline": "actual TextMate variable.parameter.cpp",
+        "strikethrough": "actual TextMate variable.parameter.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 38,
+        "column": 25,
+        "length": 5,
+        "text": "extra",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "italic": "semantic parameter:cpp",
+        "foreground": "semantic parameter:cpp",
+        "bold": "semantic parameter:cpp",
+        "underline": "actual TextMate variable.parameter.cpp",
+        "strikethrough": "actual TextMate variable.parameter.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 49,
+        "column": 29,
+        "length": 5,
+        "text": "right",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "italic": "semantic parameter:cpp",
+        "foreground": "semantic parameter:cpp",
+        "bold": "semantic parameter:cpp",
+        "underline": "actual TextMate variable.parameter.cpp",
+        "strikethrough": "actual TextMate variable.parameter.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 69,
+        "column": 42,
+        "length": 5,
+        "text": "value",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "italic": "semantic parameter:cpp",
+        "foreground": "semantic parameter:cpp",
+        "bold": "semantic parameter:cpp",
+        "underline": "actual TextMate variable.other.unknown.value.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.value.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 116,
+        "column": 47,
+        "length": 5,
+        "text": "delta",
+        "type": "parameter",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "italic": true,
+        "foreground": "#499504",
+        "bold": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "italic": "semantic parameter:cpp",
+        "foreground": "semantic parameter:cpp",
+        "bold": "semantic parameter:cpp",
+        "underline": "actual TextMate variable.parameter.cpp",
+        "strikethrough": "actual TextMate variable.parameter.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 38,
+        "column": 9,
+        "length": 5,
+        "text": "total",
+        "type": "method",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic method:cpp",
+        "bold": "semantic method:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 45,
+        "column": 19,
+        "length": 7,
+        "text": "current",
+        "type": "method",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "readonly",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic method:cpp",
+        "bold": "semantic method:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 49,
+        "column": 5,
+        "length": 3,
+        "text": "add",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "bold": "semantic function:cpp",
+        "foreground": "semantic function:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 51,
+        "column": 15,
+        "length": 6,
+        "text": "square",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "bold": "semantic function:cpp",
+        "foreground": "semantic function:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 52,
+        "column": 15,
+        "length": 10,
+        "text": "fixed_size",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#146DAD",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "bold": "semantic function:cpp",
+        "foreground": "semantic function:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 80,
+        "column": 17,
+        "length": 6,
+        "text": "render",
+        "type": "method",
+        "modifiers": [
+          "declaration",
+          "readonly",
+          "abstract",
+          "virtual",
+          "classScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic method:cpp",
+        "bold": "semantic method:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 44,
+        "column": 20,
+        "length": 6,
+        "text": "create",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "classScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "bold": "semantic function.static:cpp",
+        "foreground": "semantic function.static:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 50,
+        "column": 12,
+        "length": 8,
+        "text": "internal",
+        "type": "function",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "static",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "bold": false,
+        "foreground": "#017a56b7",
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "bold": "semantic function.static:cpp",
+        "foreground": "semantic function.static:cpp",
+        "italic": "actual TextMate entity.name.function.definition.cpp",
+        "underline": "actual TextMate entity.name.function.definition.cpp",
+        "strikethrough": "actual TextMate entity.name.function.definition.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 73,
+        "column": 9,
+        "length": 7,
+        "text": "Addable",
+        "type": "concept",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#A57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#db7800",
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic concept:cpp",
+        "bold": "semantic concept:cpp",
+        "italic": "actual TextMate variable.other.unknown.Addable.cpp",
+        "underline": "actual TextMate variable.other.unknown.Addable.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.Addable.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 10,
+        "column": 26,
+        "length": 7,
+        "text": "running",
+        "type": "enumMember",
+        "modifiers": [
+          "declaration",
+          "readonly",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#D33682",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic enumMember",
+        "bold": "semantic enumMember",
+        "italic": "actual TextMate variable.other.enummember.cpp",
+        "underline": "actual TextMate variable.other.enummember.cpp",
+        "strikethrough": "actual TextMate variable.other.enummember.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 22,
+        "column": 14,
+        "length": 6,
+        "text": "visits",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "fileScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable:cpp",
+        "bold": "semantic variable:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.visits.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.visits.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 23,
+        "column": 17,
+        "length": 17,
+        "text": "initialized_count",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable:cpp",
+        "bold": "semantic variable:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.initialized_count.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.initialized_count.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 24,
+        "column": 20,
+        "length": 12,
+        "text": "thread_count",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable:cpp",
+        "bold": "semantic variable:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.unknown.thread_count.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.thread_count.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 103,
+        "column": 9,
+        "length": 5,
+        "text": "local",
+        "type": "variable",
+        "modifiers": [
+          "declaration",
+          "definition",
+          "functionScope"
+        ]
+      },
+      "before": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#a57800",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic variable:cpp",
+        "bold": "semantic variable:cpp",
+        "italic": "semantic variable:cpp",
+        "underline": "actual TextMate variable.other.assignment.cpp",
+        "strikethrough": "actual TextMate variable.other.assignment.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 4,
+        "column": 9,
+        "length": 11,
+        "text": "THEME_LIMIT",
+        "type": "macro",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic macro",
+        "bold": "semantic macro",
+        "italic": "actual TextMate entity.name.function.preprocessor.cpp",
+        "underline": "actual TextMate entity.name.function.preprocessor.cpp",
+        "strikethrough": "actual TextMate entity.name.function.preprocessor.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 5,
+        "column": 9,
+        "length": 9,
+        "text": "THEME_ADD",
+        "type": "macro",
+        "modifiers": [
+          "declaration",
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic macro",
+        "bold": "semantic macro",
+        "italic": "actual TextMate entity.name.function.preprocessor.cpp",
+        "underline": "actual TextMate entity.name.function.preprocessor.cpp",
+        "strikethrough": "actual TextMate entity.name.function.preprocessor.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 147,
+        "column": 35,
+        "length": 11,
+        "text": "THEME_LIMIT",
+        "type": "macro",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic macro",
+        "bold": "semantic macro",
+        "italic": "actual TextMate variable.other.unknown.THEME_LIMIT.cpp",
+        "underline": "actual TextMate variable.other.unknown.THEME_LIMIT.cpp",
+        "strikethrough": "actual TextMate variable.other.unknown.THEME_LIMIT.cpp"
+      }
+    },
+    {
+      "token": {
+        "line": 147,
+        "column": 25,
+        "length": 9,
+        "text": "THEME_ADD",
+        "type": "macro",
+        "modifiers": [
+          "globalScope"
+        ]
+      },
+      "before": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "after": {
+        "foreground": "#146DAD",
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false
+      },
+      "origins": {
+        "foreground": "semantic macro",
+        "bold": "semantic macro",
+        "italic": "actual TextMate entity.name.function.call.cpp",
+        "underline": "actual TextMate entity.name.function.call.cpp",
+        "strikethrough": "actual TextMate entity.name.function.call.cpp"
+      }
+    }
+  ],
+  "rustRegression": {
+    "allExistingSemanticRulesUnchanged": true,
+    "allNewSelectorsCppOnly": true,
+    "uiColorsUnchanged": true,
+    "unchangedTextMateFiles": [
+      {
+        "file": "rust/src/advanced.rs",
+        "tokens": 882
+      },
+      {
+        "file": "rust/src/async_flow.rs",
+        "tokens": 816
+      },
+      {
+        "file": "rust/src/attributes_macros.rs",
+        "tokens": 532
+      },
+      {
+        "file": "rust/src/diagnostics.rs",
+        "tokens": 226
+      },
+      {
+        "file": "rust/src/functions.rs",
+        "tokens": 1082
+      },
+      {
+        "file": "rust/src/literals.rs",
+        "tokens": 586
+      },
+      {
+        "file": "rust/src/main.rs",
+        "tokens": 1002
+      },
+      {
+        "file": "rust/src/types_patterns.rs",
+        "tokens": 1423
+      },
+      {
+        "file": "rust/theme_macros/src/lib.rs",
+        "tokens": 104
+      }
+    ]
+  },
+  "validation": [
+    "GCC C++20 compile and execution passed.",
+    "Actual clangd LSP token capture; no diagnostics.",
+    "Actual VS Code TextMate grammar with existing Rust injections.",
+    "Final styles inferred with audited per-property semantic precedence and TextMate defaults; no GUI claim.",
+    "No C++ sample tokens are underlined.",
+    "CMake configure/build and executable run passed."
+  ],
+  "limitations": [
+    "clangd readonly includes const pointees/referents and is not an exact test of whether the variable itself can be reassigned.",
+    "The sampled file-scope static visits lacks the static modifier and retains ordinary-variable color; function-local and class static fields carry static and use teal.",
+    "Object-like and function-like macros share macro tokens; both use function blue.",
+    "Macro parameters in replacement bodies lack parameter tokens in this sample; no new grammar injection added.",
+    "constexpr/consteval functions are ordinary function tokens; keep blue. Const methods remain methods and keep blue.",
+    "Concept orange has user approval; readonly-field teal with italics remains subject to its own visual feedback.",
+    "Company clangd version unknown; local capture uses 23.1.0. No MS C++ extension or C language verification.",
+    "No comprehensive standard-library, modules, CUDA or dependent-name coverage."
+  ],
+  "latestUserFeedback": {
+    "date": "2026-11-07",
+    "quote": "看起来不错",
+    "scope": "General positive feedback on the observed C++ preview after the build configuration fix; not a per-category acceptance.",
+    "nextReview": [
+      "template type and non-type parameters",
+      "type aliases",
+      "concepts",
+      "abstract classes"
+    ]
+  },
+  "templateConceptReview": {
+    "date": "2026-11-07",
+    "quote": "符合",
+    "accepted": [
+      "template type parameter T: green and bold",
+      "non-type template parameter N: light teal",
+      "type alias value_type: green and bold",
+      "concept Addable: orange and bold",
+      "abstract class Renderable: green and bold"
+    ],
+    "nextReview": [
+      "lambda parameters",
+      "lambda captures",
+      "structured bindings"
+    ]
+  },
+  "lambdaBindingReview": {
+    "date": "2026-11-07",
+    "quote": "这部分也没问题",
+    "accepted": [
+      "lambda parameters delta and step: light green and italic",
+      "captures local, counter and init-capture value: ordinary-variable color",
+      "structured bindings x and y: ordinary-variable color",
+      "no mutability underlines in this preview"
+    ],
+    "nextReview": [
+      "pointers and references",
+      "const-qualified pointer/reference readonly classification"
+    ]
+  },
+  "historicalSnapshotFor": "cpp-r1; keep original theme hash, rule counts and expected styles as historical evidence",
+  "subsequentReadonlyFix": "cpp-readonly-fix-audit.json"
+}
