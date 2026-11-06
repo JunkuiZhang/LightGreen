@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-07",
+  "status": "openvsx_published_marketplace_awaiting_renewed_pat",
+  "extensionId": "JunkuiZhang.sl-rust",
+  "version": "0.1.0",
+  "artifactSha256": "430a17e908398f231be28c51e1bd415542301ed083c1739253127b32cf80b74b",
+  "sourceReleaseCommit": "394a92c21a759e48576bf2cdaf94db201ecc73a6",
+  "sourcePushed": true,
+  "userAuthorizedBothRegistries": true,
+  "openVsx": {
+    "checkedAt": "2026-11-07T05:11:34.617894+08:00",
+    "service": "openvsx",
+    "version": "0.1.0",
+    "published": true,
+    "publicVersionEndpoint": "https://open-vsx.org/api/JunkuiZhang/sl-rust/0.1.0",
+    "downloadUrl": "https://open-vsx.org/api/JunkuiZhang/sl-rust/0.1.0/file/JunkuiZhang.sl-rust-0.1.0.vsix",
+    "downloadedBytes": 13507,
+    "downloadedSha256": "430a17e908398f231be28c51e1bd415542301ed083c1739253127b32cf80b74b",
+    "matchesLocalVsix": true,
+    "archiveEntriesMatch": {
+      "extension.vsixmanifest": true,
+      "[Content_Types].xml": true,
+      "extension/changelog.md": true,
+      "extension/LICENSE.txt": true,
+      "extension/readme.md": true,
+      "extension/package.json": true,
+      "extension/themes/slr-color-theme.json": true,
+      "extension/syntaxes/rust-macro-parameters.tmLanguage.json": true,
+      "extension/syntaxes/rust-raw-c-strings.tmLanguage.json": true
+    },
+    "extensionId": "JunkuiZhang.sl-rust",
+    "themeLabel": "Solarized Light Rust",
+    "engines": {
+      "vscode": "^1.81.0"
+    },
+    "license": "MIT",
+    "latestEndpointInitiallyCachedVersion": "0.0.1",
+    "cliVersion": "1.3.0",
+    "permissionVerification": "passed",
+    "publishExitCode": 0,
+    "latestVersionVerified": "0.1.0"
+  },
+  "marketplace": {
+    "status": "authentication_failed_expired_pat",
+    "cliVersion": "4.1.0",
+    "verificationCommand": "vsce verify-pat JunkuiZhang",
+    "verificationExitCode": 1,
+    "error": "Access Denied: The Personal Access Token used has expired.",
+    "uploadAttempted": false,
+    "published": false,
+    "nextStep": "Wait for user to replace expired PAT in the existing local credential file; then verify, publish the unchanged package, and inspect public registry metadata and downloaded artifact."
+  },
+  "credentialHandling": "Read only from user-specified local files; passed via per-command environment variables; never included in command arguments or repository files. Original files unchanged."
+}

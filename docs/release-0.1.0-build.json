@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "status": "source_pushed_awaiting_publication_credentials",
+  "status": "openvsx_published_marketplace_awaiting_renewed_pat",
   "baseCommit": "94399b8",
   "extensionId": "JunkuiZhang.sl-rust",
   "version": "0.1.0",
@@ -106,22 +106,28 @@
   "publicationState": {
     "gitPushed": true,
     "marketplacePublished": false,
-    "openVsxPublished": false,
+    "openVsxPublished": true,
     "credentialsVerified": false,
     "installedByAssistant": false,
     "authorizedByUser": true,
-    "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6"
+    "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6",
+    "openVsxCredentialsVerified": true,
+    "marketplaceCredentialsVerified": false,
+    "publicationRecord": "release-0.1.0-publication.json"
   },
   "limitations": [
-    "Publication credentials and namespace permissions have not been authenticated.",
+    "Open VSX publication and public package verified; Marketplace PAT expired, awaiting replacement.",
     "Earlier documented semantic-classification, transparency and visual-review limits remain unchanged."
   ],
   "publicationAttempt": {
     "date": "2026-11-07",
     "gitPush": "succeeded; remote master verified",
-    "credentialDiscovery": "No WSL vsce publishers listed; no VSCE_PAT/OVSX_PAT in WSL or Windows process/user/machine environment; no .vsce in either user home. Other credential locations remain unknown.",
+    "credentialDiscovery": "User supplied local credential files; Open VSX token valid, Marketplace token expired.",
     "browserFallback": "Initialization failed twice: sandboxCwd is not a local file URI: file:///home/xiaobai/projects/LightGreen",
-    "uploadRequestsSent": false,
-    "nextStep": "User supplies existing local credential configuration path or completes local credential setup; then publish the already validated VSIX to each registry."
+    "uploadRequestsSent": true,
+    "nextStep": "Wait for user to replace expired PAT in the existing local credential file; then verify, publish the unchanged package, and inspect public registry metadata and downloaded artifact.",
+    "uploadRequestsSentTo": [
+      "openvsx"
+    ]
   }
 }

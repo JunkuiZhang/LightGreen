@@ -1,6 +1,6 @@
-# 0.1.0 双平台发布准备
+# 0.1.0 双平台发布记录
 
-日期：2026-11-07。状态：用户已授权代为发布。正式 VSIX 已生成并验证，主题改动 `94399b8` 与发布准备 `394a92c` 已推送 GitHub master，远端引用核对通过。尚未上传或发布，等待可用的发布凭据；未操作用户的已安装扩展。
+日期：2026-11-07。状态：用户已授权代为发布，源码已推送 GitHub。**Open VSX 0.1.0 已发布，公开下载包与本地包逐字节一致；Marketplace 保存的 PAT 已过期，尚未上传，等待用户更新令牌。** 未操作用户的已安装扩展。详细机器核对见 [发布结果](release-0.1.0-publication.json)。
 
 ## 包与身份
 
@@ -40,33 +40,34 @@ code --install-extension "C:\Users\36477\Downloads\sl-rust-0.1.0.vsix" --force
 
 如需从源码开发预览，在 Run and Debug 选择 Preview Rust Theme 或 Preview C++ Theme 后 F5；兄弟目录样例存在时会自动打开。正式版与开发版显示名称相同，通过 Extension Development Host 窗口及扩展版本区分。
 
-## 商店现状与待执行步骤
+## 商店状态与剩余步骤
 
-本次通过两个公开 API 只读核对，两个商店现有版本均为 **0.0.1**，查询结果中没有 0.1.0：
+发布前通过两个公开 API 只读核对，两商店版本均为 **0.0.1**。当前状态：
 
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=JunkuiZhang.sl-rust)：public gallery extensionquery。
-- [Open VSX 元数据](https://open-vsx.org/api/JunkuiZhang/sl-rust/latest)：命名空间 `JunkuiZhang`、扩展 `sl-rust` 已存在，无需另建扩展或命名空间。
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=JunkuiZhang.sl-rust)：PAT 验证返回 `Access Denied: The Personal Access Token used has expired.`，没有执行发布请求。
+- [Open VSX 0.1.0](https://open-vsx.org/extension/JunkuiZhang/sl-rust)：`ovsx 1.3.0 verify-pat` 通过，发布命令成功；[版本 API](https://open-vsx.org/api/JunkuiZhang/sl-rust/0.1.0) 与公开下载包确认 0.1.0、MIT、`^1.81.0` 和正式主题名称。下载 SHA-256 与本页包记录一致。
 
-源码已同步至 GitHub，包内 README 的相对文档链接已由 vsce 改写为仓库链接。平台登录/发布凭据及当前账号权限尚未验证。
+源码已同步至 GitHub，包内 README 的相对文档链接已由 vsce 改写为仓库链接。Open VSX 的发布权限已验证；Marketplace 需用更新后的令牌重新验证。
 
 2026-11-07 发布执行记录：
 
 - `git push origin master` 成功，远端 `master` 核对为 `394a92c21a759e48576bf2cdaf94db201ecc73a6`。
 - WSL 的 `vsce ls-publishers` 未列出已登录发布者；WSL 未设置 `VSCE_PAT` / `OVSX_PAT`，Windows 的 Process/User/Machine 范围也未设置这两个变量；WSL 和 Windows 用户目录下均未找到 `.vsce`。这不代表用户在其他位置没有凭据。
 - 尝试通过 computer-use 使用已有浏览器登录，初始化因 `sandboxCwd is not a local file URI: file:///home/xiaobai/projects/LightGreen` 失败，重置后仍失败；没有进入登录页或进行上传。
-- 已请求用户提供既有凭据的本机配置路径，或选择获取本地配置步骤。不要在聊天、Git 或发布记录中保存令牌。
-- 两个平台均未执行发布请求；用户授权已具备，拿到可用凭据后继续发布本页记录的同一包，并分别核对结果。
+- 用户随后提供两个凭据文件的本机位置。令牌只在进程内读取并通过相应 CLI 的环境变量使用，没有写入 Git、命令行参数或发布记录，也未修改原凭据文件。
+- Marketplace 的旧令牌验证失败，明确原因是过期。已向用户提供 Azure DevOps 重新创建 PAT 的步骤；等待更新原文件后再次验证。
+- Open VSX 使用同一个 13,507 字节 VSIX 发布成功，公开版本和下载内容均已确认。最初 latest 响应仍缓存 0.0.1，因此另行核对精确 0.1.0 端点及实际文件；随后绕过缓存的 latest 查询也确认 0.1.0，没有重复上传。
 
-具备发布权限并完成相应登录后，在仓库目录发布已验证的同一包，避免重新打包不同内容：
+本次使用的发布命令（通过环境变量传递对应凭据）：
 
 ```sh
 npx @vscode/vsce@4.1.0 publish --packagePath ./dist/sl-rust-0.1.0.vsix
-npx ovsx publish ./dist/sl-rust-0.1.0.vsix
+npx ovsx@1.3.0 publish ./dist/sl-rust-0.1.0.vsix
 ```
 
-这两条命令会实际上传；本轮没有执行。vsce 可使用已配置的登录凭据或 VSCE_PAT，Open VSX CLI 可读取 OVSX_PAT；也可按平台官方指南配置适用的认证方式。不要把两平台令牌混用。
+Open VSX 发布命令已执行成功，不再重跑。Marketplace 发布命令尚未执行；等用户更新令牌后，先运行 `vsce verify-pat JunkuiZhang`，成功后发布同一包。vsce 读取 VSCE_PAT，Open VSX CLI 读取 OVSX_PAT；不要把两平台令牌混用。
 
-完成后分别核对商店页面/API 中的 0.1.0、正式主题名称、最低版本及 README。两个平台的成功状态要分别记录，不能以其中一个发布成功代表两个都已更新。
+Marketplace 发布完成后还需核对公开 0.1.0 及下载内容。当前仅 Open VSX 已完成，不能将其成功扩大为两个商店均已更新。
 
 依据：[VS Code 发布指南](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)、[Open VSX 发布指南](https://github.com/eclipse-openvsx/openvsx/wiki/Publishing-Extensions)、[Open VSX 环境变量支持](https://github.com/eclipse-openvsx/openvsx/blob/master/cli/src/util.ts)。
 

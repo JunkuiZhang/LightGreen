@@ -999,7 +999,7 @@
   },
   "reviewStatus": {
     "date": "2026-11-07",
-    "phase": "Release 0.1.0 source pushed to GitHub; user authorized publication to both registries; awaiting publication credentials; not uploaded, published or installed",
+    "phase": "Release 0.1.0 source pushed; Open VSX published and public package verified; Marketplace PAT expired, awaiting renewal; not installed by assistant",
     "latestUserAccepted": [
       "ordinary comments",
       "block comments",
@@ -1022,10 +1022,14 @@
       "associated-type Output override"
     ],
     "packaged": true,
-    "published": false,
+    "published": true,
     "localPackageRecord": "release-0.1.0-build.json",
     "installedIntoUserProfile": false,
-    "previousLocalPackageFeedback": "User reports everything currently looks normal, then requests a softer multiline selection."
+    "previousLocalPackageFeedback": "User reports everything currently looks normal, then requests a softer multiline selection.",
+    "publishedRegistries": [
+      "openvsx"
+    ],
+    "allTargetRegistriesPublished": false
   },
   "selectionTrial": {
     "date": "2026-11-07",
@@ -1209,7 +1213,7 @@
   "releasePreparation": {
     "version": "0.1.0",
     "baseCommit": "94399b8",
-    "status": "source_pushed_awaiting_publication_credentials",
+    "status": "openvsx_published_marketplace_awaiting_renewed_pat",
     "themeLabel": "Solarized Light Rust",
     "identityPreserved": true,
     "evidence": "release-0.1.0-build.json",
@@ -1221,6 +1225,7 @@
     "credentialsVerified": false,
     "gitPushed": true,
     "publicationAuthorized": true,
-    "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6"
+    "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6",
+    "publicationRecord": "release-0.1.0-publication.json"
   }
 }
