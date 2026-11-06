@@ -6,7 +6,7 @@
 
 - 文件：`images/icon.png`，256 × 256 PNG，51,348 字节；从最初的 1254 × 1254 生成结果按比例导出，无裁剪或重新设计；原始生成文件另存于本机 imagegen 输出目录。
 - 扩展清单：`package.json` 的 `icon` 指向 `images/icon.png`。
-- 发布：作为 0.1.1 图标更新沿用本次双平台发布流程；实际发布结果以 [0.1.1 记录](release-0.1.1.json)为准。
+- 发布：0.1.1 已在 VS Code Marketplace 与 Open VSX 上线，公开图标与 VSIX 均与本地文件逐字节一致；见 [0.1.1 记录](release-0.1.1.json)。
 - 内容边界：仅新增图标、清单版本与 icon 字段、更新日志及记录；主题、Rust 语法补丁、README 与 0.1.0 包逐字节一致。
 - 生成方式：内置 imagegen 工具；没有使用 CLI/API fallback，打包前使用 sharp 等比导出 256 × 256 PNG，满足 Marketplace 的 1 MB 和 1024 × 1024 上限；没有重绘图案。
 - 图标 SHA-256：`2dd5f86bb67cdf0264ab4b3b9ef59911915d37802f52daa14c6eb17ea8536d6c`；原始生成文件 SHA-256：`5bd49e7a6485257bdbdd826275f9f3662513747e53b2a6c6d82cb187e591b9e9`。

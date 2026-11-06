@@ -6,7 +6,7 @@
 
 验收范围：用户确认的类别和界面保持现状；原始 C 字符串修复已获实际显示反馈。宏参数补丁与关联类型 Output 已按明确设计实施并通过规则测试，但没有将其他区域的泛指反馈当成两者的单独修改后验收。未观察状态和其他语言不算全部通过。格式捕获分类与两类透明度约定仍是保留限制。C++ constexpr 变量与普通 const 的精确区分按用户要求暂缓：无其他可识别修饰符时均使用普通变量色，见 [readonly 修复](cpp-readonly-fix-audit.json)。
 
-正式发布状态：源码已推送 GitHub，VS Code Marketplace 与 Open VSX 均已发布 0.1.0，两个公开商店的最新版本和下载包均核对通过。主题名为 Solarized Light Rust，最低版本与已确认主题/语法内容不变；Marketplace 旧 PAT 过期问题已由用户更新令牌解决。见 [发布记录](release-0.1.0.md)。下面的 cpp-r3 / Local Preview 内容保留为历史预览记录，不代表最新发布状态。
+正式发布状态：源码已推送 GitHub，VS Code Marketplace 与 Open VSX 的最新版本为 0.1.1，新增自定义扩展图标；两个公开图标和下载包均与本地文件核对通过。Rust/C++ 和界面配色、两条语法补丁保持 0.1.0 内容不变。主题名为 Solarized Light Rust。见 [0.1.1 图标更新](release-0.1.1.json)和[0.1.0 发布记录](release-0.1.0.md)。下面的 cpp-r3 / Local Preview 内容保留为历史预览记录，不代表最新发布状态。
 
 ## 静态检查结果
 

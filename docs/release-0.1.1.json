@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "status": "prepared_not_published",
+  "status": "published_and_publicly_verified_both_registries",
   "version": "0.1.1",
   "extensionId": "JunkuiZhang.sl-rust",
   "artifact": "dist/sl-rust-0.1.1.vsix",
@@ -25,7 +25,8 @@
     "runtimeAndReadmeBytesMatchPublished010": true,
     "windowsCopyMatches": true,
     "marketplaceIconBelow1MiB": "passed",
-    "marketplaceIconAtMost1024Pixels": "passed"
+    "marketplaceIconAtMost1024Pixels": "passed",
+    "assistantVisualReview": "Generated design and exported 256px PNG inspected; final exported appearance retained. User has not separately confirmed icon styling."
   },
   "files": [
     {
@@ -81,7 +82,7 @@
   ],
   "publication": {
     "marketplace": {
-      "published": false,
+      "published": true,
       "previousAttempts": [
         {
           "published": false,
@@ -95,10 +96,82 @@
           "error": "The provided icon image exceeds the maximum allowed dimensions of 1024 by 1024 pixels.",
           "resolution": "Exported the original design at 256 x 256 pixels."
         }
-      ]
+      ],
+      "uploadExitCode": 0,
+      "publiclyVerified": true,
+      "publishResult": {
+        "service": "marketplace",
+        "action": "publish",
+        "timestamp": "2026-11-07T05:39:33.223618+08:00",
+        "exitCode": 0,
+        "timedOut": false,
+        "output": " INFO  Publishing 'JunkuiZhang.sl-rust v0.1.1'...\n INFO  Extension URL (might take a few minutes): https://marketplace.visualstudio.com/items?itemName=JunkuiZhang.sl-rust\n INFO  Hub URL: https://marketplace.visualstudio.com/manage/publishers/JunkuiZhang/extensions/sl-rust/hub\n DONE  Published JunkuiZhang.sl-rust v0.1.1.\n"
+      },
+      "publicVerification": {
+        "checkedAt": "2026-11-06T21:44:32.979Z",
+        "service": "marketplace",
+        "extensionId": "JunkuiZhang.sl-rust",
+        "displayName": "Solarized Light Rust",
+        "latestVersion": "0.1.1",
+        "requestedVersion": "0.1.1",
+        "versionListed": true,
+        "flags": "validated, public",
+        "properties": {
+          "Microsoft.VisualStudio.Services.Links.Getstarted": "https://github.com/JunkuiZhang/LightGreen.git",
+          "Microsoft.VisualStudio.Services.Links.Support": "https://github.com/JunkuiZhang/LightGreen/issues",
+          "Microsoft.VisualStudio.Services.Links.Learn": "https://github.com/JunkuiZhang/LightGreen#readme",
+          "Microsoft.VisualStudio.Services.Links.Source": "https://github.com/JunkuiZhang/LightGreen.git",
+          "Microsoft.VisualStudio.Services.Links.GitHub": "https://github.com/JunkuiZhang/LightGreen.git",
+          "Microsoft.VisualStudio.Code.Engine": "^1.81.0",
+          "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown": "true",
+          "Microsoft.VisualStudio.Code.ExtensionDependencies": "",
+          "Microsoft.VisualStudio.Code.ExtensionPack": "",
+          "Microsoft.VisualStudio.Code.LocalizedLanguages": "",
+          "Microsoft.VisualStudio.Code.ExtensionKind": "ui,workspace,web",
+          "Microsoft.VisualStudio.Services.Content.Pricing": "Free",
+          "Microsoft.VisualStudio.Code.EnabledApiProposals": "",
+          "Microsoft.VisualStudio.Services.VsixSha256": "a409762e717647ae4712e7e158a3ec5f26f468a14ddba10aac5c8c7d7c55f95b"
+        },
+        "iconUrl": "https://JunkuiZhang.gallerycdn.vsassets.io/extensions/junkuizhang/sl-rust/0.1.1/1794001173961/Microsoft.VisualStudio.Services.Icons.Default",
+        "iconSha256": "2dd5f86bb67cdf0264ab4b3b9ef59911915d37802f52daa14c6eb17ea8536d6c",
+        "downloadStatus": 200,
+        "downloadUrl": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/JunkuiZhang/vsextensions/sl-rust/0.1.1/vspackage",
+        "downloadedBytes": 65127,
+        "downloadedSha256": "a409762e717647ae4712e7e158a3ec5f26f468a14ddba10aac5c8c7d7c55f95b"
+      },
+      "packageAndIconMatchLocal": true
     },
     "openVsx": {
-      "published": false
+      "published": true,
+      "uploadExitCode": 0,
+      "publiclyVerified": true,
+      "publishResult": {
+        "service": "openvsx",
+        "action": "publish",
+        "timestamp": "2026-11-07T05:39:51.161163+08:00",
+        "exitCode": 0,
+        "timedOut": false,
+        "output": "🚀  Published JunkuiZhang.sl-rust v0.1.1\n"
+      },
+      "publicVerification": {
+        "checkedAt": "2026-11-06T21:41:29.371Z",
+        "service": "openvsx",
+        "version": "0.1.1",
+        "displayName": "Solarized Light Rust",
+        "engines": {
+          "vscode": "^1.81.0"
+        },
+        "license": "MIT",
+        "downloadUrl": "https://open-vsx.org/api/JunkuiZhang/sl-rust/0.1.1/file/JunkuiZhang.sl-rust-0.1.1.vsix",
+        "iconUrl": "https://open-vsx.org/api/JunkuiZhang/sl-rust/0.1.1/file/icon.png",
+        "downloadedBytes": 65127,
+        "downloadedSha256": "a409762e717647ae4712e7e158a3ec5f26f468a14ddba10aac5c8c7d7c55f95b",
+        "iconSha256": "2dd5f86bb67cdf0264ab4b3b9ef59911915d37802f52daa14c6eb17ea8536d6c",
+        "latestVersion": "0.1.1"
+      },
+      "packageAndIconMatchLocal": true
     }
-  }
+  },
+  "sourceCommit": "95b90bb",
+  "sourcePushed": true
 }

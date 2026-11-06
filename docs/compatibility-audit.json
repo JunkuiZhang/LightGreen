@@ -1232,10 +1232,16 @@
   },
   "iconUpdate": {
     "version": "0.1.1",
-    "status": "prepared_not_published",
+    "status": "published_and_publicly_verified_both_registries",
     "evidence": "release-0.1.1.json",
     "icon": "images/icon.png",
     "themeAndGrammarsUnchangedFrom010": true,
-    "packageJsonSha256": "d22fdc4e192a916a857462b8f6954233a9fe4bf947160f5c77ad6c37ae7204d5"
+    "packageJsonSha256": "d22fdc4e192a916a857462b8f6954233a9fe4bf947160f5c77ad6c37ae7204d5",
+    "iconDimensions": [
+      256,
+      256
+    ],
+    "iconBytes": 51348,
+    "publicIconsAndPackagesMatchLocal": true
   }
 }
