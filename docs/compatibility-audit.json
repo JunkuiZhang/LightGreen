@@ -999,7 +999,7 @@
   },
   "reviewStatus": {
     "date": "2026-11-07",
-    "phase": "Confirmed theme changes committed; release 0.1.0 prepared for Marketplace/Open VSX; not pushed, published or installed; authentication not verified",
+    "phase": "Release 0.1.0 source pushed to GitHub; user authorized publication to both registries; awaiting publication credentials; not uploaded, published or installed",
     "latestUserAccepted": [
       "ordinary comments",
       "block comments",
@@ -1209,7 +1209,7 @@
   "releasePreparation": {
     "version": "0.1.0",
     "baseCommit": "94399b8",
-    "status": "prepared_not_published",
+    "status": "source_pushed_awaiting_publication_credentials",
     "themeLabel": "Solarized Light Rust",
     "identityPreserved": true,
     "evidence": "release-0.1.0-build.json",
@@ -1219,6 +1219,8 @@
       "openVsx": "0.0.1"
     },
     "credentialsVerified": false,
-    "gitPushed": false
+    "gitPushed": true,
+    "publicationAuthorized": true,
+    "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6"
   }
 }

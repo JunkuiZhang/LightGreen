@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "status": "prepared_not_published",
+  "status": "source_pushed_awaiting_publication_credentials",
   "baseCommit": "94399b8",
   "extensionId": "JunkuiZhang.sl-rust",
   "version": "0.1.0",
@@ -104,15 +104,24 @@
     "staticConfiguration": "passed; previously documented transparency exceptions unchanged"
   },
   "publicationState": {
-    "gitPushed": false,
+    "gitPushed": true,
     "marketplacePublished": false,
     "openVsxPublished": false,
     "credentialsVerified": false,
-    "installedByAssistant": false
+    "installedByAssistant": false,
+    "authorizedByUser": true,
+    "sourceCommitPushed": "394a92c21a759e48576bf2cdaf94db201ecc73a6"
   },
   "limitations": [
     "Publication credentials and namespace permissions have not been authenticated.",
-    "Source commits should be pushed before publication so README repository documentation links resolve to the new content.",
     "Earlier documented semantic-classification, transparency and visual-review limits remain unchanged."
-  ]
+  ],
+  "publicationAttempt": {
+    "date": "2026-11-07",
+    "gitPush": "succeeded; remote master verified",
+    "credentialDiscovery": "No WSL vsce publishers listed; no VSCE_PAT/OVSX_PAT in WSL or Windows process/user/machine environment; no .vsce in either user home. Other credential locations remain unknown.",
+    "browserFallback": "Initialization failed twice: sandboxCwd is not a local file URI: file:///home/xiaobai/projects/LightGreen",
+    "uploadRequestsSent": false,
+    "nextStep": "User supplies existing local credential configuration path or completes local credential setup; then publish the already validated VSIX to each registry."
+  }
 }

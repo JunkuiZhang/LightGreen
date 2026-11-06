@@ -1,6 +1,6 @@
 # 0.1.0 双平台发布准备
 
-日期：2026-11-07。状态：正式 VSIX 已生成并验证，尚未推送 Git、上传或发布，也未操作用户的已安装扩展。已确认的主题改动先提交为 `94399b8`；随后整理本版本的发布元数据与说明。
+日期：2026-11-07。状态：用户已授权代为发布。正式 VSIX 已生成并验证，主题改动 `94399b8` 与发布准备 `394a92c` 已推送 GitHub master，远端引用核对通过。尚未上传或发布，等待可用的发布凭据；未操作用户的已安装扩展。
 
 ## 包与身份
 
@@ -47,7 +47,15 @@ code --install-extension "C:\Users\36477\Downloads\sl-rust-0.1.0.vsix" --force
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=JunkuiZhang.sl-rust)：public gallery extensionquery。
 - [Open VSX 元数据](https://open-vsx.org/api/JunkuiZhang/sl-rust/latest)：命名空间 `JunkuiZhang`、扩展 `sl-rust` 已存在，无需另建扩展或命名空间。
 
-发布前需同步源码提交到 GitHub，因为包内 README 的相对文档链接已由 vsce 改写为仓库链接。当前提交仍仅在本地，平台登录/发布凭据及当前账号权限尚未验证。
+源码已同步至 GitHub，包内 README 的相对文档链接已由 vsce 改写为仓库链接。平台登录/发布凭据及当前账号权限尚未验证。
+
+2026-11-07 发布执行记录：
+
+- `git push origin master` 成功，远端 `master` 核对为 `394a92c21a759e48576bf2cdaf94db201ecc73a6`。
+- WSL 的 `vsce ls-publishers` 未列出已登录发布者；WSL 未设置 `VSCE_PAT` / `OVSX_PAT`，Windows 的 Process/User/Machine 范围也未设置这两个变量；WSL 和 Windows 用户目录下均未找到 `.vsce`。这不代表用户在其他位置没有凭据。
+- 尝试通过 computer-use 使用已有浏览器登录，初始化因 `sandboxCwd is not a local file URI: file:///home/xiaobai/projects/LightGreen` 失败，重置后仍失败；没有进入登录页或进行上传。
+- 已请求用户提供既有凭据的本机配置路径，或选择获取本地配置步骤。不要在聊天、Git 或发布记录中保存令牌。
+- 两个平台均未执行发布请求；用户授权已具备，拿到可用凭据后继续发布本页记录的同一包，并分别核对结果。
 
 具备发布权限并完成相应登录后，在仓库目录发布已验证的同一包，避免重新打包不同内容：
 
