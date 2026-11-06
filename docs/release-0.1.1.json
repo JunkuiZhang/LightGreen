@@ -4,18 +4,19 @@
   "version": "0.1.1",
   "extensionId": "JunkuiZhang.sl-rust",
   "artifact": "dist/sl-rust-0.1.1.vsix",
-  "bytes": 889532,
-  "sha256": "30635e1d5fc5f55270eaaa5a3ff5fa1d48dfb6af46b38eab8cd0ff641d0a8044",
+  "bytes": 65127,
+  "sha256": "a409762e717647ae4712e7e158a3ec5f26f468a14ddba10aac5c8c7d7c55f95b",
   "icon": {
     "path": "images/icon.png",
-    "width": 1254,
-    "height": 1254,
-    "bytes": 888096,
-    "sha256": "caafa6becc7e33deb3dfc252188af32f70ce951550c1b26cb1fb73ea70ff9bfd",
+    "width": 256,
+    "height": 256,
+    "bytes": 51348,
+    "sha256": "2dd5f86bb67cdf0264ab4b3b9ef59911915d37802f52daa14c6eb17ea8536d6c",
     "generator": "built-in imagegen",
     "designRecord": "icon-design.md",
     "originalGeneratedSha256": "5bd49e7a6485257bdbdd826275f9f3662513747e53b2a6c6d82cb187e591b9e9",
-    "losslessCompression": "PNG IDAT zlib recompression only; identical decompressed scanlines and all other chunks preserved"
+    "export": "Proportional 256 x 256 PNG export from the original generated image using sharp/Lanczos3; no crop or redesign.",
+    "sharpVersion": "0.35.5"
   },
   "checks": {
     "zipIntegrity": "passed",
@@ -23,7 +24,8 @@
     "iconPngDimensions": "passed",
     "runtimeAndReadmeBytesMatchPublished010": true,
     "windowsCopyMatches": true,
-    "marketplaceIconBelow1MiB": "passed"
+    "marketplaceIconBelow1MiB": "passed",
+    "marketplaceIconAtMost1024Pixels": "passed"
   },
   "files": [
     {
@@ -57,11 +59,6 @@
       "sha256": "d22fdc4e192a916a857462b8f6954233a9fe4bf947160f5c77ad6c37ae7204d5"
     },
     {
-      "path": "extension/images/icon.png",
-      "bytes": 888096,
-      "sha256": "caafa6becc7e33deb3dfc252188af32f70ce951550c1b26cb1fb73ea70ff9bfd"
-    },
-    {
       "path": "extension/syntaxes/rust-macro-parameters.tmLanguage.json",
       "bytes": 748,
       "sha256": "677c4eeb8f262839fb4a293f97e0ba7233fd047eb7daa32787166dfe84b021bd"
@@ -72,6 +69,11 @@
       "sha256": "394e2f66831356668ebcc011dd770ff18cc73f49d8ec056e5da1646ac1e6606c"
     },
     {
+      "path": "extension/images/icon.png",
+      "bytes": 51348,
+      "sha256": "2dd5f86bb67cdf0264ab4b3b9ef59911915d37802f52daa14c6eb17ea8536d6c"
+    },
+    {
       "path": "extension/themes/slr-color-theme.json",
       "bytes": 36174,
       "sha256": "cc9394a152c0107d7170d3c6525c084f180720f373e35a879df6be06ed4040d6"
@@ -80,12 +82,20 @@
   "publication": {
     "marketplace": {
       "published": false,
-      "previousAttempt": {
-        "published": false,
-        "artifactSha256": "9becb93464be2921cfb764ba92820531bc7cbb55035c3b316db37e83313cd260",
-        "error": "The provided icon image exceeds the maximum allowed file size of 1024 KB.",
-        "resolution": "Lossless PNG container recompression reduced the icon from 1183693 to 888096 bytes."
-      }
+      "previousAttempts": [
+        {
+          "published": false,
+          "artifactSha256": "9becb93464be2921cfb764ba92820531bc7cbb55035c3b316db37e83313cd260",
+          "error": "The provided icon image exceeds the maximum allowed file size of 1024 KB.",
+          "resolution": "Lossless PNG container recompression reduced the icon from 1183693 to 888096 bytes."
+        },
+        {
+          "published": false,
+          "artifactSha256": "30635e1d5fc5f55270eaaa5a3ff5fa1d48dfb6af46b38eab8cd0ff641d0a8044",
+          "error": "The provided icon image exceeds the maximum allowed dimensions of 1024 by 1024 pixels.",
+          "resolution": "Exported the original design at 256 x 256 pixels."
+        }
+      ]
     },
     "openVsx": {
       "published": false
