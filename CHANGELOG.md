@@ -1,11 +1,10 @@
 # Change Log
 
-## [Unreleased]
+## [0.1.0] - 2026-11-07
 
 ### Changed
 
 - Match C++ `true` and `false` to the Rust boolean color (`#D33682`) using their specific TextMate scopes.
-
 - Add a C++ / clangd preview of the Rust color roles: green bold types, teal recognized static items and non-type template parameters, green italic parameters and fields, and orange concepts. Preserve Rust rules and UI colors.
 - Replace deprecated indentation guide color keys with `editorIndentGuide.background1` and `editorIndentGuide.activeBackground1`, preserving their color values.
 - Raise the minimum VS Code version to 1.81.0, which introduced these replacement keys.

@@ -1,45 +1,38 @@
 # Solarized Light Rust
 
-A light VS Code theme based on Solarized Light, with custom Rust syntax colors.
+A Solarized-based light theme for Rust and C++, with a warm background, green type names, and distinct colors for functions, traits, constants, and values.
 
-Requires VS Code 1.81.0 or later. Rust semantic highlighting depends on rust-analyzer and the token classifications it provides.
+## Install
 
-The extension also contributes a small Rust grammar injection for macro parameters such as `$value` inside function calls. It reuses Rust's existing macro-parameter scopes and excludes strings, comments, and `$crate`. This recognition fix remains active while the extension is enabled, including when another color theme is selected; the selected theme determines its appearance. See [VS Code's injection grammar guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#injection-grammars).
+Install **Solarized Light Rust** from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=JunkuiZhang.sl-rust) or [Open VSX](https://open-vsx.org/extension/JunkuiZhang/sl-rust). Then run **Preferences: Color Theme** and select **Solarized Light Rust**.
 
-A second Rust grammar injection recognizes raw C strings (`cr#"…"#`) so embedded quotes and backslashes do not cause subsequent code to be colored as a string. It uses the existing string palette and also remains active while the extension is enabled.
+Requires VS Code **1.81.0 or later**, or a compatible editor. Use **rust-analyzer** for Rust and **clangd** for C++ to get semantic highlighting.
 
-## Language coverage
+## Highlighting
 
-- **Rust:** the main focus; 48 sample groups cover constants, mutable items, traits, macros, and optional diagnostics. The current round of common Rust color checks and readability feedback has been recorded. Coverage and rule-level tests are not a claim that every Rust construct has been visually verified.
-- **C++ / clangd:** preview of the Rust color roles, including types, static items, parameters, fields, and concepts. Boolean literals `true` and `false` use the same rose color as Rust. Ordinary const/readonly variables keep their variable color, and const instance fields keep their green italic member style. C++ uses the confirmed colors and italics without mutability underlines; Rust retains its existing mutable-item underlines. A sibling `../cpp_theme_test` project provides 12 main sample groups plus standard-library/header examples; actual clangd token checks passed. Separate constexpr-variable coloring is deferred because the tested clangd emits the same readonly classification as ordinary const variables. Details and visual feedback are recorded in `docs/cpp-design.md` in the source checkout.
-- **Other languages:** may use shared TextMate and semantic rules; not individually verified.
+| Role | Appearance |
+| --- | --- |
+| Types, structs, classes, and enum type names | Green and bold |
+| Rust traits and derive names; C++ concepts | Orange and bold |
+| Ordinary functions and macros | Blue |
+| Parameters and instance fields | Light green and italic |
+| Rust constants/static items; recognized C++ static items and non-type template parameters | Light teal |
+| Enum members, numeric values, and booleans | Rose |
+| Strings | Teal |
+| Comments | Muted gray |
 
-## Local preview
+Rust mutable symbols have an underline; operators do not. C++ keeps the colors and italics without mutability underlines. Ordinary C++ `const` variables retain the variable color, while `const` instance fields retain their field style. Recognized static/constant function categories may use light teal instead of ordinary function blue.
 
-1. Open this repository in VS Code.
-2. Select **Preview Rust Theme** in Run and Debug, then press F5. This opens the sibling `../rust_theme_test` sample project when it is available.
-3. In the Extension Development Host, choose **Solarized Light Rust (Local Preview)**. The suffix distinguishes the development theme from the installed Marketplace version.
+Selections, search matches, symbol occurrences, completion lists, and scrollbars use softer highlights suited to the light background. Other workbench colors inherit VS Code's light-theme defaults where appropriate.
 
-The theme setting ID remains `Solarized Light Rust`. The local preview suffix is temporary; restore the published label before packaging a release. This checkout has not been republished.
+## Rust syntax fixes
 
-After adding or changing the grammar contribution, stop and restart the F5 development session so VS Code reloads the extension manifest and grammar. Color-only changes continue to update live.
+The extension includes grammar injections for macro parameters inside function calls and raw C strings. They preserve the intended parameter and string colors and prevent raw C strings from incorrectly coloring subsequent code. These syntax fixes remain active while the extension is enabled, including when you select another theme.
 
-For C++ development preview, select **Preview C++ Theme** instead. It opens the sibling `../cpp_theme_test` project; use clangd for semantic highlighting.
+## Known limits
 
-## Local VSIX installation
+Semantic colors depend on the language server's classifications. Rust implicit captures in format strings can lose their original parameter or constant classification. The tested clangd does not distinguish ordinary `const` variables from `constexpr` variables, and C++ macro replacement-body parameters are not always recognized as parameters.
 
-For local installation testing, keep the **Solarized Light Rust (Local Preview)** label. The package retains extension ID `JunkuiZhang.sl-rust` and version `0.0.1`, so installing it replaces the Marketplace copy in the target profile rather than creating a second extension. Use `code --install-extension <local-package.vsix> --force` to reinstall the same version, then reload a normal VS Code window and select the Local Preview theme.
+C++ numeric prefixes, suffixes, and exponent markers can retain the keyword/operator color around rose digits. Specialized views, other languages, and all language-server versions have not been fully verified. Existing foreground-transparency and minimap-selection compatibility exceptions are documented in the [compatibility review](docs/compatibility-review.md).
 
-The package contains the theme, both Rust grammar injections, README, change log, and license. Development settings and the repository's design/audit documents are excluded. Local installation does not publish anything. Repository documentation links below refer to the source checkout; see `docs/local-vsix.md` there for installation and sample checks.
-
-## Review status
-
-The current review records Rust highlighting, including comments and local-variable readability, and the observed common editor, navigation, search, completion, diagnostic, sidebar, terminal, settings, notification, and conflict-marker states. Unspecified UI colors use VS Code defaults or inheritance; they are not automatically missing features.
-
-Debugging, the three-way merge editor, Notebook, and other specialized views remain unverified. Existing token foreground transparency and the minimap selection color are retained to preserve the accepted appearance; their compatibility limitations remain documented.
-
-Implicit captures in format strings can lose their original parameter/constant classification in the installed rust-analyzer version. This known limitation is deferred; the theme does not recolor all captures as parameters.
-
-- [Compatibility review and remaining work](docs/compatibility-review.md)
-- [Design decisions and visual feedback](docs/theme-design.md)
-- [Change log](CHANGELOG.md)
+See the [change log](CHANGELOG.md) for updates and the [design record](docs/theme-design.md) for detailed decisions. The extension is distributed under the [MIT license](LICENSE).

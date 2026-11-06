@@ -963,7 +963,7 @@
       "evidence": "rust-raw-c-string-audit.json"
     }
   ],
-  "extensionManifestSha256": "6ad15063ad492914cd64dcdf25dc1af956deebc637ce78ab8b02875b3ccaa60f",
+  "extensionManifestSha256": "f64b8f1758c20030a1317144b6f7671afd58f206c3909bda8edfa3ef18f69b06",
   "grammarInjections": [
     {
       "scopeName": "rust-macro-parameters.injection.sl-rust",
@@ -999,7 +999,7 @@
   },
   "reviewStatus": {
     "date": "2026-11-07",
-    "phase": "User confirms Rust keeps underlines and C++ does not; trial reverted byte-for-byte to cpp-r3; actual-project trial suggested but not started; known classification gaps remain",
+    "phase": "Confirmed theme changes committed; release 0.1.0 prepared for Marketplace/Open VSX; not pushed, published or installed; authentication not verified",
     "latestUserAccepted": [
       "ordinary comments",
       "block comments",
@@ -1023,7 +1023,7 @@
     ],
     "packaged": true,
     "published": false,
-    "localPackageRecord": "local-vsix-cpp-r3-build.json",
+    "localPackageRecord": "release-0.1.0-build.json",
     "installedIntoUserProfile": false,
     "previousLocalPackageFeedback": "User reports everything currently looks normal, then requests a softer multiline selection."
   },
@@ -1205,5 +1205,20 @@
       "cpp": "no_mutability_underlines",
       "status": "confirmed_and_reverted_to_cpp_r3"
     }
+  },
+  "releasePreparation": {
+    "version": "0.1.0",
+    "baseCommit": "94399b8",
+    "status": "prepared_not_published",
+    "themeLabel": "Solarized Light Rust",
+    "identityPreserved": true,
+    "evidence": "release-0.1.0-build.json",
+    "instructions": "release-0.1.0.md",
+    "registryVersionsBeforeRelease": {
+      "marketplace": "0.0.1",
+      "openVsx": "0.0.1"
+    },
+    "credentialsVerified": false,
+    "gitPushed": false
   }
 }

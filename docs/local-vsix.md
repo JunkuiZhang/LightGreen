@@ -1,6 +1,8 @@
 # 本地 VSIX 安装与验证
 
-当前推荐 C++ 包为 `sl-rust-0.0.1-local-preview-20261107-cpp-r3.vsix`：用户已选择不为 C++ 添加可变性下划线，cpp-r4 仅保留为历史试验。主题已逐字节恢复为 cpp-r3。若装过 cpp-r4，用 --force 重装 cpp-r3 后重载；如果已在用 cpp-r3，无需操作。安装和观察入口见 [C++ 迁移记录](cpp-design.md)。以下保留 selection-r2 的历史安装说明，实际请使用 cpp-r3 文件名。
+正式 0.1.0 包已准备，安装与双平台发布步骤见 [0.1.0 发布准备](release-0.1.0.md)。新包使用正式主题名 Solarized Light Rust；下方 cpp-r3 和 selection-r2 为旧预览说明，配色与正式包相同。
+
+历史预览中最终采用的 C++ 包为 `sl-rust-0.0.1-local-preview-20261107-cpp-r3.vsix`：用户已选择不为 C++ 添加可变性下划线，cpp-r4 仅保留为历史试验。主题已逐字节恢复为 cpp-r3。若装过 cpp-r4，用 --force 重装 cpp-r3 后重载；如果已在用 cpp-r3，无需操作。安装和观察入口见 [C++ 迁移记录](cpp-design.md)。以下保留 selection-r2 的历史安装说明，实际请使用 cpp-r3 文件名。
 
 构建日期：2026-11-07。selection-r2 只调整活动/失焦文本选区，首包总体显示已获用户认可。用户随后认可新暖米色选区，保留该方案；仅打包供本地使用，不发布到 Marketplace。
 

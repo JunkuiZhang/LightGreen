@@ -1,9 +1,10 @@
 {
     "name": "sl-rust",
     "displayName": "Solarized Light Rust",
-    "description": "Green theme for rust",
+    "description": "A Solarized-based light theme with Rust and C++ semantic highlighting.",
     "publisher": "JunkuiZhang",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.81.0"
     },
@@ -31,7 +32,7 @@
         "themes": [
             {
                 "id": "Solarized Light Rust",
-                "label": "Solarized Light Rust (Local Preview)",
+                "label": "Solarized Light Rust",
                 "uiTheme": "vs",
                 "path": "./themes/slr-color-theme.json"
             }
