@@ -3,7 +3,8 @@
     "displayName": "Solarized Light Rust",
     "description": "A Solarized-based light theme with Rust and C++ semantic highlighting.",
     "publisher": "JunkuiZhang",
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "icon": "images/icon.png",
     "license": "MIT",
     "engines": {
         "vscode": "^1.81.0"

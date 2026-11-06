@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.1.1] - 2026-11-07
+
+### Added
+
+- Add a custom extension icon with green code braces, a leaf, and an amber sun on a warm light background.
+
 ## [0.1.0] - 2026-11-07
 
 ### Changed
