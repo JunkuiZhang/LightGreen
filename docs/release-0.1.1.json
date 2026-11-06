@@ -4,23 +4,26 @@
   "version": "0.1.1",
   "extensionId": "JunkuiZhang.sl-rust",
   "artifact": "dist/sl-rust-0.1.1.vsix",
-  "bytes": 981883,
-  "sha256": "9becb93464be2921cfb764ba92820531bc7cbb55035c3b316db37e83313cd260",
+  "bytes": 889532,
+  "sha256": "30635e1d5fc5f55270eaaa5a3ff5fa1d48dfb6af46b38eab8cd0ff641d0a8044",
   "icon": {
     "path": "images/icon.png",
     "width": 1254,
     "height": 1254,
-    "bytes": 1183693,
-    "sha256": "5bd49e7a6485257bdbdd826275f9f3662513747e53b2a6c6d82cb187e591b9e9",
+    "bytes": 888096,
+    "sha256": "caafa6becc7e33deb3dfc252188af32f70ce951550c1b26cb1fb73ea70ff9bfd",
     "generator": "built-in imagegen",
-    "designRecord": "icon-design.md"
+    "designRecord": "icon-design.md",
+    "originalGeneratedSha256": "5bd49e7a6485257bdbdd826275f9f3662513747e53b2a6c6d82cb187e591b9e9",
+    "losslessCompression": "PNG IDAT zlib recompression only; identical decompressed scanlines and all other chunks preserved"
   },
   "checks": {
     "zipIntegrity": "passed",
     "iconManifestAsset": "passed",
     "iconPngDimensions": "passed",
     "runtimeAndReadmeBytesMatchPublished010": true,
-    "windowsCopyMatches": true
+    "windowsCopyMatches": true,
+    "marketplaceIconBelow1MiB": "passed"
   },
   "files": [
     {
@@ -55,8 +58,8 @@
     },
     {
       "path": "extension/images/icon.png",
-      "bytes": 1183693,
-      "sha256": "5bd49e7a6485257bdbdd826275f9f3662513747e53b2a6c6d82cb187e591b9e9"
+      "bytes": 888096,
+      "sha256": "caafa6becc7e33deb3dfc252188af32f70ce951550c1b26cb1fb73ea70ff9bfd"
     },
     {
       "path": "extension/syntaxes/rust-macro-parameters.tmLanguage.json",
@@ -76,7 +79,13 @@
   ],
   "publication": {
     "marketplace": {
-      "published": false
+      "published": false,
+      "previousAttempt": {
+        "published": false,
+        "artifactSha256": "9becb93464be2921cfb764ba92820531bc7cbb55035c3b316db37e83313cd260",
+        "error": "The provided icon image exceeds the maximum allowed file size of 1024 KB.",
+        "resolution": "Lossless PNG container recompression reduced the icon from 1183693 to 888096 bytes."
+      }
     },
     "openVsx": {
       "published": false
